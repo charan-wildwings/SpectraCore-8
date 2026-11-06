@@ -1,0 +1,53 @@
+#@ # 
+#@ # Running icc2_shell Version U-2022.12-SP3 for linux64 -- Apr 18, 2023
+#@ # Date:   Fri Nov  6 11:31:32 2026
+#@ # Run by: angstrom_27@c2sgpr079.cambridge.edu.in
+#@ 
+
+gui_set_pref_value -category {SelectByNamePalette} -key {ObjectType} -value {Logical Cells}
+source pd1/p1.tcl
+win_set_filter -visible -class cell -filter {assembly_die_margin clock_margin hard_macro_margin hard_margin route_blockage_margin seal_ring_margin soft_margin}
+win_set_filter -visible -class pseudo_bump -filter {deleted}
+win_set_filter -visible -class pseudo_tsv -filter {deleted}
+win_set_filter -visible -class placement_blockage -filter {wiring} -layer {0-82}
+win_set_filter -expand_cell_types {soft_macro  }
+win_set_select_class -visible {cell port bound routing_blockage shaping_blockage pg_region bump_region pseudo_bump pseudo_tsv pin_blockage block_shielding topology_node topology_edge topology_repeater annotation_shape core_area die_area edit_group shape via terminal fill_cell placement_blockage }
+win_set_filter -class cell -filter {array assembly_die_margin clock_margin hard_macro_margin hard_margin route_blockage_margin seal_ring_margin soft_margin}
+win_set_filter -class pseudo_bump -filter {deleted}
+win_set_filter -class pseudo_tsv -filter {deleted}
+win_set_filter -class placement_blockage -filter {wiring} -layer {0-82}
+win_set_select_class {cell port bound routing_blockage shaping_blockage pg_region bump_region pseudo_bump pseudo_tsv pin_blockage topology_node topology_edge topology_repeater annotation_shape edit_group shape via placement_blockage }
+gui_scroll -window [gui_get_current_window -types Layout -mru] -hrel -0.25
+gui_scroll -window [gui_get_current_window -types Layout -mru] -hrel -0.25
+gui_scroll -window [gui_get_current_window -types Layout -mru] -hrel -0.25
+gui_scroll -window [gui_get_current_window -types Layout -mru] -hrel -0.25
+gui_scroll -window [gui_get_current_window -types Layout -mru] -hrel -0.25
+gui_scroll -window [gui_get_current_window -types Layout -mru] -hrel -0.25
+gui_scroll -window [gui_get_current_window -types Layout -mru] -hrel -0.25
+gui_scroll -window [gui_get_current_window -types Layout -mru] -hrel -0.25
+gui_scroll -window [gui_get_current_window -types Layout -mru] -hrel -0.25
+gui_scroll -window [gui_get_current_window -types Layout -mru] -hrel -0.25
+gui_scroll -window [gui_get_current_window -types Layout -mru] -hrel -0.25
+report_constraints -all_voilators
+report_constraints -all_violators
+change_selection [get_pin u_fft/ PIN : U3576/Y              ]
+change_selection [get_pin u_fft/ PIN:U3576/Y]
+report_constraints -all_violators
+change_selection [get_pin u_fft/PIN:U3576/Y]
+change_selection [get_pin fft8-spi/PIN:U3576/Y]
+change_selection [get_pin fft8_spi/ PIN:U3576/Y]
+change_selection [get_pin n2895 / PIN:U3576/Y]
+change_selection [get_pin n2895/PIN:U3576/Y]
+report_timing -delay_type max -max_paths 10
+report_timing -delay_type min -max_paths 10
+check_timing
+create_ems_database chk_timing.ems
+report_ems_database
+close_ems_databases
+save_block
+save_lib
+save_block -as fft8_spi_before_cap_fix
+win_select_objects -slct_targets global -at {70.000 99.024} -radius 0.2439
+change_selection 
+save_lib
+report_constraints -all_violators

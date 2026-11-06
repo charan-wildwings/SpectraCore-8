@@ -1,0 +1,1056 @@
+<Database>
+versionNumber:2
+Name/home/angstrom_27/fft8_spi/check_design.ems
+Creation TimeFri Nov  6 11:32:17 2026
+Modified TimeFri Nov  6 11:32:18 2026
+Design Namefft8_spi
+Library Namefft8_spi.ndm
+</Database>
+<RuleCount>
+DFT-0111
+TCK-001693
+TCK-002345
+</RuleCount>
+<UserDefinedRules>
+</UserDefinedRules>
+<Messages>
+DFT-011Informationreason10
+TCK-002Warningcornerdefault1[ get_corners { default } ]40modedefault1[ get_modes { default } ]39pincs_sync_reg[0]/CLK1[ get_pin { cs_sync_reg[0]/CLK } ]6
+TCK-002Warningcornerdefault1[ get_corners { default } ]40modedefault1[ get_modes { default } ]39pincs_sync_reg[1]/CLK1[ get_pin { cs_sync_reg[1]/CLK } ]6
+TCK-002Warningcornerdefault1[ get_corners { default } ]40modedefault1[ get_modes { default } ]39pincs_sync_reg[2]/CLK1[ get_pin { cs_sync_reg[2]/CLK } ]6
+TCK-002Warningcornerdefault1[ get_corners { default } ]40modedefault1[ get_modes { default } ]39pinmosi_sync_reg[0]/CLK1[ get_pin { mosi_sync_reg[0]/CLK } ]6
+TCK-002Warningcornerdefault1[ get_corners { default } ]40modedefault1[ get_modes { default } ]39pinmosi_sync_reg[1]/CLK1[ get_pin { mosi_sync_reg[1]/CLK } ]6
+TCK-002Warningcornerdefault1[ get_corners { default } ]40modedefault1[ get_modes { default } ]39pinsclk_sync_reg[0]/CLK1[ get_pin { sclk_sync_reg[0]/CLK } ]6
+TCK-002Warningcornerdefault1[ get_corners { default } ]40modedefault1[ get_modes { default } ]39pinsclk_sync_reg[1]/CLK1[ get_pin { sclk_sync_reg[1]/CLK } ]6
+TCK-002Warningcornerdefault1[ get_corners { default } ]40modedefault1[ get_modes { default } ]39pinsclk_sync_reg[2]/CLK1[ get_pin { sclk_sync_reg[2]/CLK } ]6
+TCK-002Warningcornerdefault1[ get_corners { default } ]40modedefault1[ get_modes { default } ]39pinbit_count_reg[5]/CLK1[ get_pin { bit_count_reg[5]/CLK } ]6
+TCK-002Warningcornerdefault1[ get_corners { default } ]40modedefault1[ get_modes { default } ]39pinbit_count_reg[4]/CLK1[ get_pin { bit_count_reg[4]/CLK } ]6
+TCK-002Warningcornerdefault1[ get_corners { default } ]40modedefault1[ get_modes { default } ]39pinbit_count_reg[3]/CLK1[ get_pin { bit_count_reg[3]/CLK } ]6
+TCK-002Warningcornerdefault1[ get_corners { default } ]40modedefault1[ get_modes { default } ]39pinbit_count_reg[2]/CLK1[ get_pin { bit_count_reg[2]/CLK } ]6
+TCK-002Warningcornerdefault1[ get_corners { default } ]40modedefault1[ get_modes { default } ]39pinbit_count_reg[1]/CLK1[ get_pin { bit_count_reg[1]/CLK } ]6
+TCK-002Warningcornerdefault1[ get_corners { default } ]40modedefault1[ get_modes { default } ]39pinbit_count_reg[0]/CLK1[ get_pin { bit_count_reg[0]/CLK } ]6
+TCK-002Warningcornerdefault1[ get_corners { default } ]40modedefault1[ get_modes { default } ]39pinoutput_index_reg[0]/CLK1[ get_pin { output_index_reg[0]/CLK } ]6
+TCK-002Warningcornerdefault1[ get_corners { default } ]40modedefault1[ get_modes { default } ]39pininput_index_reg[2]/CLK1[ get_pin { input_index_reg[2]/CLK } ]6
+TCK-002Warningcornerdefault1[ get_corners { default } ]40modedefault1[ get_modes { default } ]39pinstage_reg[1]/CLK1[ get_pin { stage_reg[1]/CLK } ]6
+TCK-002Warningcornerdefault1[ get_corners { default } ]40modedefault1[ get_modes { default } ]39pinstate_reg[1]/CLK1[ get_pin { state_reg[1]/CLK } ]6
+TCK-002Warningcornerdefault1[ get_corners { default } ]40modedefault1[ get_modes { default } ]39pinstate_reg[0]/CLK1[ get_pin { state_reg[0]/CLK } ]6
+TCK-002Warningcornerdefault1[ get_corners { default } ]40modedefault1[ get_modes { default } ]39pininput_index_reg[0]/CLK1[ get_pin { input_index_reg[0]/CLK } ]6
+TCK-002Warningcornerdefault1[ get_corners { default } ]40modedefault1[ get_modes { default } ]39pininput_index_reg[1]/CLK1[ get_pin { input_index_reg[1]/CLK } ]6
+TCK-002Warningcornerdefault1[ get_corners { default } ]40modedefault1[ get_modes { default } ]39pinbutterfly_reg[0]/CLK1[ get_pin { butterfly_reg[0]/CLK } ]6
+TCK-002Warningcornerdefault1[ get_corners { default } ]40modedefault1[ get_modes { default } ]39pinbutterfly_reg[1]/CLK1[ get_pin { butterfly_reg[1]/CLK } ]6
+TCK-002Warningcornerdefault1[ get_corners { default } ]40modedefault1[ get_modes { default } ]39pinstage_reg[0]/CLK1[ get_pin { stage_reg[0]/CLK } ]6
+TCK-002Warningcornerdefault1[ get_corners { default } ]40modedefault1[ get_modes { default } ]39pinoutput_index_reg[1]/CLK1[ get_pin { output_index_reg[1]/CLK } ]6
+TCK-002Warningcornerdefault1[ get_corners { default } ]40modedefault1[ get_modes { default } ]39pinoutput_index_reg[2]/CLK1[ get_pin { output_index_reg[2]/CLK } ]6
+TCK-002Warningcornerdefault1[ get_corners { default } ]40modedefault1[ get_modes { default } ]39pinxi_reg[7][0]/CLK1[ get_pin { xi_reg[7][0]/CLK } ]6
+TCK-002Warningcornerdefault1[ get_corners { default } ]40modedefault1[ get_modes { default } ]39pinxi_reg[5][0]/CLK1[ get_pin { xi_reg[5][0]/CLK } ]6
+TCK-002Warningcornerdefault1[ get_corners { default } ]40modedefault1[ get_modes { default } ]39pinxi_reg[3][0]/CLK1[ get_pin { xi_reg[3][0]/CLK } ]6
+TCK-002Warningcornerdefault1[ get_corners { default } ]40modedefault1[ get_modes { default } ]39pinxi_reg[1][0]/CLK1[ get_pin { xi_reg[1][0]/CLK } ]6
+TCK-002Warningcornerdefault1[ get_corners { default } ]40modedefault1[ get_modes { default } ]39pinxi_reg[6][0]/CLK1[ get_pin { xi_reg[6][0]/CLK } ]6
+TCK-002Warningcornerdefault1[ get_corners { default } ]40modedefault1[ get_modes { default } ]39pinxi_reg[4][0]/CLK1[ get_pin { xi_reg[4][0]/CLK } ]6
+TCK-002Warningcornerdefault1[ get_corners { default } ]40modedefault1[ get_modes { default } ]39pinxi_reg[2][0]/CLK1[ get_pin { xi_reg[2][0]/CLK } ]6
+TCK-002Warningcornerdefault1[ get_corners { default } ]40modedefault1[ get_modes { default } ]39pinxi_reg[0][0]/CLK1[ get_pin { xi_reg[0][0]/CLK } ]6
+TCK-002Warningcornerdefault1[ get_corners { default } ]40modedefault1[ get_modes { default } ]39pinrx_shift_reg[0]/CLK1[ get_pin { rx_shift_reg[0]/CLK } ]6
+TCK-002Warningcornerdefault1[ get_corners { default } ]40modedefault1[ get_modes { default } ]39pinrx_shift_reg[1]/CLK1[ get_pin { rx_shift_reg[1]/CLK } ]6
+TCK-002Warningcornerdefault1[ get_corners { default } ]40modedefault1[ get_modes { default } ]39pinrx_shift_reg[2]/CLK1[ get_pin { rx_shift_reg[2]/CLK } ]6
+TCK-002Warningcornerdefault1[ get_corners { default } ]40modedefault1[ get_modes { default } ]39pinrx_shift_reg[3]/CLK1[ get_pin { rx_shift_reg[3]/CLK } ]6
+TCK-002Warningcornerdefault1[ get_corners { default } ]40modedefault1[ get_modes { default } ]39pinrx_shift_reg[4]/CLK1[ get_pin { rx_shift_reg[4]/CLK } ]6
+TCK-002Warningcornerdefault1[ get_corners { default } ]40modedefault1[ get_modes { default } ]39pinrx_shift_reg[5]/CLK1[ get_pin { rx_shift_reg[5]/CLK } ]6
+TCK-002Warningcornerdefault1[ get_corners { default } ]40modedefault1[ get_modes { default } ]39pinrx_shift_reg[6]/CLK1[ get_pin { rx_shift_reg[6]/CLK } ]6
+TCK-002Warningcornerdefault1[ get_corners { default } ]40modedefault1[ get_modes { default } ]39pinrx_shift_reg[7]/CLK1[ get_pin { rx_shift_reg[7]/CLK } ]6
+TCK-002Warningcornerdefault1[ get_corners { default } ]40modedefault1[ get_modes { default } ]39pinrx_shift_reg[8]/CLK1[ get_pin { rx_shift_reg[8]/CLK } ]6
+TCK-002Warningcornerdefault1[ get_corners { default } ]40modedefault1[ get_modes { default } ]39pinrx_shift_reg[9]/CLK1[ get_pin { rx_shift_reg[9]/CLK } ]6
+TCK-002Warningcornerdefault1[ get_corners { default } ]40modedefault1[ get_modes { default } ]39pinrx_shift_reg[10]/CLK1[ get_pin { rx_shift_reg[10]/CLK } ]6
+TCK-002Warningcornerdefault1[ get_corners { default } ]40modedefault1[ get_modes { default } ]39pinrx_shift_reg[11]/CLK1[ get_pin { rx_shift_reg[11]/CLK } ]6
+TCK-002Warningcornerdefault1[ get_corners { default } ]40modedefault1[ get_modes { default } ]39pinrx_shift_reg[12]/CLK1[ get_pin { rx_shift_reg[12]/CLK } ]6
+TCK-002Warningcornerdefault1[ get_corners { default } ]40modedefault1[ get_modes { default } ]39pinrx_shift_reg[13]/CLK1[ get_pin { rx_shift_reg[13]/CLK } ]6
+TCK-002Warningcornerdefault1[ get_corners { default } ]40modedefault1[ get_modes { default } ]39pinrx_shift_reg[14]/CLK1[ get_pin { rx_shift_reg[14]/CLK } ]6
+TCK-002Warningcornerdefault1[ get_corners { default } ]40modedefault1[ get_modes { default } ]39pinrx_shift_reg[15]/CLK1[ get_pin { rx_shift_reg[15]/CLK } ]6
+TCK-002Warningcornerdefault1[ get_corners { default } ]40modedefault1[ get_modes { default } ]39pinrx_shift_reg[16]/CLK1[ get_pin { rx_shift_reg[16]/CLK } ]6
+TCK-002Warningcornerdefault1[ get_corners { default } ]40modedefault1[ get_modes { default } ]39pinrx_shift_reg[17]/CLK1[ get_pin { rx_shift_reg[17]/CLK } ]6
+TCK-002Warningcornerdefault1[ get_corners { default } ]40modedefault1[ get_modes { default } ]39pinrx_shift_reg[18]/CLK1[ get_pin { rx_shift_reg[18]/CLK } ]6
+TCK-002Warningcornerdefault1[ get_corners { default } ]40modedefault1[ get_modes { default } ]39pinrx_shift_reg[19]/CLK1[ get_pin { rx_shift_reg[19]/CLK } ]6
+TCK-002Warningcornerdefault1[ get_corners { default } ]40modedefault1[ get_modes { default } ]39pinrx_shift_reg[20]/CLK1[ get_pin { rx_shift_reg[20]/CLK } ]6
+TCK-002Warningcornerdefault1[ get_corners { default } ]40modedefault1[ get_modes { default } ]39pinrx_shift_reg[21]/CLK1[ get_pin { rx_shift_reg[21]/CLK } ]6
+TCK-002Warningcornerdefault1[ get_corners { default } ]40modedefault1[ get_modes { default } ]39pinrx_shift_reg[22]/CLK1[ get_pin { rx_shift_reg[22]/CLK } ]6
+TCK-002Warningcornerdefault1[ get_corners { default } ]40modedefault1[ get_modes { default } ]39pinrx_shift_reg[23]/CLK1[ get_pin { rx_shift_reg[23]/CLK } ]6
+TCK-002Warningcornerdefault1[ get_corners { default } ]40modedefault1[ get_modes { default } ]39pinrx_shift_reg[24]/CLK1[ get_pin { rx_shift_reg[24]/CLK } ]6
+TCK-002Warningcornerdefault1[ get_corners { default } ]40modedefault1[ get_modes { default } ]39pinrx_shift_reg[25]/CLK1[ get_pin { rx_shift_reg[25]/CLK } ]6
+TCK-002Warningcornerdefault1[ get_corners { default } ]40modedefault1[ get_modes { default } ]39pinrx_shift_reg[26]/CLK1[ get_pin { rx_shift_reg[26]/CLK } ]6
+TCK-002Warningcornerdefault1[ get_corners { default } ]40modedefault1[ get_modes { default } ]39pinrx_shift_reg[27]/CLK1[ get_pin { rx_shift_reg[27]/CLK } ]6
+TCK-002Warningcornerdefault1[ get_corners { default } ]40modedefault1[ get_modes { default } ]39pinrx_shift_reg[28]/CLK1[ get_pin { rx_shift_reg[28]/CLK } ]6
+TCK-002Warningcornerdefault1[ get_corners { default } ]40modedefault1[ get_modes { default } ]39pinrx_shift_reg[29]/CLK1[ get_pin { rx_shift_reg[29]/CLK } ]6
+TCK-002Warningcornerdefault1[ get_corners { default } ]40modedefault1[ get_modes { default } ]39pinrx_shift_reg[30]/CLK1[ get_pin { rx_shift_reg[30]/CLK } ]6
+TCK-002Warningcornerdefault1[ get_corners { default } ]40modedefault1[ get_modes { default } ]39pinxr_reg[7][15]/CLK1[ get_pin { xr_reg[7][15]/CLK } ]6
+TCK-002Warningcornerdefault1[ get_corners { default } ]40modedefault1[ get_modes { default } ]39pinxr_reg[6][15]/CLK1[ get_pin { xr_reg[6][15]/CLK } ]6
+TCK-002Warningcornerdefault1[ get_corners { default } ]40modedefault1[ get_modes { default } ]39pinxr_reg[5][15]/CLK1[ get_pin { xr_reg[5][15]/CLK } ]6
+TCK-002Warningcornerdefault1[ get_corners { default } ]40modedefault1[ get_modes { default } ]39pinxr_reg[4][15]/CLK1[ get_pin { xr_reg[4][15]/CLK } ]6
+TCK-002Warningcornerdefault1[ get_corners { default } ]40modedefault1[ get_modes { default } ]39pinxr_reg[3][15]/CLK1[ get_pin { xr_reg[3][15]/CLK } ]6
+TCK-002Warningcornerdefault1[ get_corners { default } ]40modedefault1[ get_modes { default } ]39pinxr_reg[2][15]/CLK1[ get_pin { xr_reg[2][15]/CLK } ]6
+TCK-002Warningcornerdefault1[ get_corners { default } ]40modedefault1[ get_modes { default } ]39pinxr_reg[1][15]/CLK1[ get_pin { xr_reg[1][15]/CLK } ]6
+TCK-002Warningcornerdefault1[ get_corners { default } ]40modedefault1[ get_modes { default } ]39pinxr_reg[0][15]/CLK1[ get_pin { xr_reg[0][15]/CLK } ]6
+TCK-002Warningcornerdefault1[ get_corners { default } ]40modedefault1[ get_modes { default } ]39pinxr_reg[7][14]/CLK1[ get_pin { xr_reg[7][14]/CLK } ]6
+TCK-002Warningcornerdefault1[ get_corners { default } ]40modedefault1[ get_modes { default } ]39pinxr_reg[6][14]/CLK1[ get_pin { xr_reg[6][14]/CLK } ]6
+TCK-002Warningcornerdefault1[ get_corners { default } ]40modedefault1[ get_modes { default } ]39pinxr_reg[5][14]/CLK1[ get_pin { xr_reg[5][14]/CLK } ]6
+TCK-002Warningcornerdefault1[ get_corners { default } ]40modedefault1[ get_modes { default } ]39pinxr_reg[4][14]/CLK1[ get_pin { xr_reg[4][14]/CLK } ]6
+TCK-002Warningcornerdefault1[ get_corners { default } ]40modedefault1[ get_modes { default } ]39pinxr_reg[3][14]/CLK1[ get_pin { xr_reg[3][14]/CLK } ]6
+TCK-002Warningcornerdefault1[ get_corners { default } ]40modedefault1[ get_modes { default } ]39pinxr_reg[2][14]/CLK1[ get_pin { xr_reg[2][14]/CLK } ]6
+TCK-002Warningcornerdefault1[ get_corners { default } ]40modedefault1[ get_modes { default } ]39pinxr_reg[1][14]/CLK1[ get_pin { xr_reg[1][14]/CLK } ]6
+TCK-002Warningcornerdefault1[ get_corners { default } ]40modedefault1[ get_modes { default } ]39pinxr_reg[0][14]/CLK1[ get_pin { xr_reg[0][14]/CLK } ]6
+TCK-002Warningcornerdefault1[ get_corners { default } ]40modedefault1[ get_modes { default } ]39pinxr_reg[7][13]/CLK1[ get_pin { xr_reg[7][13]/CLK } ]6
+TCK-002Warningcornerdefault1[ get_corners { default } ]40modedefault1[ get_modes { default } ]39pinxr_reg[6][13]/CLK1[ get_pin { xr_reg[6][13]/CLK } ]6
+TCK-002Warningcornerdefault1[ get_corners { default } ]40modedefault1[ get_modes { default } ]39pinxr_reg[5][13]/CLK1[ get_pin { xr_reg[5][13]/CLK } ]6
+TCK-002Warningcornerdefault1[ get_corners { default } ]40modedefault1[ get_modes { default } ]39pinxr_reg[4][13]/CLK1[ get_pin { xr_reg[4][13]/CLK } ]6
+TCK-002Warningcornerdefault1[ get_corners { default } ]40modedefault1[ get_modes { default } ]39pinxr_reg[3][13]/CLK1[ get_pin { xr_reg[3][13]/CLK } ]6
+TCK-002Warningcornerdefault1[ get_corners { default } ]40modedefault1[ get_modes { default } ]39pinxr_reg[2][13]/CLK1[ get_pin { xr_reg[2][13]/CLK } ]6
+TCK-002Warningcornerdefault1[ get_corners { default } ]40modedefault1[ get_modes { default } ]39pinxr_reg[1][13]/CLK1[ get_pin { xr_reg[1][13]/CLK } ]6
+TCK-002Warningcornerdefault1[ get_corners { default } ]40modedefault1[ get_modes { default } ]39pinxr_reg[0][13]/CLK1[ get_pin { xr_reg[0][13]/CLK } ]6
+TCK-002Warningcornerdefault1[ get_corners { default } ]40modedefault1[ get_modes { default } ]39pinxr_reg[7][12]/CLK1[ get_pin { xr_reg[7][12]/CLK } ]6
+TCK-002Warningcornerdefault1[ get_corners { default } ]40modedefault1[ get_modes { default } ]39pinxr_reg[6][12]/CLK1[ get_pin { xr_reg[6][12]/CLK } ]6
+TCK-002Warningcornerdefault1[ get_corners { default } ]40modedefault1[ get_modes { default } ]39pinxr_reg[5][12]/CLK1[ get_pin { xr_reg[5][12]/CLK } ]6
+TCK-002Warningcornerdefault1[ get_corners { default } ]40modedefault1[ get_modes { default } ]39pinxr_reg[4][12]/CLK1[ get_pin { xr_reg[4][12]/CLK } ]6
+TCK-002Warningcornerdefault1[ get_corners { default } ]40modedefault1[ get_modes { default } ]39pinxr_reg[3][12]/CLK1[ get_pin { xr_reg[3][12]/CLK } ]6
+TCK-002Warningcornerdefault1[ get_corners { default } ]40modedefault1[ get_modes { default } ]39pinxr_reg[2][12]/CLK1[ get_pin { xr_reg[2][12]/CLK } ]6
+TCK-002Warningcornerdefault1[ get_corners { default } ]40modedefault1[ get_modes { default } ]39pinxr_reg[1][12]/CLK1[ get_pin { xr_reg[1][12]/CLK } ]6
+TCK-002Warningcornerdefault1[ get_corners { default } ]40modedefault1[ get_modes { default } ]39pinxr_reg[0][12]/CLK1[ get_pin { xr_reg[0][12]/CLK } ]6
+TCK-002Warningcornerdefault1[ get_corners { default } ]40modedefault1[ get_modes { default } ]39pinxr_reg[7][11]/CLK1[ get_pin { xr_reg[7][11]/CLK } ]6
+TCK-002Warningcornerdefault1[ get_corners { default } ]40modedefault1[ get_modes { default } ]39pinxr_reg[6][11]/CLK1[ get_pin { xr_reg[6][11]/CLK } ]6
+TCK-002Warningcornerdefault1[ get_corners { default } ]40modedefault1[ get_modes { default } ]39pinxr_reg[5][11]/CLK1[ get_pin { xr_reg[5][11]/CLK } ]6
+TCK-002Warningcornerdefault1[ get_corners { default } ]40modedefault1[ get_modes { default } ]39pinxr_reg[4][11]/CLK1[ get_pin { xr_reg[4][11]/CLK } ]6
+TCK-002Warningcornerdefault1[ get_corners { default } ]40modedefault1[ get_modes { default } ]39pinxr_reg[3][11]/CLK1[ get_pin { xr_reg[3][11]/CLK } ]6
+TCK-002Warningcornerdefault1[ get_corners { default } ]40modedefault1[ get_modes { default } ]39pinxr_reg[2][11]/CLK1[ get_pin { xr_reg[2][11]/CLK } ]6
+TCK-002Warningcornerdefault1[ get_corners { default } ]40modedefault1[ get_modes { default } ]39pinxr_reg[1][11]/CLK1[ get_pin { xr_reg[1][11]/CLK } ]6
+TCK-002Warningcornerdefault1[ get_corners { default } ]40modedefault1[ get_modes { default } ]39pinxr_reg[0][11]/CLK1[ get_pin { xr_reg[0][11]/CLK } ]6
+TCK-002Warningcornerdefault1[ get_corners { default } ]40modedefault1[ get_modes { default } ]39pinxr_reg[7][10]/CLK1[ get_pin { xr_reg[7][10]/CLK } ]6
+TCK-002Warningcornerdefault1[ get_corners { default } ]40modedefault1[ get_modes { default } ]39pinxr_reg[6][10]/CLK1[ get_pin { xr_reg[6][10]/CLK } ]6
+TCK-002Warningcornerdefault1[ get_corners { default } ]40modedefault1[ get_modes { default } ]39pinxr_reg[5][10]/CLK1[ get_pin { xr_reg[5][10]/CLK } ]6
+TCK-002Warningcornerdefault1[ get_corners { default } ]40modedefault1[ get_modes { default } ]39pinxr_reg[4][10]/CLK1[ get_pin { xr_reg[4][10]/CLK } ]6
+TCK-002Warningcornerdefault1[ get_corners { default } ]40modedefault1[ get_modes { default } ]39pinxr_reg[3][10]/CLK1[ get_pin { xr_reg[3][10]/CLK } ]6
+TCK-002Warningcornerdefault1[ get_corners { default } ]40modedefault1[ get_modes { default } ]39pinxr_reg[2][10]/CLK1[ get_pin { xr_reg[2][10]/CLK } ]6
+TCK-002Warningcornerdefault1[ get_corners { default } ]40modedefault1[ get_modes { default } ]39pinxr_reg[1][10]/CLK1[ get_pin { xr_reg[1][10]/CLK } ]6
+TCK-002Warningcornerdefault1[ get_corners { default } ]40modedefault1[ get_modes { default } ]39pinxr_reg[0][10]/CLK1[ get_pin { xr_reg[0][10]/CLK } ]6
+TCK-002Warningcornerdefault1[ get_corners { default } ]40modedefault1[ get_modes { default } ]39pinxr_reg[7][9]/CLK1[ get_pin { xr_reg[7][9]/CLK } ]6
+TCK-002Warningcornerdefault1[ get_corners { default } ]40modedefault1[ get_modes { default } ]39pinxr_reg[6][9]/CLK1[ get_pin { xr_reg[6][9]/CLK } ]6
+TCK-002Warningcornerdefault1[ get_corners { default } ]40modedefault1[ get_modes { default } ]39pinxr_reg[5][9]/CLK1[ get_pin { xr_reg[5][9]/CLK } ]6
+TCK-002Warningcornerdefault1[ get_corners { default } ]40modedefault1[ get_modes { default } ]39pinxr_reg[4][9]/CLK1[ get_pin { xr_reg[4][9]/CLK } ]6
+TCK-002Warningcornerdefault1[ get_corners { default } ]40modedefault1[ get_modes { default } ]39pinxr_reg[3][9]/CLK1[ get_pin { xr_reg[3][9]/CLK } ]6
+TCK-002Warningcornerdefault1[ get_corners { default } ]40modedefault1[ get_modes { default } ]39pinxr_reg[2][9]/CLK1[ get_pin { xr_reg[2][9]/CLK } ]6
+TCK-002Warningcornerdefault1[ get_corners { default } ]40modedefault1[ get_modes { default } ]39pinxr_reg[1][9]/CLK1[ get_pin { xr_reg[1][9]/CLK } ]6
+TCK-002Warningcornerdefault1[ get_corners { default } ]40modedefault1[ get_modes { default } ]39pinxr_reg[0][9]/CLK1[ get_pin { xr_reg[0][9]/CLK } ]6
+TCK-002Warningcornerdefault1[ get_corners { default } ]40modedefault1[ get_modes { default } ]39pinxr_reg[7][8]/CLK1[ get_pin { xr_reg[7][8]/CLK } ]6
+TCK-002Warningcornerdefault1[ get_corners { default } ]40modedefault1[ get_modes { default } ]39pinxr_reg[6][8]/CLK1[ get_pin { xr_reg[6][8]/CLK } ]6
+TCK-002Warningcornerdefault1[ get_corners { default } ]40modedefault1[ get_modes { default } ]39pinxr_reg[5][8]/CLK1[ get_pin { xr_reg[5][8]/CLK } ]6
+TCK-002Warningcornerdefault1[ get_corners { default } ]40modedefault1[ get_modes { default } ]39pinxr_reg[4][8]/CLK1[ get_pin { xr_reg[4][8]/CLK } ]6
+TCK-002Warningcornerdefault1[ get_corners { default } ]40modedefault1[ get_modes { default } ]39pinxr_reg[3][8]/CLK1[ get_pin { xr_reg[3][8]/CLK } ]6
+TCK-002Warningcornerdefault1[ get_corners { default } ]40modedefault1[ get_modes { default } ]39pinxr_reg[2][8]/CLK1[ get_pin { xr_reg[2][8]/CLK } ]6
+TCK-002Warningcornerdefault1[ get_corners { default } ]40modedefault1[ get_modes { default } ]39pinxr_reg[1][8]/CLK1[ get_pin { xr_reg[1][8]/CLK } ]6
+TCK-002Warningcornerdefault1[ get_corners { default } ]40modedefault1[ get_modes { default } ]39pinxr_reg[0][8]/CLK1[ get_pin { xr_reg[0][8]/CLK } ]6
+TCK-002Warningcornerdefault1[ get_corners { default } ]40modedefault1[ get_modes { default } ]39pinxr_reg[7][7]/CLK1[ get_pin { xr_reg[7][7]/CLK } ]6
+TCK-002Warningcornerdefault1[ get_corners { default } ]40modedefault1[ get_modes { default } ]39pinxr_reg[6][7]/CLK1[ get_pin { xr_reg[6][7]/CLK } ]6
+TCK-002Warningcornerdefault1[ get_corners { default } ]40modedefault1[ get_modes { default } ]39pinxr_reg[5][7]/CLK1[ get_pin { xr_reg[5][7]/CLK } ]6
+TCK-002Warningcornerdefault1[ get_corners { default } ]40modedefault1[ get_modes { default } ]39pinxr_reg[4][7]/CLK1[ get_pin { xr_reg[4][7]/CLK } ]6
+TCK-002Warningcornerdefault1[ get_corners { default } ]40modedefault1[ get_modes { default } ]39pinxr_reg[3][7]/CLK1[ get_pin { xr_reg[3][7]/CLK } ]6
+TCK-002Warningcornerdefault1[ get_corners { default } ]40modedefault1[ get_modes { default } ]39pinxr_reg[2][7]/CLK1[ get_pin { xr_reg[2][7]/CLK } ]6
+TCK-002Warningcornerdefault1[ get_corners { default } ]40modedefault1[ get_modes { default } ]39pinxr_reg[1][7]/CLK1[ get_pin { xr_reg[1][7]/CLK } ]6
+TCK-002Warningcornerdefault1[ get_corners { default } ]40modedefault1[ get_modes { default } ]39pinxr_reg[0][7]/CLK1[ get_pin { xr_reg[0][7]/CLK } ]6
+TCK-002Warningcornerdefault1[ get_corners { default } ]40modedefault1[ get_modes { default } ]39pinxr_reg[7][6]/CLK1[ get_pin { xr_reg[7][6]/CLK } ]6
+TCK-002Warningcornerdefault1[ get_corners { default } ]40modedefault1[ get_modes { default } ]39pinxr_reg[6][6]/CLK1[ get_pin { xr_reg[6][6]/CLK } ]6
+TCK-002Warningcornerdefault1[ get_corners { default } ]40modedefault1[ get_modes { default } ]39pinxr_reg[5][6]/CLK1[ get_pin { xr_reg[5][6]/CLK } ]6
+TCK-002Warningcornerdefault1[ get_corners { default } ]40modedefault1[ get_modes { default } ]39pinxr_reg[4][6]/CLK1[ get_pin { xr_reg[4][6]/CLK } ]6
+TCK-002Warningcornerdefault1[ get_corners { default } ]40modedefault1[ get_modes { default } ]39pinxr_reg[3][6]/CLK1[ get_pin { xr_reg[3][6]/CLK } ]6
+TCK-002Warningcornerdefault1[ get_corners { default } ]40modedefault1[ get_modes { default } ]39pinxr_reg[2][6]/CLK1[ get_pin { xr_reg[2][6]/CLK } ]6
+TCK-002Warningcornerdefault1[ get_corners { default } ]40modedefault1[ get_modes { default } ]39pinxr_reg[1][6]/CLK1[ get_pin { xr_reg[1][6]/CLK } ]6
+TCK-002Warningcornerdefault1[ get_corners { default } ]40modedefault1[ get_modes { default } ]39pinxr_reg[0][6]/CLK1[ get_pin { xr_reg[0][6]/CLK } ]6
+TCK-002Warningcornerdefault1[ get_corners { default } ]40modedefault1[ get_modes { default } ]39pinxr_reg[7][5]/CLK1[ get_pin { xr_reg[7][5]/CLK } ]6
+TCK-002Warningcornerdefault1[ get_corners { default } ]40modedefault1[ get_modes { default } ]39pinxr_reg[6][5]/CLK1[ get_pin { xr_reg[6][5]/CLK } ]6
+TCK-002Warningcornerdefault1[ get_corners { default } ]40modedefault1[ get_modes { default } ]39pinxr_reg[5][5]/CLK1[ get_pin { xr_reg[5][5]/CLK } ]6
+TCK-002Warningcornerdefault1[ get_corners { default } ]40modedefault1[ get_modes { default } ]39pinxr_reg[4][5]/CLK1[ get_pin { xr_reg[4][5]/CLK } ]6
+TCK-002Warningcornerdefault1[ get_corners { default } ]40modedefault1[ get_modes { default } ]39pinxr_reg[3][5]/CLK1[ get_pin { xr_reg[3][5]/CLK } ]6
+TCK-002Warningcornerdefault1[ get_corners { default } ]40modedefault1[ get_modes { default } ]39pinxr_reg[2][5]/CLK1[ get_pin { xr_reg[2][5]/CLK } ]6
+TCK-002Warningcornerdefault1[ get_corners { default } ]40modedefault1[ get_modes { default } ]39pinxr_reg[1][5]/CLK1[ get_pin { xr_reg[1][5]/CLK } ]6
+TCK-002Warningcornerdefault1[ get_corners { default } ]40modedefault1[ get_modes { default } ]39pinxr_reg[0][5]/CLK1[ get_pin { xr_reg[0][5]/CLK } ]6
+TCK-002Warningcornerdefault1[ get_corners { default } ]40modedefault1[ get_modes { default } ]39pinxr_reg[7][4]/CLK1[ get_pin { xr_reg[7][4]/CLK } ]6
+TCK-002Warningcornerdefault1[ get_corners { default } ]40modedefault1[ get_modes { default } ]39pinxr_reg[6][4]/CLK1[ get_pin { xr_reg[6][4]/CLK } ]6
+TCK-002Warningcornerdefault1[ get_corners { default } ]40modedefault1[ get_modes { default } ]39pinxr_reg[5][4]/CLK1[ get_pin { xr_reg[5][4]/CLK } ]6
+TCK-002Warningcornerdefault1[ get_corners { default } ]40modedefault1[ get_modes { default } ]39pinxr_reg[4][4]/CLK1[ get_pin { xr_reg[4][4]/CLK } ]6
+TCK-002Warningcornerdefault1[ get_corners { default } ]40modedefault1[ get_modes { default } ]39pinxr_reg[3][4]/CLK1[ get_pin { xr_reg[3][4]/CLK } ]6
+TCK-002Warningcornerdefault1[ get_corners { default } ]40modedefault1[ get_modes { default } ]39pinxr_reg[2][4]/CLK1[ get_pin { xr_reg[2][4]/CLK } ]6
+TCK-002Warningcornerdefault1[ get_corners { default } ]40modedefault1[ get_modes { default } ]39pinxr_reg[1][4]/CLK1[ get_pin { xr_reg[1][4]/CLK } ]6
+TCK-002Warningcornerdefault1[ get_corners { default } ]40modedefault1[ get_modes { default } ]39pinxr_reg[0][4]/CLK1[ get_pin { xr_reg[0][4]/CLK } ]6
+TCK-002Warningcornerdefault1[ get_corners { default } ]40modedefault1[ get_modes { default } ]39pinxr_reg[7][3]/CLK1[ get_pin { xr_reg[7][3]/CLK } ]6
+TCK-002Warningcornerdefault1[ get_corners { default } ]40modedefault1[ get_modes { default } ]39pinxr_reg[6][3]/CLK1[ get_pin { xr_reg[6][3]/CLK } ]6
+TCK-002Warningcornerdefault1[ get_corners { default } ]40modedefault1[ get_modes { default } ]39pinxr_reg[5][3]/CLK1[ get_pin { xr_reg[5][3]/CLK } ]6
+TCK-002Warningcornerdefault1[ get_corners { default } ]40modedefault1[ get_modes { default } ]39pinxr_reg[4][3]/CLK1[ get_pin { xr_reg[4][3]/CLK } ]6
+TCK-002Warningcornerdefault1[ get_corners { default } ]40modedefault1[ get_modes { default } ]39pinxr_reg[3][3]/CLK1[ get_pin { xr_reg[3][3]/CLK } ]6
+TCK-002Warningcornerdefault1[ get_corners { default } ]40modedefault1[ get_modes { default } ]39pinxr_reg[2][3]/CLK1[ get_pin { xr_reg[2][3]/CLK } ]6
+TCK-002Warningcornerdefault1[ get_corners { default } ]40modedefault1[ get_modes { default } ]39pinxr_reg[1][3]/CLK1[ get_pin { xr_reg[1][3]/CLK } ]6
+TCK-002Warningcornerdefault1[ get_corners { default } ]40modedefault1[ get_modes { default } ]39pinxr_reg[0][3]/CLK1[ get_pin { xr_reg[0][3]/CLK } ]6
+TCK-002Warningcornerdefault1[ get_corners { default } ]40modedefault1[ get_modes { default } ]39pinxr_reg[7][2]/CLK1[ get_pin { xr_reg[7][2]/CLK } ]6
+TCK-002Warningcornerdefault1[ get_corners { default } ]40modedefault1[ get_modes { default } ]39pinxr_reg[6][2]/CLK1[ get_pin { xr_reg[6][2]/CLK } ]6
+TCK-002Warningcornerdefault1[ get_corners { default } ]40modedefault1[ get_modes { default } ]39pinxr_reg[5][2]/CLK1[ get_pin { xr_reg[5][2]/CLK } ]6
+TCK-002Warningcornerdefault1[ get_corners { default } ]40modedefault1[ get_modes { default } ]39pinxr_reg[4][2]/CLK1[ get_pin { xr_reg[4][2]/CLK } ]6
+TCK-002Warningcornerdefault1[ get_corners { default } ]40modedefault1[ get_modes { default } ]39pinxr_reg[3][2]/CLK1[ get_pin { xr_reg[3][2]/CLK } ]6
+TCK-002Warningcornerdefault1[ get_corners { default } ]40modedefault1[ get_modes { default } ]39pinxr_reg[2][2]/CLK1[ get_pin { xr_reg[2][2]/CLK } ]6
+TCK-002Warningcornerdefault1[ get_corners { default } ]40modedefault1[ get_modes { default } ]39pinxr_reg[1][2]/CLK1[ get_pin { xr_reg[1][2]/CLK } ]6
+TCK-002Warningcornerdefault1[ get_corners { default } ]40modedefault1[ get_modes { default } ]39pinxr_reg[0][2]/CLK1[ get_pin { xr_reg[0][2]/CLK } ]6
+TCK-002Warningcornerdefault1[ get_corners { default } ]40modedefault1[ get_modes { default } ]39pinxr_reg[7][1]/CLK1[ get_pin { xr_reg[7][1]/CLK } ]6
+TCK-002Warningcornerdefault1[ get_corners { default } ]40modedefault1[ get_modes { default } ]39pinxr_reg[6][1]/CLK1[ get_pin { xr_reg[6][1]/CLK } ]6
+TCK-002Warningcornerdefault1[ get_corners { default } ]40modedefault1[ get_modes { default } ]39pinxr_reg[5][1]/CLK1[ get_pin { xr_reg[5][1]/CLK } ]6
+TCK-002Warningcornerdefault1[ get_corners { default } ]40modedefault1[ get_modes { default } ]39pinxr_reg[4][1]/CLK1[ get_pin { xr_reg[4][1]/CLK } ]6
+TCK-002Warningcornerdefault1[ get_corners { default } ]40modedefault1[ get_modes { default } ]39pinxr_reg[3][1]/CLK1[ get_pin { xr_reg[3][1]/CLK } ]6
+TCK-002Warningcornerdefault1[ get_corners { default } ]40modedefault1[ get_modes { default } ]39pinxr_reg[2][1]/CLK1[ get_pin { xr_reg[2][1]/CLK } ]6
+TCK-002Warningcornerdefault1[ get_corners { default } ]40modedefault1[ get_modes { default } ]39pinxr_reg[1][1]/CLK1[ get_pin { xr_reg[1][1]/CLK } ]6
+TCK-002Warningcornerdefault1[ get_corners { default } ]40modedefault1[ get_modes { default } ]39pinxr_reg[0][1]/CLK1[ get_pin { xr_reg[0][1]/CLK } ]6
+TCK-002Warningcornerdefault1[ get_corners { default } ]40modedefault1[ get_modes { default } ]39pinxr_reg[7][0]/CLK1[ get_pin { xr_reg[7][0]/CLK } ]6
+TCK-002Warningcornerdefault1[ get_corners { default } ]40modedefault1[ get_modes { default } ]39pinxr_reg[6][0]/CLK1[ get_pin { xr_reg[6][0]/CLK } ]6
+TCK-002Warningcornerdefault1[ get_corners { default } ]40modedefault1[ get_modes { default } ]39pinxr_reg[5][0]/CLK1[ get_pin { xr_reg[5][0]/CLK } ]6
+TCK-002Warningcornerdefault1[ get_corners { default } ]40modedefault1[ get_modes { default } ]39pinxr_reg[4][0]/CLK1[ get_pin { xr_reg[4][0]/CLK } ]6
+TCK-002Warningcornerdefault1[ get_corners { default } ]40modedefault1[ get_modes { default } ]39pinxr_reg[3][0]/CLK1[ get_pin { xr_reg[3][0]/CLK } ]6
+TCK-002Warningcornerdefault1[ get_corners { default } ]40modedefault1[ get_modes { default } ]39pinxr_reg[2][0]/CLK1[ get_pin { xr_reg[2][0]/CLK } ]6
+TCK-002Warningcornerdefault1[ get_corners { default } ]40modedefault1[ get_modes { default } ]39pinxr_reg[1][0]/CLK1[ get_pin { xr_reg[1][0]/CLK } ]6
+TCK-002Warningcornerdefault1[ get_corners { default } ]40modedefault1[ get_modes { default } ]39pinxr_reg[0][0]/CLK1[ get_pin { xr_reg[0][0]/CLK } ]6
+TCK-002Warningcornerdefault1[ get_corners { default } ]40modedefault1[ get_modes { default } ]39pinxi_reg[7][15]/CLK1[ get_pin { xi_reg[7][15]/CLK } ]6
+TCK-002Warningcornerdefault1[ get_corners { default } ]40modedefault1[ get_modes { default } ]39pinxi_reg[6][15]/CLK1[ get_pin { xi_reg[6][15]/CLK } ]6
+TCK-002Warningcornerdefault1[ get_corners { default } ]40modedefault1[ get_modes { default } ]39pinxi_reg[5][15]/CLK1[ get_pin { xi_reg[5][15]/CLK } ]6
+TCK-002Warningcornerdefault1[ get_corners { default } ]40modedefault1[ get_modes { default } ]39pinxi_reg[4][15]/CLK1[ get_pin { xi_reg[4][15]/CLK } ]6
+TCK-002Warningcornerdefault1[ get_corners { default } ]40modedefault1[ get_modes { default } ]39pinxi_reg[3][15]/CLK1[ get_pin { xi_reg[3][15]/CLK } ]6
+TCK-002Warningcornerdefault1[ get_corners { default } ]40modedefault1[ get_modes { default } ]39pinxi_reg[2][15]/CLK1[ get_pin { xi_reg[2][15]/CLK } ]6
+TCK-002Warningcornerdefault1[ get_corners { default } ]40modedefault1[ get_modes { default } ]39pinxi_reg[1][15]/CLK1[ get_pin { xi_reg[1][15]/CLK } ]6
+TCK-002Warningcornerdefault1[ get_corners { default } ]40modedefault1[ get_modes { default } ]39pinxi_reg[0][15]/CLK1[ get_pin { xi_reg[0][15]/CLK } ]6
+TCK-002Warningcornerdefault1[ get_corners { default } ]40modedefault1[ get_modes { default } ]39pinxi_reg[7][14]/CLK1[ get_pin { xi_reg[7][14]/CLK } ]6
+TCK-002Warningcornerdefault1[ get_corners { default } ]40modedefault1[ get_modes { default } ]39pinxi_reg[6][14]/CLK1[ get_pin { xi_reg[6][14]/CLK } ]6
+TCK-002Warningcornerdefault1[ get_corners { default } ]40modedefault1[ get_modes { default } ]39pinxi_reg[5][14]/CLK1[ get_pin { xi_reg[5][14]/CLK } ]6
+TCK-002Warningcornerdefault1[ get_corners { default } ]40modedefault1[ get_modes { default } ]39pinxi_reg[4][14]/CLK1[ get_pin { xi_reg[4][14]/CLK } ]6
+TCK-002Warningcornerdefault1[ get_corners { default } ]40modedefault1[ get_modes { default } ]39pinxi_reg[3][14]/CLK1[ get_pin { xi_reg[3][14]/CLK } ]6
+TCK-002Warningcornerdefault1[ get_corners { default } ]40modedefault1[ get_modes { default } ]39pinxi_reg[2][14]/CLK1[ get_pin { xi_reg[2][14]/CLK } ]6
+TCK-002Warningcornerdefault1[ get_corners { default } ]40modedefault1[ get_modes { default } ]39pinxi_reg[1][14]/CLK1[ get_pin { xi_reg[1][14]/CLK } ]6
+TCK-002Warningcornerdefault1[ get_corners { default } ]40modedefault1[ get_modes { default } ]39pinxi_reg[0][14]/CLK1[ get_pin { xi_reg[0][14]/CLK } ]6
+TCK-002Warningcornerdefault1[ get_corners { default } ]40modedefault1[ get_modes { default } ]39pinxi_reg[7][13]/CLK1[ get_pin { xi_reg[7][13]/CLK } ]6
+TCK-002Warningcornerdefault1[ get_corners { default } ]40modedefault1[ get_modes { default } ]39pinxi_reg[6][13]/CLK1[ get_pin { xi_reg[6][13]/CLK } ]6
+TCK-002Warningcornerdefault1[ get_corners { default } ]40modedefault1[ get_modes { default } ]39pinxi_reg[5][13]/CLK1[ get_pin { xi_reg[5][13]/CLK } ]6
+TCK-002Warningcornerdefault1[ get_corners { default } ]40modedefault1[ get_modes { default } ]39pinxi_reg[4][13]/CLK1[ get_pin { xi_reg[4][13]/CLK } ]6
+TCK-002Warningcornerdefault1[ get_corners { default } ]40modedefault1[ get_modes { default } ]39pinxi_reg[3][13]/CLK1[ get_pin { xi_reg[3][13]/CLK } ]6
+TCK-002Warningcornerdefault1[ get_corners { default } ]40modedefault1[ get_modes { default } ]39pinxi_reg[2][13]/CLK1[ get_pin { xi_reg[2][13]/CLK } ]6
+TCK-002Warningcornerdefault1[ get_corners { default } ]40modedefault1[ get_modes { default } ]39pinxi_reg[1][13]/CLK1[ get_pin { xi_reg[1][13]/CLK } ]6
+TCK-002Warningcornerdefault1[ get_corners { default } ]40modedefault1[ get_modes { default } ]39pinxi_reg[0][13]/CLK1[ get_pin { xi_reg[0][13]/CLK } ]6
+TCK-002Warningcornerdefault1[ get_corners { default } ]40modedefault1[ get_modes { default } ]39pinxi_reg[7][12]/CLK1[ get_pin { xi_reg[7][12]/CLK } ]6
+TCK-002Warningcornerdefault1[ get_corners { default } ]40modedefault1[ get_modes { default } ]39pinxi_reg[6][12]/CLK1[ get_pin { xi_reg[6][12]/CLK } ]6
+TCK-002Warningcornerdefault1[ get_corners { default } ]40modedefault1[ get_modes { default } ]39pinxi_reg[5][12]/CLK1[ get_pin { xi_reg[5][12]/CLK } ]6
+TCK-002Warningcornerdefault1[ get_corners { default } ]40modedefault1[ get_modes { default } ]39pinxi_reg[4][12]/CLK1[ get_pin { xi_reg[4][12]/CLK } ]6
+TCK-002Warningcornerdefault1[ get_corners { default } ]40modedefault1[ get_modes { default } ]39pinxi_reg[3][12]/CLK1[ get_pin { xi_reg[3][12]/CLK } ]6
+TCK-002Warningcornerdefault1[ get_corners { default } ]40modedefault1[ get_modes { default } ]39pinxi_reg[2][12]/CLK1[ get_pin { xi_reg[2][12]/CLK } ]6
+TCK-002Warningcornerdefault1[ get_corners { default } ]40modedefault1[ get_modes { default } ]39pinxi_reg[1][12]/CLK1[ get_pin { xi_reg[1][12]/CLK } ]6
+TCK-002Warningcornerdefault1[ get_corners { default } ]40modedefault1[ get_modes { default } ]39pinxi_reg[0][12]/CLK1[ get_pin { xi_reg[0][12]/CLK } ]6
+TCK-002Warningcornerdefault1[ get_corners { default } ]40modedefault1[ get_modes { default } ]39pinxi_reg[7][11]/CLK1[ get_pin { xi_reg[7][11]/CLK } ]6
+TCK-002Warningcornerdefault1[ get_corners { default } ]40modedefault1[ get_modes { default } ]39pinxi_reg[6][11]/CLK1[ get_pin { xi_reg[6][11]/CLK } ]6
+TCK-002Warningcornerdefault1[ get_corners { default } ]40modedefault1[ get_modes { default } ]39pinxi_reg[5][11]/CLK1[ get_pin { xi_reg[5][11]/CLK } ]6
+TCK-002Warningcornerdefault1[ get_corners { default } ]40modedefault1[ get_modes { default } ]39pinxi_reg[4][11]/CLK1[ get_pin { xi_reg[4][11]/CLK } ]6
+TCK-002Warningcornerdefault1[ get_corners { default } ]40modedefault1[ get_modes { default } ]39pinxi_reg[3][11]/CLK1[ get_pin { xi_reg[3][11]/CLK } ]6
+TCK-002Warningcornerdefault1[ get_corners { default } ]40modedefault1[ get_modes { default } ]39pinxi_reg[2][11]/CLK1[ get_pin { xi_reg[2][11]/CLK } ]6
+TCK-002Warningcornerdefault1[ get_corners { default } ]40modedefault1[ get_modes { default } ]39pinxi_reg[1][11]/CLK1[ get_pin { xi_reg[1][11]/CLK } ]6
+TCK-002Warningcornerdefault1[ get_corners { default } ]40modedefault1[ get_modes { default } ]39pinxi_reg[0][11]/CLK1[ get_pin { xi_reg[0][11]/CLK } ]6
+TCK-002Warningcornerdefault1[ get_corners { default } ]40modedefault1[ get_modes { default } ]39pinxi_reg[7][10]/CLK1[ get_pin { xi_reg[7][10]/CLK } ]6
+TCK-002Warningcornerdefault1[ get_corners { default } ]40modedefault1[ get_modes { default } ]39pinxi_reg[6][10]/CLK1[ get_pin { xi_reg[6][10]/CLK } ]6
+TCK-002Warningcornerdefault1[ get_corners { default } ]40modedefault1[ get_modes { default } ]39pinxi_reg[5][10]/CLK1[ get_pin { xi_reg[5][10]/CLK } ]6
+TCK-002Warningcornerdefault1[ get_corners { default } ]40modedefault1[ get_modes { default } ]39pinxi_reg[4][10]/CLK1[ get_pin { xi_reg[4][10]/CLK } ]6
+TCK-002Warningcornerdefault1[ get_corners { default } ]40modedefault1[ get_modes { default } ]39pinxi_reg[3][10]/CLK1[ get_pin { xi_reg[3][10]/CLK } ]6
+TCK-002Warningcornerdefault1[ get_corners { default } ]40modedefault1[ get_modes { default } ]39pinxi_reg[2][10]/CLK1[ get_pin { xi_reg[2][10]/CLK } ]6
+TCK-002Warningcornerdefault1[ get_corners { default } ]40modedefault1[ get_modes { default } ]39pinxi_reg[1][10]/CLK1[ get_pin { xi_reg[1][10]/CLK } ]6
+TCK-002Warningcornerdefault1[ get_corners { default } ]40modedefault1[ get_modes { default } ]39pinxi_reg[0][10]/CLK1[ get_pin { xi_reg[0][10]/CLK } ]6
+TCK-002Warningcornerdefault1[ get_corners { default } ]40modedefault1[ get_modes { default } ]39pinxi_reg[7][9]/CLK1[ get_pin { xi_reg[7][9]/CLK } ]6
+TCK-002Warningcornerdefault1[ get_corners { default } ]40modedefault1[ get_modes { default } ]39pinxi_reg[6][9]/CLK1[ get_pin { xi_reg[6][9]/CLK } ]6
+TCK-002Warningcornerdefault1[ get_corners { default } ]40modedefault1[ get_modes { default } ]39pinxi_reg[5][9]/CLK1[ get_pin { xi_reg[5][9]/CLK } ]6
+TCK-002Warningcornerdefault1[ get_corners { default } ]40modedefault1[ get_modes { default } ]39pinxi_reg[4][9]/CLK1[ get_pin { xi_reg[4][9]/CLK } ]6
+TCK-002Warningcornerdefault1[ get_corners { default } ]40modedefault1[ get_modes { default } ]39pinxi_reg[3][9]/CLK1[ get_pin { xi_reg[3][9]/CLK } ]6
+TCK-002Warningcornerdefault1[ get_corners { default } ]40modedefault1[ get_modes { default } ]39pinxi_reg[2][9]/CLK1[ get_pin { xi_reg[2][9]/CLK } ]6
+TCK-002Warningcornerdefault1[ get_corners { default } ]40modedefault1[ get_modes { default } ]39pinxi_reg[1][9]/CLK1[ get_pin { xi_reg[1][9]/CLK } ]6
+TCK-002Warningcornerdefault1[ get_corners { default } ]40modedefault1[ get_modes { default } ]39pinxi_reg[0][9]/CLK1[ get_pin { xi_reg[0][9]/CLK } ]6
+TCK-002Warningcornerdefault1[ get_corners { default } ]40modedefault1[ get_modes { default } ]39pinxi_reg[7][8]/CLK1[ get_pin { xi_reg[7][8]/CLK } ]6
+TCK-002Warningcornerdefault1[ get_corners { default } ]40modedefault1[ get_modes { default } ]39pinxi_reg[6][8]/CLK1[ get_pin { xi_reg[6][8]/CLK } ]6
+TCK-002Warningcornerdefault1[ get_corners { default } ]40modedefault1[ get_modes { default } ]39pinxi_reg[5][8]/CLK1[ get_pin { xi_reg[5][8]/CLK } ]6
+TCK-002Warningcornerdefault1[ get_corners { default } ]40modedefault1[ get_modes { default } ]39pinxi_reg[4][8]/CLK1[ get_pin { xi_reg[4][8]/CLK } ]6
+TCK-002Warningcornerdefault1[ get_corners { default } ]40modedefault1[ get_modes { default } ]39pinxi_reg[3][8]/CLK1[ get_pin { xi_reg[3][8]/CLK } ]6
+TCK-002Warningcornerdefault1[ get_corners { default } ]40modedefault1[ get_modes { default } ]39pinxi_reg[2][8]/CLK1[ get_pin { xi_reg[2][8]/CLK } ]6
+TCK-002Warningcornerdefault1[ get_corners { default } ]40modedefault1[ get_modes { default } ]39pinxi_reg[1][8]/CLK1[ get_pin { xi_reg[1][8]/CLK } ]6
+TCK-002Warningcornerdefault1[ get_corners { default } ]40modedefault1[ get_modes { default } ]39pinxi_reg[0][8]/CLK1[ get_pin { xi_reg[0][8]/CLK } ]6
+TCK-002Warningcornerdefault1[ get_corners { default } ]40modedefault1[ get_modes { default } ]39pinxi_reg[7][7]/CLK1[ get_pin { xi_reg[7][7]/CLK } ]6
+TCK-002Warningcornerdefault1[ get_corners { default } ]40modedefault1[ get_modes { default } ]39pinxi_reg[6][7]/CLK1[ get_pin { xi_reg[6][7]/CLK } ]6
+TCK-002Warningcornerdefault1[ get_corners { default } ]40modedefault1[ get_modes { default } ]39pinxi_reg[5][7]/CLK1[ get_pin { xi_reg[5][7]/CLK } ]6
+TCK-002Warningcornerdefault1[ get_corners { default } ]40modedefault1[ get_modes { default } ]39pinxi_reg[4][7]/CLK1[ get_pin { xi_reg[4][7]/CLK } ]6
+TCK-002Warningcornerdefault1[ get_corners { default } ]40modedefault1[ get_modes { default } ]39pinxi_reg[3][7]/CLK1[ get_pin { xi_reg[3][7]/CLK } ]6
+TCK-002Warningcornerdefault1[ get_corners { default } ]40modedefault1[ get_modes { default } ]39pinxi_reg[2][7]/CLK1[ get_pin { xi_reg[2][7]/CLK } ]6
+TCK-002Warningcornerdefault1[ get_corners { default } ]40modedefault1[ get_modes { default } ]39pinxi_reg[1][7]/CLK1[ get_pin { xi_reg[1][7]/CLK } ]6
+TCK-002Warningcornerdefault1[ get_corners { default } ]40modedefault1[ get_modes { default } ]39pinxi_reg[0][7]/CLK1[ get_pin { xi_reg[0][7]/CLK } ]6
+TCK-002Warningcornerdefault1[ get_corners { default } ]40modedefault1[ get_modes { default } ]39pinxi_reg[7][6]/CLK1[ get_pin { xi_reg[7][6]/CLK } ]6
+TCK-002Warningcornerdefault1[ get_corners { default } ]40modedefault1[ get_modes { default } ]39pinxi_reg[6][6]/CLK1[ get_pin { xi_reg[6][6]/CLK } ]6
+TCK-002Warningcornerdefault1[ get_corners { default } ]40modedefault1[ get_modes { default } ]39pinxi_reg[5][6]/CLK1[ get_pin { xi_reg[5][6]/CLK } ]6
+TCK-002Warningcornerdefault1[ get_corners { default } ]40modedefault1[ get_modes { default } ]39pinxi_reg[4][6]/CLK1[ get_pin { xi_reg[4][6]/CLK } ]6
+TCK-002Warningcornerdefault1[ get_corners { default } ]40modedefault1[ get_modes { default } ]39pinxi_reg[3][6]/CLK1[ get_pin { xi_reg[3][6]/CLK } ]6
+TCK-002Warningcornerdefault1[ get_corners { default } ]40modedefault1[ get_modes { default } ]39pinxi_reg[2][6]/CLK1[ get_pin { xi_reg[2][6]/CLK } ]6
+TCK-002Warningcornerdefault1[ get_corners { default } ]40modedefault1[ get_modes { default } ]39pinxi_reg[1][6]/CLK1[ get_pin { xi_reg[1][6]/CLK } ]6
+TCK-002Warningcornerdefault1[ get_corners { default } ]40modedefault1[ get_modes { default } ]39pinxi_reg[0][6]/CLK1[ get_pin { xi_reg[0][6]/CLK } ]6
+TCK-002Warningcornerdefault1[ get_corners { default } ]40modedefault1[ get_modes { default } ]39pinxi_reg[7][5]/CLK1[ get_pin { xi_reg[7][5]/CLK } ]6
+TCK-002Warningcornerdefault1[ get_corners { default } ]40modedefault1[ get_modes { default } ]39pinxi_reg[6][5]/CLK1[ get_pin { xi_reg[6][5]/CLK } ]6
+TCK-002Warningcornerdefault1[ get_corners { default } ]40modedefault1[ get_modes { default } ]39pinxi_reg[5][5]/CLK1[ get_pin { xi_reg[5][5]/CLK } ]6
+TCK-002Warningcornerdefault1[ get_corners { default } ]40modedefault1[ get_modes { default } ]39pinxi_reg[4][5]/CLK1[ get_pin { xi_reg[4][5]/CLK } ]6
+TCK-002Warningcornerdefault1[ get_corners { default } ]40modedefault1[ get_modes { default } ]39pinxi_reg[3][5]/CLK1[ get_pin { xi_reg[3][5]/CLK } ]6
+TCK-002Warningcornerdefault1[ get_corners { default } ]40modedefault1[ get_modes { default } ]39pinxi_reg[2][5]/CLK1[ get_pin { xi_reg[2][5]/CLK } ]6
+TCK-002Warningcornerdefault1[ get_corners { default } ]40modedefault1[ get_modes { default } ]39pinxi_reg[1][5]/CLK1[ get_pin { xi_reg[1][5]/CLK } ]6
+TCK-002Warningcornerdefault1[ get_corners { default } ]40modedefault1[ get_modes { default } ]39pinxi_reg[0][5]/CLK1[ get_pin { xi_reg[0][5]/CLK } ]6
+TCK-002Warningcornerdefault1[ get_corners { default } ]40modedefault1[ get_modes { default } ]39pinxi_reg[7][4]/CLK1[ get_pin { xi_reg[7][4]/CLK } ]6
+TCK-002Warningcornerdefault1[ get_corners { default } ]40modedefault1[ get_modes { default } ]39pinxi_reg[6][4]/CLK1[ get_pin { xi_reg[6][4]/CLK } ]6
+TCK-002Warningcornerdefault1[ get_corners { default } ]40modedefault1[ get_modes { default } ]39pinxi_reg[5][4]/CLK1[ get_pin { xi_reg[5][4]/CLK } ]6
+TCK-002Warningcornerdefault1[ get_corners { default } ]40modedefault1[ get_modes { default } ]39pinxi_reg[4][4]/CLK1[ get_pin { xi_reg[4][4]/CLK } ]6
+TCK-002Warningcornerdefault1[ get_corners { default } ]40modedefault1[ get_modes { default } ]39pinxi_reg[3][4]/CLK1[ get_pin { xi_reg[3][4]/CLK } ]6
+TCK-002Warningcornerdefault1[ get_corners { default } ]40modedefault1[ get_modes { default } ]39pinxi_reg[2][4]/CLK1[ get_pin { xi_reg[2][4]/CLK } ]6
+TCK-002Warningcornerdefault1[ get_corners { default } ]40modedefault1[ get_modes { default } ]39pinxi_reg[1][4]/CLK1[ get_pin { xi_reg[1][4]/CLK } ]6
+TCK-002Warningcornerdefault1[ get_corners { default } ]40modedefault1[ get_modes { default } ]39pinxi_reg[0][4]/CLK1[ get_pin { xi_reg[0][4]/CLK } ]6
+TCK-002Warningcornerdefault1[ get_corners { default } ]40modedefault1[ get_modes { default } ]39pinxi_reg[7][3]/CLK1[ get_pin { xi_reg[7][3]/CLK } ]6
+TCK-002Warningcornerdefault1[ get_corners { default } ]40modedefault1[ get_modes { default } ]39pinxi_reg[6][3]/CLK1[ get_pin { xi_reg[6][3]/CLK } ]6
+TCK-002Warningcornerdefault1[ get_corners { default } ]40modedefault1[ get_modes { default } ]39pinxi_reg[5][3]/CLK1[ get_pin { xi_reg[5][3]/CLK } ]6
+TCK-002Warningcornerdefault1[ get_corners { default } ]40modedefault1[ get_modes { default } ]39pinxi_reg[4][3]/CLK1[ get_pin { xi_reg[4][3]/CLK } ]6
+TCK-002Warningcornerdefault1[ get_corners { default } ]40modedefault1[ get_modes { default } ]39pinxi_reg[3][3]/CLK1[ get_pin { xi_reg[3][3]/CLK } ]6
+TCK-002Warningcornerdefault1[ get_corners { default } ]40modedefault1[ get_modes { default } ]39pinxi_reg[2][3]/CLK1[ get_pin { xi_reg[2][3]/CLK } ]6
+TCK-002Warningcornerdefault1[ get_corners { default } ]40modedefault1[ get_modes { default } ]39pinxi_reg[1][3]/CLK1[ get_pin { xi_reg[1][3]/CLK } ]6
+TCK-002Warningcornerdefault1[ get_corners { default } ]40modedefault1[ get_modes { default } ]39pinxi_reg[0][3]/CLK1[ get_pin { xi_reg[0][3]/CLK } ]6
+TCK-002Warningcornerdefault1[ get_corners { default } ]40modedefault1[ get_modes { default } ]39pinxi_reg[7][2]/CLK1[ get_pin { xi_reg[7][2]/CLK } ]6
+TCK-002Warningcornerdefault1[ get_corners { default } ]40modedefault1[ get_modes { default } ]39pinxi_reg[6][2]/CLK1[ get_pin { xi_reg[6][2]/CLK } ]6
+TCK-002Warningcornerdefault1[ get_corners { default } ]40modedefault1[ get_modes { default } ]39pinxi_reg[5][2]/CLK1[ get_pin { xi_reg[5][2]/CLK } ]6
+TCK-002Warningcornerdefault1[ get_corners { default } ]40modedefault1[ get_modes { default } ]39pinxi_reg[4][2]/CLK1[ get_pin { xi_reg[4][2]/CLK } ]6
+TCK-002Warningcornerdefault1[ get_corners { default } ]40modedefault1[ get_modes { default } ]39pinxi_reg[3][2]/CLK1[ get_pin { xi_reg[3][2]/CLK } ]6
+TCK-002Warningcornerdefault1[ get_corners { default } ]40modedefault1[ get_modes { default } ]39pinxi_reg[2][2]/CLK1[ get_pin { xi_reg[2][2]/CLK } ]6
+TCK-002Warningcornerdefault1[ get_corners { default } ]40modedefault1[ get_modes { default } ]39pinxi_reg[1][2]/CLK1[ get_pin { xi_reg[1][2]/CLK } ]6
+TCK-002Warningcornerdefault1[ get_corners { default } ]40modedefault1[ get_modes { default } ]39pinxi_reg[0][2]/CLK1[ get_pin { xi_reg[0][2]/CLK } ]6
+TCK-002Warningcornerdefault1[ get_corners { default } ]40modedefault1[ get_modes { default } ]39pinxi_reg[7][1]/CLK1[ get_pin { xi_reg[7][1]/CLK } ]6
+TCK-002Warningcornerdefault1[ get_corners { default } ]40modedefault1[ get_modes { default } ]39pinxi_reg[6][1]/CLK1[ get_pin { xi_reg[6][1]/CLK } ]6
+TCK-002Warningcornerdefault1[ get_corners { default } ]40modedefault1[ get_modes { default } ]39pinxi_reg[5][1]/CLK1[ get_pin { xi_reg[5][1]/CLK } ]6
+TCK-002Warningcornerdefault1[ get_corners { default } ]40modedefault1[ get_modes { default } ]39pinxi_reg[4][1]/CLK1[ get_pin { xi_reg[4][1]/CLK } ]6
+TCK-002Warningcornerdefault1[ get_corners { default } ]40modedefault1[ get_modes { default } ]39pinxi_reg[3][1]/CLK1[ get_pin { xi_reg[3][1]/CLK } ]6
+TCK-002Warningcornerdefault1[ get_corners { default } ]40modedefault1[ get_modes { default } ]39pinxi_reg[2][1]/CLK1[ get_pin { xi_reg[2][1]/CLK } ]6
+TCK-002Warningcornerdefault1[ get_corners { default } ]40modedefault1[ get_modes { default } ]39pinxi_reg[1][1]/CLK1[ get_pin { xi_reg[1][1]/CLK } ]6
+TCK-002Warningcornerdefault1[ get_corners { default } ]40modedefault1[ get_modes { default } ]39pinxi_reg[0][1]/CLK1[ get_pin { xi_reg[0][1]/CLK } ]6
+TCK-002Warningcornerdefault1[ get_corners { default } ]40modedefault1[ get_modes { default } ]39pintx_shift_reg[0]/CLK1[ get_pin { tx_shift_reg[0]/CLK } ]6
+TCK-002Warningcornerdefault1[ get_corners { default } ]40modedefault1[ get_modes { default } ]39pintx_shift_reg[1]/CLK1[ get_pin { tx_shift_reg[1]/CLK } ]6
+TCK-002Warningcornerdefault1[ get_corners { default } ]40modedefault1[ get_modes { default } ]39pintx_shift_reg[2]/CLK1[ get_pin { tx_shift_reg[2]/CLK } ]6
+TCK-002Warningcornerdefault1[ get_corners { default } ]40modedefault1[ get_modes { default } ]39pintx_shift_reg[3]/CLK1[ get_pin { tx_shift_reg[3]/CLK } ]6
+TCK-002Warningcornerdefault1[ get_corners { default } ]40modedefault1[ get_modes { default } ]39pintx_shift_reg[4]/CLK1[ get_pin { tx_shift_reg[4]/CLK } ]6
+TCK-002Warningcornerdefault1[ get_corners { default } ]40modedefault1[ get_modes { default } ]39pintx_shift_reg[5]/CLK1[ get_pin { tx_shift_reg[5]/CLK } ]6
+TCK-002Warningcornerdefault1[ get_corners { default } ]40modedefault1[ get_modes { default } ]39pintx_shift_reg[6]/CLK1[ get_pin { tx_shift_reg[6]/CLK } ]6
+TCK-002Warningcornerdefault1[ get_corners { default } ]40modedefault1[ get_modes { default } ]39pintx_shift_reg[7]/CLK1[ get_pin { tx_shift_reg[7]/CLK } ]6
+TCK-002Warningcornerdefault1[ get_corners { default } ]40modedefault1[ get_modes { default } ]39pintx_shift_reg[8]/CLK1[ get_pin { tx_shift_reg[8]/CLK } ]6
+TCK-002Warningcornerdefault1[ get_corners { default } ]40modedefault1[ get_modes { default } ]39pintx_shift_reg[9]/CLK1[ get_pin { tx_shift_reg[9]/CLK } ]6
+TCK-002Warningcornerdefault1[ get_corners { default } ]40modedefault1[ get_modes { default } ]39pintx_shift_reg[10]/CLK1[ get_pin { tx_shift_reg[10]/CLK } ]6
+TCK-002Warningcornerdefault1[ get_corners { default } ]40modedefault1[ get_modes { default } ]39pintx_shift_reg[11]/CLK1[ get_pin { tx_shift_reg[11]/CLK } ]6
+TCK-002Warningcornerdefault1[ get_corners { default } ]40modedefault1[ get_modes { default } ]39pintx_shift_reg[12]/CLK1[ get_pin { tx_shift_reg[12]/CLK } ]6
+TCK-002Warningcornerdefault1[ get_corners { default } ]40modedefault1[ get_modes { default } ]39pintx_shift_reg[13]/CLK1[ get_pin { tx_shift_reg[13]/CLK } ]6
+TCK-002Warningcornerdefault1[ get_corners { default } ]40modedefault1[ get_modes { default } ]39pintx_shift_reg[14]/CLK1[ get_pin { tx_shift_reg[14]/CLK } ]6
+TCK-002Warningcornerdefault1[ get_corners { default } ]40modedefault1[ get_modes { default } ]39pintx_shift_reg[15]/CLK1[ get_pin { tx_shift_reg[15]/CLK } ]6
+TCK-002Warningcornerdefault1[ get_corners { default } ]40modedefault1[ get_modes { default } ]39pintx_shift_reg[16]/CLK1[ get_pin { tx_shift_reg[16]/CLK } ]6
+TCK-002Warningcornerdefault1[ get_corners { default } ]40modedefault1[ get_modes { default } ]39pintx_shift_reg[17]/CLK1[ get_pin { tx_shift_reg[17]/CLK } ]6
+TCK-002Warningcornerdefault1[ get_corners { default } ]40modedefault1[ get_modes { default } ]39pintx_shift_reg[18]/CLK1[ get_pin { tx_shift_reg[18]/CLK } ]6
+TCK-002Warningcornerdefault1[ get_corners { default } ]40modedefault1[ get_modes { default } ]39pintx_shift_reg[19]/CLK1[ get_pin { tx_shift_reg[19]/CLK } ]6
+TCK-002Warningcornerdefault1[ get_corners { default } ]40modedefault1[ get_modes { default } ]39pintx_shift_reg[20]/CLK1[ get_pin { tx_shift_reg[20]/CLK } ]6
+TCK-002Warningcornerdefault1[ get_corners { default } ]40modedefault1[ get_modes { default } ]39pintx_shift_reg[21]/CLK1[ get_pin { tx_shift_reg[21]/CLK } ]6
+TCK-002Warningcornerdefault1[ get_corners { default } ]40modedefault1[ get_modes { default } ]39pintx_shift_reg[22]/CLK1[ get_pin { tx_shift_reg[22]/CLK } ]6
+TCK-002Warningcornerdefault1[ get_corners { default } ]40modedefault1[ get_modes { default } ]39pintx_shift_reg[23]/CLK1[ get_pin { tx_shift_reg[23]/CLK } ]6
+TCK-002Warningcornerdefault1[ get_corners { default } ]40modedefault1[ get_modes { default } ]39pintx_shift_reg[24]/CLK1[ get_pin { tx_shift_reg[24]/CLK } ]6
+TCK-002Warningcornerdefault1[ get_corners { default } ]40modedefault1[ get_modes { default } ]39pintx_shift_reg[25]/CLK1[ get_pin { tx_shift_reg[25]/CLK } ]6
+TCK-002Warningcornerdefault1[ get_corners { default } ]40modedefault1[ get_modes { default } ]39pintx_shift_reg[26]/CLK1[ get_pin { tx_shift_reg[26]/CLK } ]6
+TCK-002Warningcornerdefault1[ get_corners { default } ]40modedefault1[ get_modes { default } ]39pintx_shift_reg[27]/CLK1[ get_pin { tx_shift_reg[27]/CLK } ]6
+TCK-002Warningcornerdefault1[ get_corners { default } ]40modedefault1[ get_modes { default } ]39pintx_shift_reg[28]/CLK1[ get_pin { tx_shift_reg[28]/CLK } ]6
+TCK-002Warningcornerdefault1[ get_corners { default } ]40modedefault1[ get_modes { default } ]39pintx_shift_reg[29]/CLK1[ get_pin { tx_shift_reg[29]/CLK } ]6
+TCK-002Warningcornerdefault1[ get_corners { default } ]40modedefault1[ get_modes { default } ]39pintx_shift_reg[30]/CLK1[ get_pin { tx_shift_reg[30]/CLK } ]6
+TCK-002Warningcornerdefault1[ get_corners { default } ]40modedefault1[ get_modes { default } ]39pintx_shift_reg[31]/CLK1[ get_pin { tx_shift_reg[31]/CLK } ]6
+TCK-001Warningcornerdefault1[ get_corners { default } ]40endpointspi_miso1[ get_port { spi_miso } ]7modedefault1[ get_modes { default } ]39reasonno check10
+TCK-001Warningcornerdefault1[ get_corners { default } ]40endpointbusy1[ get_port { busy } ]7modedefault1[ get_modes { default } ]39reasonno check10
+TCK-001Warningcornerdefault1[ get_corners { default } ]40endpointresult_ready1[ get_port { result_ready } ]7modedefault1[ get_modes { default } ]39reasonno check10
+TCK-001Warningcornerdefault1[ get_corners { default } ]40endpointcs_sync_reg[0]/D1[ get_pin { cs_sync_reg[0]/D } ]6modedefault1[ get_modes { default } ]39reasonunclocked10
+TCK-001Warningcornerdefault1[ get_corners { default } ]40endpointcs_sync_reg[0]/SETB1[ get_pin { cs_sync_reg[0]/SETB } ]6modedefault1[ get_modes { default } ]39reasonunclocked10
+TCK-001Warningcornerdefault1[ get_corners { default } ]40endpointcs_sync_reg[1]/D1[ get_pin { cs_sync_reg[1]/D } ]6modedefault1[ get_modes { default } ]39reasonunclocked10
+TCK-001Warningcornerdefault1[ get_corners { default } ]40endpointcs_sync_reg[1]/SETB1[ get_pin { cs_sync_reg[1]/SETB } ]6modedefault1[ get_modes { default } ]39reasonunclocked10
+TCK-001Warningcornerdefault1[ get_corners { default } ]40endpointcs_sync_reg[2]/D1[ get_pin { cs_sync_reg[2]/D } ]6modedefault1[ get_modes { default } ]39reasonunclocked10
+TCK-001Warningcornerdefault1[ get_corners { default } ]40endpointcs_sync_reg[2]/SETB1[ get_pin { cs_sync_reg[2]/SETB } ]6modedefault1[ get_modes { default } ]39reasonunclocked10
+TCK-001Warningcornerdefault1[ get_corners { default } ]40endpointmosi_sync_reg[0]/D1[ get_pin { mosi_sync_reg[0]/D } ]6modedefault1[ get_modes { default } ]39reasonunclocked10
+TCK-001Warningcornerdefault1[ get_corners { default } ]40endpointmosi_sync_reg[0]/RSTB1[ get_pin { mosi_sync_reg[0]/RSTB } ]6modedefault1[ get_modes { default } ]39reasonunclocked10
+TCK-001Warningcornerdefault1[ get_corners { default } ]40endpointmosi_sync_reg[1]/D1[ get_pin { mosi_sync_reg[1]/D } ]6modedefault1[ get_modes { default } ]39reasonunclocked10
+TCK-001Warningcornerdefault1[ get_corners { default } ]40endpointmosi_sync_reg[1]/RSTB1[ get_pin { mosi_sync_reg[1]/RSTB } ]6modedefault1[ get_modes { default } ]39reasonunclocked10
+TCK-001Warningcornerdefault1[ get_corners { default } ]40endpointsclk_sync_reg[0]/D1[ get_pin { sclk_sync_reg[0]/D } ]6modedefault1[ get_modes { default } ]39reasonunclocked10
+TCK-001Warningcornerdefault1[ get_corners { default } ]40endpointsclk_sync_reg[0]/RSTB1[ get_pin { sclk_sync_reg[0]/RSTB } ]6modedefault1[ get_modes { default } ]39reasonunclocked10
+TCK-001Warningcornerdefault1[ get_corners { default } ]40endpointsclk_sync_reg[1]/D1[ get_pin { sclk_sync_reg[1]/D } ]6modedefault1[ get_modes { default } ]39reasonunclocked10
+TCK-001Warningcornerdefault1[ get_corners { default } ]40endpointsclk_sync_reg[1]/RSTB1[ get_pin { sclk_sync_reg[1]/RSTB } ]6modedefault1[ get_modes { default } ]39reasonunclocked10
+TCK-001Warningcornerdefault1[ get_corners { default } ]40endpointsclk_sync_reg[2]/D1[ get_pin { sclk_sync_reg[2]/D } ]6modedefault1[ get_modes { default } ]39reasonunclocked10
+TCK-001Warningcornerdefault1[ get_corners { default } ]40endpointsclk_sync_reg[2]/RSTB1[ get_pin { sclk_sync_reg[2]/RSTB } ]6modedefault1[ get_modes { default } ]39reasonunclocked10
+TCK-001Warningcornerdefault1[ get_corners { default } ]40endpointbit_count_reg[5]/D1[ get_pin { bit_count_reg[5]/D } ]6modedefault1[ get_modes { default } ]39reasonunclocked10
+TCK-001Warningcornerdefault1[ get_corners { default } ]40endpointbit_count_reg[5]/RSTB1[ get_pin { bit_count_reg[5]/RSTB } ]6modedefault1[ get_modes { default } ]39reasonunclocked10
+TCK-001Warningcornerdefault1[ get_corners { default } ]40endpointbit_count_reg[4]/D1[ get_pin { bit_count_reg[4]/D } ]6modedefault1[ get_modes { default } ]39reasonunclocked10
+TCK-001Warningcornerdefault1[ get_corners { default } ]40endpointbit_count_reg[4]/RSTB1[ get_pin { bit_count_reg[4]/RSTB } ]6modedefault1[ get_modes { default } ]39reasonunclocked10
+TCK-001Warningcornerdefault1[ get_corners { default } ]40endpointbit_count_reg[3]/D1[ get_pin { bit_count_reg[3]/D } ]6modedefault1[ get_modes { default } ]39reasonunclocked10
+TCK-001Warningcornerdefault1[ get_corners { default } ]40endpointbit_count_reg[3]/RSTB1[ get_pin { bit_count_reg[3]/RSTB } ]6modedefault1[ get_modes { default } ]39reasonunclocked10
+TCK-001Warningcornerdefault1[ get_corners { default } ]40endpointbit_count_reg[2]/D1[ get_pin { bit_count_reg[2]/D } ]6modedefault1[ get_modes { default } ]39reasonunclocked10
+TCK-001Warningcornerdefault1[ get_corners { default } ]40endpointbit_count_reg[2]/RSTB1[ get_pin { bit_count_reg[2]/RSTB } ]6modedefault1[ get_modes { default } ]39reasonunclocked10
+TCK-001Warningcornerdefault1[ get_corners { default } ]40endpointbit_count_reg[1]/D1[ get_pin { bit_count_reg[1]/D } ]6modedefault1[ get_modes { default } ]39reasonunclocked10
+TCK-001Warningcornerdefault1[ get_corners { default } ]40endpointbit_count_reg[1]/RSTB1[ get_pin { bit_count_reg[1]/RSTB } ]6modedefault1[ get_modes { default } ]39reasonunclocked10
+TCK-001Warningcornerdefault1[ get_corners { default } ]40endpointbit_count_reg[0]/D1[ get_pin { bit_count_reg[0]/D } ]6modedefault1[ get_modes { default } ]39reasonunclocked10
+TCK-001Warningcornerdefault1[ get_corners { default } ]40endpointbit_count_reg[0]/RSTB1[ get_pin { bit_count_reg[0]/RSTB } ]6modedefault1[ get_modes { default } ]39reasonunclocked10
+TCK-001Warningcornerdefault1[ get_corners { default } ]40endpointoutput_index_reg[0]/D1[ get_pin { output_index_reg[0]/D } ]6modedefault1[ get_modes { default } ]39reasonunclocked10
+TCK-001Warningcornerdefault1[ get_corners { default } ]40endpointoutput_index_reg[0]/RSTB1[ get_pin { output_index_reg[0]/RSTB } ]6modedefault1[ get_modes { default } ]39reasonunclocked10
+TCK-001Warningcornerdefault1[ get_corners { default } ]40endpointinput_index_reg[2]/D1[ get_pin { input_index_reg[2]/D } ]6modedefault1[ get_modes { default } ]39reasonunclocked10
+TCK-001Warningcornerdefault1[ get_corners { default } ]40endpointinput_index_reg[2]/RSTB1[ get_pin { input_index_reg[2]/RSTB } ]6modedefault1[ get_modes { default } ]39reasonunclocked10
+TCK-001Warningcornerdefault1[ get_corners { default } ]40endpointstage_reg[1]/D1[ get_pin { stage_reg[1]/D } ]6modedefault1[ get_modes { default } ]39reasonunclocked10
+TCK-001Warningcornerdefault1[ get_corners { default } ]40endpointstage_reg[1]/RSTB1[ get_pin { stage_reg[1]/RSTB } ]6modedefault1[ get_modes { default } ]39reasonunclocked10
+TCK-001Warningcornerdefault1[ get_corners { default } ]40endpointstate_reg[1]/D1[ get_pin { state_reg[1]/D } ]6modedefault1[ get_modes { default } ]39reasonunclocked10
+TCK-001Warningcornerdefault1[ get_corners { default } ]40endpointstate_reg[1]/RSTB1[ get_pin { state_reg[1]/RSTB } ]6modedefault1[ get_modes { default } ]39reasonunclocked10
+TCK-001Warningcornerdefault1[ get_corners { default } ]40endpointstate_reg[0]/D1[ get_pin { state_reg[0]/D } ]6modedefault1[ get_modes { default } ]39reasonunclocked10
+TCK-001Warningcornerdefault1[ get_corners { default } ]40endpointstate_reg[0]/RSTB1[ get_pin { state_reg[0]/RSTB } ]6modedefault1[ get_modes { default } ]39reasonunclocked10
+TCK-001Warningcornerdefault1[ get_corners { default } ]40endpointinput_index_reg[0]/D1[ get_pin { input_index_reg[0]/D } ]6modedefault1[ get_modes { default } ]39reasonunclocked10
+TCK-001Warningcornerdefault1[ get_corners { default } ]40endpointinput_index_reg[0]/RSTB1[ get_pin { input_index_reg[0]/RSTB } ]6modedefault1[ get_modes { default } ]39reasonunclocked10
+TCK-001Warningcornerdefault1[ get_corners { default } ]40endpointinput_index_reg[1]/D1[ get_pin { input_index_reg[1]/D } ]6modedefault1[ get_modes { default } ]39reasonunclocked10
+TCK-001Warningcornerdefault1[ get_corners { default } ]40endpointinput_index_reg[1]/RSTB1[ get_pin { input_index_reg[1]/RSTB } ]6modedefault1[ get_modes { default } ]39reasonunclocked10
+TCK-001Warningcornerdefault1[ get_corners { default } ]40endpointbutterfly_reg[0]/D1[ get_pin { butterfly_reg[0]/D } ]6modedefault1[ get_modes { default } ]39reasonunclocked10
+TCK-001Warningcornerdefault1[ get_corners { default } ]40endpointbutterfly_reg[0]/RSTB1[ get_pin { butterfly_reg[0]/RSTB } ]6modedefault1[ get_modes { default } ]39reasonunclocked10
+TCK-001Warningcornerdefault1[ get_corners { default } ]40endpointbutterfly_reg[1]/D1[ get_pin { butterfly_reg[1]/D } ]6modedefault1[ get_modes { default } ]39reasonunclocked10
+TCK-001Warningcornerdefault1[ get_corners { default } ]40endpointbutterfly_reg[1]/RSTB1[ get_pin { butterfly_reg[1]/RSTB } ]6modedefault1[ get_modes { default } ]39reasonunclocked10
+TCK-001Warningcornerdefault1[ get_corners { default } ]40endpointstage_reg[0]/D1[ get_pin { stage_reg[0]/D } ]6modedefault1[ get_modes { default } ]39reasonunclocked10
+TCK-001Warningcornerdefault1[ get_corners { default } ]40endpointstage_reg[0]/RSTB1[ get_pin { stage_reg[0]/RSTB } ]6modedefault1[ get_modes { default } ]39reasonunclocked10
+TCK-001Warningcornerdefault1[ get_corners { default } ]40endpointoutput_index_reg[1]/D1[ get_pin { output_index_reg[1]/D } ]6modedefault1[ get_modes { default } ]39reasonunclocked10
+TCK-001Warningcornerdefault1[ get_corners { default } ]40endpointoutput_index_reg[1]/RSTB1[ get_pin { output_index_reg[1]/RSTB } ]6modedefault1[ get_modes { default } ]39reasonunclocked10
+TCK-001Warningcornerdefault1[ get_corners { default } ]40endpointoutput_index_reg[2]/D1[ get_pin { output_index_reg[2]/D } ]6modedefault1[ get_modes { default } ]39reasonunclocked10
+TCK-001Warningcornerdefault1[ get_corners { default } ]40endpointoutput_index_reg[2]/RSTB1[ get_pin { output_index_reg[2]/RSTB } ]6modedefault1[ get_modes { default } ]39reasonunclocked10
+TCK-001Warningcornerdefault1[ get_corners { default } ]40endpointxi_reg[7][0]/D1[ get_pin { xi_reg[7][0]/D } ]6modedefault1[ get_modes { default } ]39reasonunclocked10
+TCK-001Warningcornerdefault1[ get_corners { default } ]40endpointxi_reg[7][0]/RSTB1[ get_pin { xi_reg[7][0]/RSTB } ]6modedefault1[ get_modes { default } ]39reasonunclocked10
+TCK-001Warningcornerdefault1[ get_corners { default } ]40endpointxi_reg[5][0]/D1[ get_pin { xi_reg[5][0]/D } ]6modedefault1[ get_modes { default } ]39reasonunclocked10
+TCK-001Warningcornerdefault1[ get_corners { default } ]40endpointxi_reg[5][0]/RSTB1[ get_pin { xi_reg[5][0]/RSTB } ]6modedefault1[ get_modes { default } ]39reasonunclocked10
+TCK-001Warningcornerdefault1[ get_corners { default } ]40endpointxi_reg[3][0]/D1[ get_pin { xi_reg[3][0]/D } ]6modedefault1[ get_modes { default } ]39reasonunclocked10
+TCK-001Warningcornerdefault1[ get_corners { default } ]40endpointxi_reg[3][0]/RSTB1[ get_pin { xi_reg[3][0]/RSTB } ]6modedefault1[ get_modes { default } ]39reasonunclocked10
+TCK-001Warningcornerdefault1[ get_corners { default } ]40endpointxi_reg[1][0]/D1[ get_pin { xi_reg[1][0]/D } ]6modedefault1[ get_modes { default } ]39reasonunclocked10
+TCK-001Warningcornerdefault1[ get_corners { default } ]40endpointxi_reg[1][0]/RSTB1[ get_pin { xi_reg[1][0]/RSTB } ]6modedefault1[ get_modes { default } ]39reasonunclocked10
+TCK-001Warningcornerdefault1[ get_corners { default } ]40endpointxi_reg[6][0]/D1[ get_pin { xi_reg[6][0]/D } ]6modedefault1[ get_modes { default } ]39reasonunclocked10
+TCK-001Warningcornerdefault1[ get_corners { default } ]40endpointxi_reg[6][0]/RSTB1[ get_pin { xi_reg[6][0]/RSTB } ]6modedefault1[ get_modes { default } ]39reasonunclocked10
+TCK-001Warningcornerdefault1[ get_corners { default } ]40endpointxi_reg[4][0]/D1[ get_pin { xi_reg[4][0]/D } ]6modedefault1[ get_modes { default } ]39reasonunclocked10
+TCK-001Warningcornerdefault1[ get_corners { default } ]40endpointxi_reg[4][0]/RSTB1[ get_pin { xi_reg[4][0]/RSTB } ]6modedefault1[ get_modes { default } ]39reasonunclocked10
+TCK-001Warningcornerdefault1[ get_corners { default } ]40endpointxi_reg[2][0]/D1[ get_pin { xi_reg[2][0]/D } ]6modedefault1[ get_modes { default } ]39reasonunclocked10
+TCK-001Warningcornerdefault1[ get_corners { default } ]40endpointxi_reg[2][0]/RSTB1[ get_pin { xi_reg[2][0]/RSTB } ]6modedefault1[ get_modes { default } ]39reasonunclocked10
+TCK-001Warningcornerdefault1[ get_corners { default } ]40endpointxi_reg[0][0]/D1[ get_pin { xi_reg[0][0]/D } ]6modedefault1[ get_modes { default } ]39reasonunclocked10
+TCK-001Warningcornerdefault1[ get_corners { default } ]40endpointxi_reg[0][0]/RSTB1[ get_pin { xi_reg[0][0]/RSTB } ]6modedefault1[ get_modes { default } ]39reasonunclocked10
+TCK-001Warningcornerdefault1[ get_corners { default } ]40endpointrx_shift_reg[0]/D1[ get_pin { rx_shift_reg[0]/D } ]6modedefault1[ get_modes { default } ]39reasonunclocked10
+TCK-001Warningcornerdefault1[ get_corners { default } ]40endpointrx_shift_reg[0]/RSTB1[ get_pin { rx_shift_reg[0]/RSTB } ]6modedefault1[ get_modes { default } ]39reasonunclocked10
+TCK-001Warningcornerdefault1[ get_corners { default } ]40endpointrx_shift_reg[1]/D1[ get_pin { rx_shift_reg[1]/D } ]6modedefault1[ get_modes { default } ]39reasonunclocked10
+TCK-001Warningcornerdefault1[ get_corners { default } ]40endpointrx_shift_reg[1]/RSTB1[ get_pin { rx_shift_reg[1]/RSTB } ]6modedefault1[ get_modes { default } ]39reasonunclocked10
+TCK-001Warningcornerdefault1[ get_corners { default } ]40endpointrx_shift_reg[2]/D1[ get_pin { rx_shift_reg[2]/D } ]6modedefault1[ get_modes { default } ]39reasonunclocked10
+TCK-001Warningcornerdefault1[ get_corners { default } ]40endpointrx_shift_reg[2]/RSTB1[ get_pin { rx_shift_reg[2]/RSTB } ]6modedefault1[ get_modes { default } ]39reasonunclocked10
+TCK-001Warningcornerdefault1[ get_corners { default } ]40endpointrx_shift_reg[3]/D1[ get_pin { rx_shift_reg[3]/D } ]6modedefault1[ get_modes { default } ]39reasonunclocked10
+TCK-001Warningcornerdefault1[ get_corners { default } ]40endpointrx_shift_reg[3]/RSTB1[ get_pin { rx_shift_reg[3]/RSTB } ]6modedefault1[ get_modes { default } ]39reasonunclocked10
+TCK-001Warningcornerdefault1[ get_corners { default } ]40endpointrx_shift_reg[4]/D1[ get_pin { rx_shift_reg[4]/D } ]6modedefault1[ get_modes { default } ]39reasonunclocked10
+TCK-001Warningcornerdefault1[ get_corners { default } ]40endpointrx_shift_reg[4]/RSTB1[ get_pin { rx_shift_reg[4]/RSTB } ]6modedefault1[ get_modes { default } ]39reasonunclocked10
+TCK-001Warningcornerdefault1[ get_corners { default } ]40endpointrx_shift_reg[5]/D1[ get_pin { rx_shift_reg[5]/D } ]6modedefault1[ get_modes { default } ]39reasonunclocked10
+TCK-001Warningcornerdefault1[ get_corners { default } ]40endpointrx_shift_reg[5]/RSTB1[ get_pin { rx_shift_reg[5]/RSTB } ]6modedefault1[ get_modes { default } ]39reasonunclocked10
+TCK-001Warningcornerdefault1[ get_corners { default } ]40endpointrx_shift_reg[6]/D1[ get_pin { rx_shift_reg[6]/D } ]6modedefault1[ get_modes { default } ]39reasonunclocked10
+TCK-001Warningcornerdefault1[ get_corners { default } ]40endpointrx_shift_reg[6]/RSTB1[ get_pin { rx_shift_reg[6]/RSTB } ]6modedefault1[ get_modes { default } ]39reasonunclocked10
+TCK-001Warningcornerdefault1[ get_corners { default } ]40endpointrx_shift_reg[7]/D1[ get_pin { rx_shift_reg[7]/D } ]6modedefault1[ get_modes { default } ]39reasonunclocked10
+TCK-001Warningcornerdefault1[ get_corners { default } ]40endpointrx_shift_reg[7]/RSTB1[ get_pin { rx_shift_reg[7]/RSTB } ]6modedefault1[ get_modes { default } ]39reasonunclocked10
+TCK-001Warningcornerdefault1[ get_corners { default } ]40endpointrx_shift_reg[8]/D1[ get_pin { rx_shift_reg[8]/D } ]6modedefault1[ get_modes { default } ]39reasonunclocked10
+TCK-001Warningcornerdefault1[ get_corners { default } ]40endpointrx_shift_reg[8]/RSTB1[ get_pin { rx_shift_reg[8]/RSTB } ]6modedefault1[ get_modes { default } ]39reasonunclocked10
+TCK-001Warningcornerdefault1[ get_corners { default } ]40endpointrx_shift_reg[9]/D1[ get_pin { rx_shift_reg[9]/D } ]6modedefault1[ get_modes { default } ]39reasonunclocked10
+TCK-001Warningcornerdefault1[ get_corners { default } ]40endpointrx_shift_reg[9]/RSTB1[ get_pin { rx_shift_reg[9]/RSTB } ]6modedefault1[ get_modes { default } ]39reasonunclocked10
+TCK-001Warningcornerdefault1[ get_corners { default } ]40endpointrx_shift_reg[10]/D1[ get_pin { rx_shift_reg[10]/D } ]6modedefault1[ get_modes { default } ]39reasonunclocked10
+TCK-001Warningcornerdefault1[ get_corners { default } ]40endpointrx_shift_reg[10]/RSTB1[ get_pin { rx_shift_reg[10]/RSTB } ]6modedefault1[ get_modes { default } ]39reasonunclocked10
+TCK-001Warningcornerdefault1[ get_corners { default } ]40endpointrx_shift_reg[11]/D1[ get_pin { rx_shift_reg[11]/D } ]6modedefault1[ get_modes { default } ]39reasonunclocked10
+TCK-001Warningcornerdefault1[ get_corners { default } ]40endpointrx_shift_reg[11]/RSTB1[ get_pin { rx_shift_reg[11]/RSTB } ]6modedefault1[ get_modes { default } ]39reasonunclocked10
+TCK-001Warningcornerdefault1[ get_corners { default } ]40endpointrx_shift_reg[12]/D1[ get_pin { rx_shift_reg[12]/D } ]6modedefault1[ get_modes { default } ]39reasonunclocked10
+TCK-001Warningcornerdefault1[ get_corners { default } ]40endpointrx_shift_reg[12]/RSTB1[ get_pin { rx_shift_reg[12]/RSTB } ]6modedefault1[ get_modes { default } ]39reasonunclocked10
+TCK-001Warningcornerdefault1[ get_corners { default } ]40endpointrx_shift_reg[13]/D1[ get_pin { rx_shift_reg[13]/D } ]6modedefault1[ get_modes { default } ]39reasonunclocked10
+TCK-001Warningcornerdefault1[ get_corners { default } ]40endpointrx_shift_reg[13]/RSTB1[ get_pin { rx_shift_reg[13]/RSTB } ]6modedefault1[ get_modes { default } ]39reasonunclocked10
+TCK-001Warningcornerdefault1[ get_corners { default } ]40endpointrx_shift_reg[14]/D1[ get_pin { rx_shift_reg[14]/D } ]6modedefault1[ get_modes { default } ]39reasonunclocked10
+TCK-001Warningcornerdefault1[ get_corners { default } ]40endpointrx_shift_reg[14]/RSTB1[ get_pin { rx_shift_reg[14]/RSTB } ]6modedefault1[ get_modes { default } ]39reasonunclocked10
+TCK-001Warningcornerdefault1[ get_corners { default } ]40endpointrx_shift_reg[15]/D1[ get_pin { rx_shift_reg[15]/D } ]6modedefault1[ get_modes { default } ]39reasonunclocked10
+TCK-001Warningcornerdefault1[ get_corners { default } ]40endpointrx_shift_reg[15]/RSTB1[ get_pin { rx_shift_reg[15]/RSTB } ]6modedefault1[ get_modes { default } ]39reasonunclocked10
+TCK-001Warningcornerdefault1[ get_corners { default } ]40endpointrx_shift_reg[16]/D1[ get_pin { rx_shift_reg[16]/D } ]6modedefault1[ get_modes { default } ]39reasonunclocked10
+TCK-001Warningcornerdefault1[ get_corners { default } ]40endpointrx_shift_reg[16]/RSTB1[ get_pin { rx_shift_reg[16]/RSTB } ]6modedefault1[ get_modes { default } ]39reasonunclocked10
+TCK-001Warningcornerdefault1[ get_corners { default } ]40endpointrx_shift_reg[17]/D1[ get_pin { rx_shift_reg[17]/D } ]6modedefault1[ get_modes { default } ]39reasonunclocked10
+TCK-001Warningcornerdefault1[ get_corners { default } ]40endpointrx_shift_reg[17]/RSTB1[ get_pin { rx_shift_reg[17]/RSTB } ]6modedefault1[ get_modes { default } ]39reasonunclocked10
+TCK-001Warningcornerdefault1[ get_corners { default } ]40endpointrx_shift_reg[18]/D1[ get_pin { rx_shift_reg[18]/D } ]6modedefault1[ get_modes { default } ]39reasonunclocked10
+TCK-001Warningcornerdefault1[ get_corners { default } ]40endpointrx_shift_reg[18]/RSTB1[ get_pin { rx_shift_reg[18]/RSTB } ]6modedefault1[ get_modes { default } ]39reasonunclocked10
+TCK-001Warningcornerdefault1[ get_corners { default } ]40endpointrx_shift_reg[19]/D1[ get_pin { rx_shift_reg[19]/D } ]6modedefault1[ get_modes { default } ]39reasonunclocked10
+TCK-001Warningcornerdefault1[ get_corners { default } ]40endpointrx_shift_reg[19]/RSTB1[ get_pin { rx_shift_reg[19]/RSTB } ]6modedefault1[ get_modes { default } ]39reasonunclocked10
+TCK-001Warningcornerdefault1[ get_corners { default } ]40endpointrx_shift_reg[20]/D1[ get_pin { rx_shift_reg[20]/D } ]6modedefault1[ get_modes { default } ]39reasonunclocked10
+TCK-001Warningcornerdefault1[ get_corners { default } ]40endpointrx_shift_reg[20]/RSTB1[ get_pin { rx_shift_reg[20]/RSTB } ]6modedefault1[ get_modes { default } ]39reasonunclocked10
+TCK-001Warningcornerdefault1[ get_corners { default } ]40endpointrx_shift_reg[21]/D1[ get_pin { rx_shift_reg[21]/D } ]6modedefault1[ get_modes { default } ]39reasonunclocked10
+TCK-001Warningcornerdefault1[ get_corners { default } ]40endpointrx_shift_reg[21]/RSTB1[ get_pin { rx_shift_reg[21]/RSTB } ]6modedefault1[ get_modes { default } ]39reasonunclocked10
+TCK-001Warningcornerdefault1[ get_corners { default } ]40endpointrx_shift_reg[22]/D1[ get_pin { rx_shift_reg[22]/D } ]6modedefault1[ get_modes { default } ]39reasonunclocked10
+TCK-001Warningcornerdefault1[ get_corners { default } ]40endpointrx_shift_reg[22]/RSTB1[ get_pin { rx_shift_reg[22]/RSTB } ]6modedefault1[ get_modes { default } ]39reasonunclocked10
+TCK-001Warningcornerdefault1[ get_corners { default } ]40endpointrx_shift_reg[23]/D1[ get_pin { rx_shift_reg[23]/D } ]6modedefault1[ get_modes { default } ]39reasonunclocked10
+TCK-001Warningcornerdefault1[ get_corners { default } ]40endpointrx_shift_reg[23]/RSTB1[ get_pin { rx_shift_reg[23]/RSTB } ]6modedefault1[ get_modes { default } ]39reasonunclocked10
+TCK-001Warningcornerdefault1[ get_corners { default } ]40endpointrx_shift_reg[24]/D1[ get_pin { rx_shift_reg[24]/D } ]6modedefault1[ get_modes { default } ]39reasonunclocked10
+TCK-001Warningcornerdefault1[ get_corners { default } ]40endpointrx_shift_reg[24]/RSTB1[ get_pin { rx_shift_reg[24]/RSTB } ]6modedefault1[ get_modes { default } ]39reasonunclocked10
+TCK-001Warningcornerdefault1[ get_corners { default } ]40endpointrx_shift_reg[25]/D1[ get_pin { rx_shift_reg[25]/D } ]6modedefault1[ get_modes { default } ]39reasonunclocked10
+TCK-001Warningcornerdefault1[ get_corners { default } ]40endpointrx_shift_reg[25]/RSTB1[ get_pin { rx_shift_reg[25]/RSTB } ]6modedefault1[ get_modes { default } ]39reasonunclocked10
+TCK-001Warningcornerdefault1[ get_corners { default } ]40endpointrx_shift_reg[26]/D1[ get_pin { rx_shift_reg[26]/D } ]6modedefault1[ get_modes { default } ]39reasonunclocked10
+TCK-001Warningcornerdefault1[ get_corners { default } ]40endpointrx_shift_reg[26]/RSTB1[ get_pin { rx_shift_reg[26]/RSTB } ]6modedefault1[ get_modes { default } ]39reasonunclocked10
+TCK-001Warningcornerdefault1[ get_corners { default } ]40endpointrx_shift_reg[27]/D1[ get_pin { rx_shift_reg[27]/D } ]6modedefault1[ get_modes { default } ]39reasonunclocked10
+TCK-001Warningcornerdefault1[ get_corners { default } ]40endpointrx_shift_reg[27]/RSTB1[ get_pin { rx_shift_reg[27]/RSTB } ]6modedefault1[ get_modes { default } ]39reasonunclocked10
+TCK-001Warningcornerdefault1[ get_corners { default } ]40endpointrx_shift_reg[28]/D1[ get_pin { rx_shift_reg[28]/D } ]6modedefault1[ get_modes { default } ]39reasonunclocked10
+TCK-001Warningcornerdefault1[ get_corners { default } ]40endpointrx_shift_reg[28]/RSTB1[ get_pin { rx_shift_reg[28]/RSTB } ]6modedefault1[ get_modes { default } ]39reasonunclocked10
+TCK-001Warningcornerdefault1[ get_corners { default } ]40endpointrx_shift_reg[29]/D1[ get_pin { rx_shift_reg[29]/D } ]6modedefault1[ get_modes { default } ]39reasonunclocked10
+TCK-001Warningcornerdefault1[ get_corners { default } ]40endpointrx_shift_reg[29]/RSTB1[ get_pin { rx_shift_reg[29]/RSTB } ]6modedefault1[ get_modes { default } ]39reasonunclocked10
+TCK-001Warningcornerdefault1[ get_corners { default } ]40endpointrx_shift_reg[30]/D1[ get_pin { rx_shift_reg[30]/D } ]6modedefault1[ get_modes { default } ]39reasonunclocked10
+TCK-001Warningcornerdefault1[ get_corners { default } ]40endpointrx_shift_reg[30]/RSTB1[ get_pin { rx_shift_reg[30]/RSTB } ]6modedefault1[ get_modes { default } ]39reasonunclocked10
+TCK-001Warningcornerdefault1[ get_corners { default } ]40endpointxr_reg[7][15]/D1[ get_pin { xr_reg[7][15]/D } ]6modedefault1[ get_modes { default } ]39reasonunclocked10
+TCK-001Warningcornerdefault1[ get_corners { default } ]40endpointxr_reg[7][15]/RSTB1[ get_pin { xr_reg[7][15]/RSTB } ]6modedefault1[ get_modes { default } ]39reasonunclocked10
+TCK-001Warningcornerdefault1[ get_corners { default } ]40endpointxr_reg[6][15]/D1[ get_pin { xr_reg[6][15]/D } ]6modedefault1[ get_modes { default } ]39reasonunclocked10
+TCK-001Warningcornerdefault1[ get_corners { default } ]40endpointxr_reg[6][15]/RSTB1[ get_pin { xr_reg[6][15]/RSTB } ]6modedefault1[ get_modes { default } ]39reasonunclocked10
+TCK-001Warningcornerdefault1[ get_corners { default } ]40endpointxr_reg[5][15]/D1[ get_pin { xr_reg[5][15]/D } ]6modedefault1[ get_modes { default } ]39reasonunclocked10
+TCK-001Warningcornerdefault1[ get_corners { default } ]40endpointxr_reg[5][15]/RSTB1[ get_pin { xr_reg[5][15]/RSTB } ]6modedefault1[ get_modes { default } ]39reasonunclocked10
+TCK-001Warningcornerdefault1[ get_corners { default } ]40endpointxr_reg[4][15]/D1[ get_pin { xr_reg[4][15]/D } ]6modedefault1[ get_modes { default } ]39reasonunclocked10
+TCK-001Warningcornerdefault1[ get_corners { default } ]40endpointxr_reg[4][15]/RSTB1[ get_pin { xr_reg[4][15]/RSTB } ]6modedefault1[ get_modes { default } ]39reasonunclocked10
+TCK-001Warningcornerdefault1[ get_corners { default } ]40endpointxr_reg[3][15]/D1[ get_pin { xr_reg[3][15]/D } ]6modedefault1[ get_modes { default } ]39reasonunclocked10
+TCK-001Warningcornerdefault1[ get_corners { default } ]40endpointxr_reg[3][15]/RSTB1[ get_pin { xr_reg[3][15]/RSTB } ]6modedefault1[ get_modes { default } ]39reasonunclocked10
+TCK-001Warningcornerdefault1[ get_corners { default } ]40endpointxr_reg[2][15]/D1[ get_pin { xr_reg[2][15]/D } ]6modedefault1[ get_modes { default } ]39reasonunclocked10
+TCK-001Warningcornerdefault1[ get_corners { default } ]40endpointxr_reg[2][15]/RSTB1[ get_pin { xr_reg[2][15]/RSTB } ]6modedefault1[ get_modes { default } ]39reasonunclocked10
+TCK-001Warningcornerdefault1[ get_corners { default } ]40endpointxr_reg[1][15]/D1[ get_pin { xr_reg[1][15]/D } ]6modedefault1[ get_modes { default } ]39reasonunclocked10
+TCK-001Warningcornerdefault1[ get_corners { default } ]40endpointxr_reg[1][15]/RSTB1[ get_pin { xr_reg[1][15]/RSTB } ]6modedefault1[ get_modes { default } ]39reasonunclocked10
+TCK-001Warningcornerdefault1[ get_corners { default } ]40endpointxr_reg[0][15]/D1[ get_pin { xr_reg[0][15]/D } ]6modedefault1[ get_modes { default } ]39reasonunclocked10
+TCK-001Warningcornerdefault1[ get_corners { default } ]40endpointxr_reg[0][15]/RSTB1[ get_pin { xr_reg[0][15]/RSTB } ]6modedefault1[ get_modes { default } ]39reasonunclocked10
+TCK-001Warningcornerdefault1[ get_corners { default } ]40endpointxr_reg[7][14]/D1[ get_pin { xr_reg[7][14]/D } ]6modedefault1[ get_modes { default } ]39reasonunclocked10
+TCK-001Warningcornerdefault1[ get_corners { default } ]40endpointxr_reg[7][14]/RSTB1[ get_pin { xr_reg[7][14]/RSTB } ]6modedefault1[ get_modes { default } ]39reasonunclocked10
+TCK-001Warningcornerdefault1[ get_corners { default } ]40endpointxr_reg[6][14]/D1[ get_pin { xr_reg[6][14]/D } ]6modedefault1[ get_modes { default } ]39reasonunclocked10
+TCK-001Warningcornerdefault1[ get_corners { default } ]40endpointxr_reg[6][14]/RSTB1[ get_pin { xr_reg[6][14]/RSTB } ]6modedefault1[ get_modes { default } ]39reasonunclocked10
+TCK-001Warningcornerdefault1[ get_corners { default } ]40endpointxr_reg[5][14]/D1[ get_pin { xr_reg[5][14]/D } ]6modedefault1[ get_modes { default } ]39reasonunclocked10
+TCK-001Warningcornerdefault1[ get_corners { default } ]40endpointxr_reg[5][14]/RSTB1[ get_pin { xr_reg[5][14]/RSTB } ]6modedefault1[ get_modes { default } ]39reasonunclocked10
+TCK-001Warningcornerdefault1[ get_corners { default } ]40endpointxr_reg[4][14]/D1[ get_pin { xr_reg[4][14]/D } ]6modedefault1[ get_modes { default } ]39reasonunclocked10
+TCK-001Warningcornerdefault1[ get_corners { default } ]40endpointxr_reg[4][14]/RSTB1[ get_pin { xr_reg[4][14]/RSTB } ]6modedefault1[ get_modes { default } ]39reasonunclocked10
+TCK-001Warningcornerdefault1[ get_corners { default } ]40endpointxr_reg[3][14]/D1[ get_pin { xr_reg[3][14]/D } ]6modedefault1[ get_modes { default } ]39reasonunclocked10
+TCK-001Warningcornerdefault1[ get_corners { default } ]40endpointxr_reg[3][14]/RSTB1[ get_pin { xr_reg[3][14]/RSTB } ]6modedefault1[ get_modes { default } ]39reasonunclocked10
+TCK-001Warningcornerdefault1[ get_corners { default } ]40endpointxr_reg[2][14]/D1[ get_pin { xr_reg[2][14]/D } ]6modedefault1[ get_modes { default } ]39reasonunclocked10
+TCK-001Warningcornerdefault1[ get_corners { default } ]40endpointxr_reg[2][14]/RSTB1[ get_pin { xr_reg[2][14]/RSTB } ]6modedefault1[ get_modes { default } ]39reasonunclocked10
+TCK-001Warningcornerdefault1[ get_corners { default } ]40endpointxr_reg[1][14]/D1[ get_pin { xr_reg[1][14]/D } ]6modedefault1[ get_modes { default } ]39reasonunclocked10
+TCK-001Warningcornerdefault1[ get_corners { default } ]40endpointxr_reg[1][14]/RSTB1[ get_pin { xr_reg[1][14]/RSTB } ]6modedefault1[ get_modes { default } ]39reasonunclocked10
+TCK-001Warningcornerdefault1[ get_corners { default } ]40endpointxr_reg[0][14]/D1[ get_pin { xr_reg[0][14]/D } ]6modedefault1[ get_modes { default } ]39reasonunclocked10
+TCK-001Warningcornerdefault1[ get_corners { default } ]40endpointxr_reg[0][14]/RSTB1[ get_pin { xr_reg[0][14]/RSTB } ]6modedefault1[ get_modes { default } ]39reasonunclocked10
+TCK-001Warningcornerdefault1[ get_corners { default } ]40endpointxr_reg[7][13]/D1[ get_pin { xr_reg[7][13]/D } ]6modedefault1[ get_modes { default } ]39reasonunclocked10
+TCK-001Warningcornerdefault1[ get_corners { default } ]40endpointxr_reg[7][13]/RSTB1[ get_pin { xr_reg[7][13]/RSTB } ]6modedefault1[ get_modes { default } ]39reasonunclocked10
+TCK-001Warningcornerdefault1[ get_corners { default } ]40endpointxr_reg[6][13]/D1[ get_pin { xr_reg[6][13]/D } ]6modedefault1[ get_modes { default } ]39reasonunclocked10
+TCK-001Warningcornerdefault1[ get_corners { default } ]40endpointxr_reg[6][13]/RSTB1[ get_pin { xr_reg[6][13]/RSTB } ]6modedefault1[ get_modes { default } ]39reasonunclocked10
+TCK-001Warningcornerdefault1[ get_corners { default } ]40endpointxr_reg[5][13]/D1[ get_pin { xr_reg[5][13]/D } ]6modedefault1[ get_modes { default } ]39reasonunclocked10
+TCK-001Warningcornerdefault1[ get_corners { default } ]40endpointxr_reg[5][13]/RSTB1[ get_pin { xr_reg[5][13]/RSTB } ]6modedefault1[ get_modes { default } ]39reasonunclocked10
+TCK-001Warningcornerdefault1[ get_corners { default } ]40endpointxr_reg[4][13]/D1[ get_pin { xr_reg[4][13]/D } ]6modedefault1[ get_modes { default } ]39reasonunclocked10
+TCK-001Warningcornerdefault1[ get_corners { default } ]40endpointxr_reg[4][13]/RSTB1[ get_pin { xr_reg[4][13]/RSTB } ]6modedefault1[ get_modes { default } ]39reasonunclocked10
+TCK-001Warningcornerdefault1[ get_corners { default } ]40endpointxr_reg[3][13]/D1[ get_pin { xr_reg[3][13]/D } ]6modedefault1[ get_modes { default } ]39reasonunclocked10
+TCK-001Warningcornerdefault1[ get_corners { default } ]40endpointxr_reg[3][13]/RSTB1[ get_pin { xr_reg[3][13]/RSTB } ]6modedefault1[ get_modes { default } ]39reasonunclocked10
+TCK-001Warningcornerdefault1[ get_corners { default } ]40endpointxr_reg[2][13]/D1[ get_pin { xr_reg[2][13]/D } ]6modedefault1[ get_modes { default } ]39reasonunclocked10
+TCK-001Warningcornerdefault1[ get_corners { default } ]40endpointxr_reg[2][13]/RSTB1[ get_pin { xr_reg[2][13]/RSTB } ]6modedefault1[ get_modes { default } ]39reasonunclocked10
+TCK-001Warningcornerdefault1[ get_corners { default } ]40endpointxr_reg[1][13]/D1[ get_pin { xr_reg[1][13]/D } ]6modedefault1[ get_modes { default } ]39reasonunclocked10
+TCK-001Warningcornerdefault1[ get_corners { default } ]40endpointxr_reg[1][13]/RSTB1[ get_pin { xr_reg[1][13]/RSTB } ]6modedefault1[ get_modes { default } ]39reasonunclocked10
+TCK-001Warningcornerdefault1[ get_corners { default } ]40endpointxr_reg[0][13]/D1[ get_pin { xr_reg[0][13]/D } ]6modedefault1[ get_modes { default } ]39reasonunclocked10
+TCK-001Warningcornerdefault1[ get_corners { default } ]40endpointxr_reg[0][13]/RSTB1[ get_pin { xr_reg[0][13]/RSTB } ]6modedefault1[ get_modes { default } ]39reasonunclocked10
+TCK-001Warningcornerdefault1[ get_corners { default } ]40endpointxr_reg[7][12]/D1[ get_pin { xr_reg[7][12]/D } ]6modedefault1[ get_modes { default } ]39reasonunclocked10
+TCK-001Warningcornerdefault1[ get_corners { default } ]40endpointxr_reg[7][12]/RSTB1[ get_pin { xr_reg[7][12]/RSTB } ]6modedefault1[ get_modes { default } ]39reasonunclocked10
+TCK-001Warningcornerdefault1[ get_corners { default } ]40endpointxr_reg[6][12]/D1[ get_pin { xr_reg[6][12]/D } ]6modedefault1[ get_modes { default } ]39reasonunclocked10
+TCK-001Warningcornerdefault1[ get_corners { default } ]40endpointxr_reg[6][12]/RSTB1[ get_pin { xr_reg[6][12]/RSTB } ]6modedefault1[ get_modes { default } ]39reasonunclocked10
+TCK-001Warningcornerdefault1[ get_corners { default } ]40endpointxr_reg[5][12]/D1[ get_pin { xr_reg[5][12]/D } ]6modedefault1[ get_modes { default } ]39reasonunclocked10
+TCK-001Warningcornerdefault1[ get_corners { default } ]40endpointxr_reg[5][12]/RSTB1[ get_pin { xr_reg[5][12]/RSTB } ]6modedefault1[ get_modes { default } ]39reasonunclocked10
+TCK-001Warningcornerdefault1[ get_corners { default } ]40endpointxr_reg[4][12]/D1[ get_pin { xr_reg[4][12]/D } ]6modedefault1[ get_modes { default } ]39reasonunclocked10
+TCK-001Warningcornerdefault1[ get_corners { default } ]40endpointxr_reg[4][12]/RSTB1[ get_pin { xr_reg[4][12]/RSTB } ]6modedefault1[ get_modes { default } ]39reasonunclocked10
+TCK-001Warningcornerdefault1[ get_corners { default } ]40endpointxr_reg[3][12]/D1[ get_pin { xr_reg[3][12]/D } ]6modedefault1[ get_modes { default } ]39reasonunclocked10
+TCK-001Warningcornerdefault1[ get_corners { default } ]40endpointxr_reg[3][12]/RSTB1[ get_pin { xr_reg[3][12]/RSTB } ]6modedefault1[ get_modes { default } ]39reasonunclocked10
+TCK-001Warningcornerdefault1[ get_corners { default } ]40endpointxr_reg[2][12]/D1[ get_pin { xr_reg[2][12]/D } ]6modedefault1[ get_modes { default } ]39reasonunclocked10
+TCK-001Warningcornerdefault1[ get_corners { default } ]40endpointxr_reg[2][12]/RSTB1[ get_pin { xr_reg[2][12]/RSTB } ]6modedefault1[ get_modes { default } ]39reasonunclocked10
+TCK-001Warningcornerdefault1[ get_corners { default } ]40endpointxr_reg[1][12]/D1[ get_pin { xr_reg[1][12]/D } ]6modedefault1[ get_modes { default } ]39reasonunclocked10
+TCK-001Warningcornerdefault1[ get_corners { default } ]40endpointxr_reg[1][12]/RSTB1[ get_pin { xr_reg[1][12]/RSTB } ]6modedefault1[ get_modes { default } ]39reasonunclocked10
+TCK-001Warningcornerdefault1[ get_corners { default } ]40endpointxr_reg[0][12]/D1[ get_pin { xr_reg[0][12]/D } ]6modedefault1[ get_modes { default } ]39reasonunclocked10
+TCK-001Warningcornerdefault1[ get_corners { default } ]40endpointxr_reg[0][12]/RSTB1[ get_pin { xr_reg[0][12]/RSTB } ]6modedefault1[ get_modes { default } ]39reasonunclocked10
+TCK-001Warningcornerdefault1[ get_corners { default } ]40endpointxr_reg[7][11]/D1[ get_pin { xr_reg[7][11]/D } ]6modedefault1[ get_modes { default } ]39reasonunclocked10
+TCK-001Warningcornerdefault1[ get_corners { default } ]40endpointxr_reg[7][11]/RSTB1[ get_pin { xr_reg[7][11]/RSTB } ]6modedefault1[ get_modes { default } ]39reasonunclocked10
+TCK-001Warningcornerdefault1[ get_corners { default } ]40endpointxr_reg[6][11]/D1[ get_pin { xr_reg[6][11]/D } ]6modedefault1[ get_modes { default } ]39reasonunclocked10
+TCK-001Warningcornerdefault1[ get_corners { default } ]40endpointxr_reg[6][11]/RSTB1[ get_pin { xr_reg[6][11]/RSTB } ]6modedefault1[ get_modes { default } ]39reasonunclocked10
+TCK-001Warningcornerdefault1[ get_corners { default } ]40endpointxr_reg[5][11]/D1[ get_pin { xr_reg[5][11]/D } ]6modedefault1[ get_modes { default } ]39reasonunclocked10
+TCK-001Warningcornerdefault1[ get_corners { default } ]40endpointxr_reg[5][11]/RSTB1[ get_pin { xr_reg[5][11]/RSTB } ]6modedefault1[ get_modes { default } ]39reasonunclocked10
+TCK-001Warningcornerdefault1[ get_corners { default } ]40endpointxr_reg[4][11]/D1[ get_pin { xr_reg[4][11]/D } ]6modedefault1[ get_modes { default } ]39reasonunclocked10
+TCK-001Warningcornerdefault1[ get_corners { default } ]40endpointxr_reg[4][11]/RSTB1[ get_pin { xr_reg[4][11]/RSTB } ]6modedefault1[ get_modes { default } ]39reasonunclocked10
+TCK-001Warningcornerdefault1[ get_corners { default } ]40endpointxr_reg[3][11]/D1[ get_pin { xr_reg[3][11]/D } ]6modedefault1[ get_modes { default } ]39reasonunclocked10
+TCK-001Warningcornerdefault1[ get_corners { default } ]40endpointxr_reg[3][11]/RSTB1[ get_pin { xr_reg[3][11]/RSTB } ]6modedefault1[ get_modes { default } ]39reasonunclocked10
+TCK-001Warningcornerdefault1[ get_corners { default } ]40endpointxr_reg[2][11]/D1[ get_pin { xr_reg[2][11]/D } ]6modedefault1[ get_modes { default } ]39reasonunclocked10
+TCK-001Warningcornerdefault1[ get_corners { default } ]40endpointxr_reg[2][11]/RSTB1[ get_pin { xr_reg[2][11]/RSTB } ]6modedefault1[ get_modes { default } ]39reasonunclocked10
+TCK-001Warningcornerdefault1[ get_corners { default } ]40endpointxr_reg[1][11]/D1[ get_pin { xr_reg[1][11]/D } ]6modedefault1[ get_modes { default } ]39reasonunclocked10
+TCK-001Warningcornerdefault1[ get_corners { default } ]40endpointxr_reg[1][11]/RSTB1[ get_pin { xr_reg[1][11]/RSTB } ]6modedefault1[ get_modes { default } ]39reasonunclocked10
+TCK-001Warningcornerdefault1[ get_corners { default } ]40endpointxr_reg[0][11]/D1[ get_pin { xr_reg[0][11]/D } ]6modedefault1[ get_modes { default } ]39reasonunclocked10
+TCK-001Warningcornerdefault1[ get_corners { default } ]40endpointxr_reg[0][11]/RSTB1[ get_pin { xr_reg[0][11]/RSTB } ]6modedefault1[ get_modes { default } ]39reasonunclocked10
+TCK-001Warningcornerdefault1[ get_corners { default } ]40endpointxr_reg[7][10]/D1[ get_pin { xr_reg[7][10]/D } ]6modedefault1[ get_modes { default } ]39reasonunclocked10
+TCK-001Warningcornerdefault1[ get_corners { default } ]40endpointxr_reg[7][10]/RSTB1[ get_pin { xr_reg[7][10]/RSTB } ]6modedefault1[ get_modes { default } ]39reasonunclocked10
+TCK-001Warningcornerdefault1[ get_corners { default } ]40endpointxr_reg[6][10]/D1[ get_pin { xr_reg[6][10]/D } ]6modedefault1[ get_modes { default } ]39reasonunclocked10
+TCK-001Warningcornerdefault1[ get_corners { default } ]40endpointxr_reg[6][10]/RSTB1[ get_pin { xr_reg[6][10]/RSTB } ]6modedefault1[ get_modes { default } ]39reasonunclocked10
+TCK-001Warningcornerdefault1[ get_corners { default } ]40endpointxr_reg[5][10]/D1[ get_pin { xr_reg[5][10]/D } ]6modedefault1[ get_modes { default } ]39reasonunclocked10
+TCK-001Warningcornerdefault1[ get_corners { default } ]40endpointxr_reg[5][10]/RSTB1[ get_pin { xr_reg[5][10]/RSTB } ]6modedefault1[ get_modes { default } ]39reasonunclocked10
+TCK-001Warningcornerdefault1[ get_corners { default } ]40endpointxr_reg[4][10]/D1[ get_pin { xr_reg[4][10]/D } ]6modedefault1[ get_modes { default } ]39reasonunclocked10
+TCK-001Warningcornerdefault1[ get_corners { default } ]40endpointxr_reg[4][10]/RSTB1[ get_pin { xr_reg[4][10]/RSTB } ]6modedefault1[ get_modes { default } ]39reasonunclocked10
+TCK-001Warningcornerdefault1[ get_corners { default } ]40endpointxr_reg[3][10]/D1[ get_pin { xr_reg[3][10]/D } ]6modedefault1[ get_modes { default } ]39reasonunclocked10
+TCK-001Warningcornerdefault1[ get_corners { default } ]40endpointxr_reg[3][10]/RSTB1[ get_pin { xr_reg[3][10]/RSTB } ]6modedefault1[ get_modes { default } ]39reasonunclocked10
+TCK-001Warningcornerdefault1[ get_corners { default } ]40endpointxr_reg[2][10]/D1[ get_pin { xr_reg[2][10]/D } ]6modedefault1[ get_modes { default } ]39reasonunclocked10
+TCK-001Warningcornerdefault1[ get_corners { default } ]40endpointxr_reg[2][10]/RSTB1[ get_pin { xr_reg[2][10]/RSTB } ]6modedefault1[ get_modes { default } ]39reasonunclocked10
+TCK-001Warningcornerdefault1[ get_corners { default } ]40endpointxr_reg[1][10]/D1[ get_pin { xr_reg[1][10]/D } ]6modedefault1[ get_modes { default } ]39reasonunclocked10
+TCK-001Warningcornerdefault1[ get_corners { default } ]40endpointxr_reg[1][10]/RSTB1[ get_pin { xr_reg[1][10]/RSTB } ]6modedefault1[ get_modes { default } ]39reasonunclocked10
+TCK-001Warningcornerdefault1[ get_corners { default } ]40endpointxr_reg[0][10]/D1[ get_pin { xr_reg[0][10]/D } ]6modedefault1[ get_modes { default } ]39reasonunclocked10
+TCK-001Warningcornerdefault1[ get_corners { default } ]40endpointxr_reg[0][10]/RSTB1[ get_pin { xr_reg[0][10]/RSTB } ]6modedefault1[ get_modes { default } ]39reasonunclocked10
+TCK-001Warningcornerdefault1[ get_corners { default } ]40endpointxr_reg[7][9]/D1[ get_pin { xr_reg[7][9]/D } ]6modedefault1[ get_modes { default } ]39reasonunclocked10
+TCK-001Warningcornerdefault1[ get_corners { default } ]40endpointxr_reg[7][9]/RSTB1[ get_pin { xr_reg[7][9]/RSTB } ]6modedefault1[ get_modes { default } ]39reasonunclocked10
+TCK-001Warningcornerdefault1[ get_corners { default } ]40endpointxr_reg[6][9]/D1[ get_pin { xr_reg[6][9]/D } ]6modedefault1[ get_modes { default } ]39reasonunclocked10
+TCK-001Warningcornerdefault1[ get_corners { default } ]40endpointxr_reg[6][9]/RSTB1[ get_pin { xr_reg[6][9]/RSTB } ]6modedefault1[ get_modes { default } ]39reasonunclocked10
+TCK-001Warningcornerdefault1[ get_corners { default } ]40endpointxr_reg[5][9]/D1[ get_pin { xr_reg[5][9]/D } ]6modedefault1[ get_modes { default } ]39reasonunclocked10
+TCK-001Warningcornerdefault1[ get_corners { default } ]40endpointxr_reg[5][9]/RSTB1[ get_pin { xr_reg[5][9]/RSTB } ]6modedefault1[ get_modes { default } ]39reasonunclocked10
+TCK-001Warningcornerdefault1[ get_corners { default } ]40endpointxr_reg[4][9]/D1[ get_pin { xr_reg[4][9]/D } ]6modedefault1[ get_modes { default } ]39reasonunclocked10
+TCK-001Warningcornerdefault1[ get_corners { default } ]40endpointxr_reg[4][9]/RSTB1[ get_pin { xr_reg[4][9]/RSTB } ]6modedefault1[ get_modes { default } ]39reasonunclocked10
+TCK-001Warningcornerdefault1[ get_corners { default } ]40endpointxr_reg[3][9]/D1[ get_pin { xr_reg[3][9]/D } ]6modedefault1[ get_modes { default } ]39reasonunclocked10
+TCK-001Warningcornerdefault1[ get_corners { default } ]40endpointxr_reg[3][9]/RSTB1[ get_pin { xr_reg[3][9]/RSTB } ]6modedefault1[ get_modes { default } ]39reasonunclocked10
+TCK-001Warningcornerdefault1[ get_corners { default } ]40endpointxr_reg[2][9]/D1[ get_pin { xr_reg[2][9]/D } ]6modedefault1[ get_modes { default } ]39reasonunclocked10
+TCK-001Warningcornerdefault1[ get_corners { default } ]40endpointxr_reg[2][9]/RSTB1[ get_pin { xr_reg[2][9]/RSTB } ]6modedefault1[ get_modes { default } ]39reasonunclocked10
+TCK-001Warningcornerdefault1[ get_corners { default } ]40endpointxr_reg[1][9]/D1[ get_pin { xr_reg[1][9]/D } ]6modedefault1[ get_modes { default } ]39reasonunclocked10
+TCK-001Warningcornerdefault1[ get_corners { default } ]40endpointxr_reg[1][9]/RSTB1[ get_pin { xr_reg[1][9]/RSTB } ]6modedefault1[ get_modes { default } ]39reasonunclocked10
+TCK-001Warningcornerdefault1[ get_corners { default } ]40endpointxr_reg[0][9]/D1[ get_pin { xr_reg[0][9]/D } ]6modedefault1[ get_modes { default } ]39reasonunclocked10
+TCK-001Warningcornerdefault1[ get_corners { default } ]40endpointxr_reg[0][9]/RSTB1[ get_pin { xr_reg[0][9]/RSTB } ]6modedefault1[ get_modes { default } ]39reasonunclocked10
+TCK-001Warningcornerdefault1[ get_corners { default } ]40endpointxr_reg[7][8]/D1[ get_pin { xr_reg[7][8]/D } ]6modedefault1[ get_modes { default } ]39reasonunclocked10
+TCK-001Warningcornerdefault1[ get_corners { default } ]40endpointxr_reg[7][8]/RSTB1[ get_pin { xr_reg[7][8]/RSTB } ]6modedefault1[ get_modes { default } ]39reasonunclocked10
+TCK-001Warningcornerdefault1[ get_corners { default } ]40endpointxr_reg[6][8]/D1[ get_pin { xr_reg[6][8]/D } ]6modedefault1[ get_modes { default } ]39reasonunclocked10
+TCK-001Warningcornerdefault1[ get_corners { default } ]40endpointxr_reg[6][8]/RSTB1[ get_pin { xr_reg[6][8]/RSTB } ]6modedefault1[ get_modes { default } ]39reasonunclocked10
+TCK-001Warningcornerdefault1[ get_corners { default } ]40endpointxr_reg[5][8]/D1[ get_pin { xr_reg[5][8]/D } ]6modedefault1[ get_modes { default } ]39reasonunclocked10
+TCK-001Warningcornerdefault1[ get_corners { default } ]40endpointxr_reg[5][8]/RSTB1[ get_pin { xr_reg[5][8]/RSTB } ]6modedefault1[ get_modes { default } ]39reasonunclocked10
+TCK-001Warningcornerdefault1[ get_corners { default } ]40endpointxr_reg[4][8]/D1[ get_pin { xr_reg[4][8]/D } ]6modedefault1[ get_modes { default } ]39reasonunclocked10
+TCK-001Warningcornerdefault1[ get_corners { default } ]40endpointxr_reg[4][8]/RSTB1[ get_pin { xr_reg[4][8]/RSTB } ]6modedefault1[ get_modes { default } ]39reasonunclocked10
+TCK-001Warningcornerdefault1[ get_corners { default } ]40endpointxr_reg[3][8]/D1[ get_pin { xr_reg[3][8]/D } ]6modedefault1[ get_modes { default } ]39reasonunclocked10
+TCK-001Warningcornerdefault1[ get_corners { default } ]40endpointxr_reg[3][8]/RSTB1[ get_pin { xr_reg[3][8]/RSTB } ]6modedefault1[ get_modes { default } ]39reasonunclocked10
+TCK-001Warningcornerdefault1[ get_corners { default } ]40endpointxr_reg[2][8]/D1[ get_pin { xr_reg[2][8]/D } ]6modedefault1[ get_modes { default } ]39reasonunclocked10
+TCK-001Warningcornerdefault1[ get_corners { default } ]40endpointxr_reg[2][8]/RSTB1[ get_pin { xr_reg[2][8]/RSTB } ]6modedefault1[ get_modes { default } ]39reasonunclocked10
+TCK-001Warningcornerdefault1[ get_corners { default } ]40endpointxr_reg[1][8]/D1[ get_pin { xr_reg[1][8]/D } ]6modedefault1[ get_modes { default } ]39reasonunclocked10
+TCK-001Warningcornerdefault1[ get_corners { default } ]40endpointxr_reg[1][8]/RSTB1[ get_pin { xr_reg[1][8]/RSTB } ]6modedefault1[ get_modes { default } ]39reasonunclocked10
+TCK-001Warningcornerdefault1[ get_corners { default } ]40endpointxr_reg[0][8]/D1[ get_pin { xr_reg[0][8]/D } ]6modedefault1[ get_modes { default } ]39reasonunclocked10
+TCK-001Warningcornerdefault1[ get_corners { default } ]40endpointxr_reg[0][8]/RSTB1[ get_pin { xr_reg[0][8]/RSTB } ]6modedefault1[ get_modes { default } ]39reasonunclocked10
+TCK-001Warningcornerdefault1[ get_corners { default } ]40endpointxr_reg[7][7]/D1[ get_pin { xr_reg[7][7]/D } ]6modedefault1[ get_modes { default } ]39reasonunclocked10
+TCK-001Warningcornerdefault1[ get_corners { default } ]40endpointxr_reg[7][7]/RSTB1[ get_pin { xr_reg[7][7]/RSTB } ]6modedefault1[ get_modes { default } ]39reasonunclocked10
+TCK-001Warningcornerdefault1[ get_corners { default } ]40endpointxr_reg[6][7]/D1[ get_pin { xr_reg[6][7]/D } ]6modedefault1[ get_modes { default } ]39reasonunclocked10
+TCK-001Warningcornerdefault1[ get_corners { default } ]40endpointxr_reg[6][7]/RSTB1[ get_pin { xr_reg[6][7]/RSTB } ]6modedefault1[ get_modes { default } ]39reasonunclocked10
+TCK-001Warningcornerdefault1[ get_corners { default } ]40endpointxr_reg[5][7]/D1[ get_pin { xr_reg[5][7]/D } ]6modedefault1[ get_modes { default } ]39reasonunclocked10
+TCK-001Warningcornerdefault1[ get_corners { default } ]40endpointxr_reg[5][7]/RSTB1[ get_pin { xr_reg[5][7]/RSTB } ]6modedefault1[ get_modes { default } ]39reasonunclocked10
+TCK-001Warningcornerdefault1[ get_corners { default } ]40endpointxr_reg[4][7]/D1[ get_pin { xr_reg[4][7]/D } ]6modedefault1[ get_modes { default } ]39reasonunclocked10
+TCK-001Warningcornerdefault1[ get_corners { default } ]40endpointxr_reg[4][7]/RSTB1[ get_pin { xr_reg[4][7]/RSTB } ]6modedefault1[ get_modes { default } ]39reasonunclocked10
+TCK-001Warningcornerdefault1[ get_corners { default } ]40endpointxr_reg[3][7]/D1[ get_pin { xr_reg[3][7]/D } ]6modedefault1[ get_modes { default } ]39reasonunclocked10
+TCK-001Warningcornerdefault1[ get_corners { default } ]40endpointxr_reg[3][7]/RSTB1[ get_pin { xr_reg[3][7]/RSTB } ]6modedefault1[ get_modes { default } ]39reasonunclocked10
+TCK-001Warningcornerdefault1[ get_corners { default } ]40endpointxr_reg[2][7]/D1[ get_pin { xr_reg[2][7]/D } ]6modedefault1[ get_modes { default } ]39reasonunclocked10
+TCK-001Warningcornerdefault1[ get_corners { default } ]40endpointxr_reg[2][7]/RSTB1[ get_pin { xr_reg[2][7]/RSTB } ]6modedefault1[ get_modes { default } ]39reasonunclocked10
+TCK-001Warningcornerdefault1[ get_corners { default } ]40endpointxr_reg[1][7]/D1[ get_pin { xr_reg[1][7]/D } ]6modedefault1[ get_modes { default } ]39reasonunclocked10
+TCK-001Warningcornerdefault1[ get_corners { default } ]40endpointxr_reg[1][7]/RSTB1[ get_pin { xr_reg[1][7]/RSTB } ]6modedefault1[ get_modes { default } ]39reasonunclocked10
+TCK-001Warningcornerdefault1[ get_corners { default } ]40endpointxr_reg[0][7]/D1[ get_pin { xr_reg[0][7]/D } ]6modedefault1[ get_modes { default } ]39reasonunclocked10
+TCK-001Warningcornerdefault1[ get_corners { default } ]40endpointxr_reg[0][7]/RSTB1[ get_pin { xr_reg[0][7]/RSTB } ]6modedefault1[ get_modes { default } ]39reasonunclocked10
+TCK-001Warningcornerdefault1[ get_corners { default } ]40endpointxr_reg[7][6]/D1[ get_pin { xr_reg[7][6]/D } ]6modedefault1[ get_modes { default } ]39reasonunclocked10
+TCK-001Warningcornerdefault1[ get_corners { default } ]40endpointxr_reg[7][6]/RSTB1[ get_pin { xr_reg[7][6]/RSTB } ]6modedefault1[ get_modes { default } ]39reasonunclocked10
+TCK-001Warningcornerdefault1[ get_corners { default } ]40endpointxr_reg[6][6]/D1[ get_pin { xr_reg[6][6]/D } ]6modedefault1[ get_modes { default } ]39reasonunclocked10
+TCK-001Warningcornerdefault1[ get_corners { default } ]40endpointxr_reg[6][6]/RSTB1[ get_pin { xr_reg[6][6]/RSTB } ]6modedefault1[ get_modes { default } ]39reasonunclocked10
+TCK-001Warningcornerdefault1[ get_corners { default } ]40endpointxr_reg[5][6]/D1[ get_pin { xr_reg[5][6]/D } ]6modedefault1[ get_modes { default } ]39reasonunclocked10
+TCK-001Warningcornerdefault1[ get_corners { default } ]40endpointxr_reg[5][6]/RSTB1[ get_pin { xr_reg[5][6]/RSTB } ]6modedefault1[ get_modes { default } ]39reasonunclocked10
+TCK-001Warningcornerdefault1[ get_corners { default } ]40endpointxr_reg[4][6]/D1[ get_pin { xr_reg[4][6]/D } ]6modedefault1[ get_modes { default } ]39reasonunclocked10
+TCK-001Warningcornerdefault1[ get_corners { default } ]40endpointxr_reg[4][6]/RSTB1[ get_pin { xr_reg[4][6]/RSTB } ]6modedefault1[ get_modes { default } ]39reasonunclocked10
+TCK-001Warningcornerdefault1[ get_corners { default } ]40endpointxr_reg[3][6]/D1[ get_pin { xr_reg[3][6]/D } ]6modedefault1[ get_modes { default } ]39reasonunclocked10
+TCK-001Warningcornerdefault1[ get_corners { default } ]40endpointxr_reg[3][6]/RSTB1[ get_pin { xr_reg[3][6]/RSTB } ]6modedefault1[ get_modes { default } ]39reasonunclocked10
+TCK-001Warningcornerdefault1[ get_corners { default } ]40endpointxr_reg[2][6]/D1[ get_pin { xr_reg[2][6]/D } ]6modedefault1[ get_modes { default } ]39reasonunclocked10
+TCK-001Warningcornerdefault1[ get_corners { default } ]40endpointxr_reg[2][6]/RSTB1[ get_pin { xr_reg[2][6]/RSTB } ]6modedefault1[ get_modes { default } ]39reasonunclocked10
+TCK-001Warningcornerdefault1[ get_corners { default } ]40endpointxr_reg[1][6]/D1[ get_pin { xr_reg[1][6]/D } ]6modedefault1[ get_modes { default } ]39reasonunclocked10
+TCK-001Warningcornerdefault1[ get_corners { default } ]40endpointxr_reg[1][6]/RSTB1[ get_pin { xr_reg[1][6]/RSTB } ]6modedefault1[ get_modes { default } ]39reasonunclocked10
+TCK-001Warningcornerdefault1[ get_corners { default } ]40endpointxr_reg[0][6]/D1[ get_pin { xr_reg[0][6]/D } ]6modedefault1[ get_modes { default } ]39reasonunclocked10
+TCK-001Warningcornerdefault1[ get_corners { default } ]40endpointxr_reg[0][6]/RSTB1[ get_pin { xr_reg[0][6]/RSTB } ]6modedefault1[ get_modes { default } ]39reasonunclocked10
+TCK-001Warningcornerdefault1[ get_corners { default } ]40endpointxr_reg[7][5]/D1[ get_pin { xr_reg[7][5]/D } ]6modedefault1[ get_modes { default } ]39reasonunclocked10
+TCK-001Warningcornerdefault1[ get_corners { default } ]40endpointxr_reg[7][5]/RSTB1[ get_pin { xr_reg[7][5]/RSTB } ]6modedefault1[ get_modes { default } ]39reasonunclocked10
+TCK-001Warningcornerdefault1[ get_corners { default } ]40endpointxr_reg[6][5]/D1[ get_pin { xr_reg[6][5]/D } ]6modedefault1[ get_modes { default } ]39reasonunclocked10
+TCK-001Warningcornerdefault1[ get_corners { default } ]40endpointxr_reg[6][5]/RSTB1[ get_pin { xr_reg[6][5]/RSTB } ]6modedefault1[ get_modes { default } ]39reasonunclocked10
+TCK-001Warningcornerdefault1[ get_corners { default } ]40endpointxr_reg[5][5]/D1[ get_pin { xr_reg[5][5]/D } ]6modedefault1[ get_modes { default } ]39reasonunclocked10
+TCK-001Warningcornerdefault1[ get_corners { default } ]40endpointxr_reg[5][5]/RSTB1[ get_pin { xr_reg[5][5]/RSTB } ]6modedefault1[ get_modes { default } ]39reasonunclocked10
+TCK-001Warningcornerdefault1[ get_corners { default } ]40endpointxr_reg[4][5]/D1[ get_pin { xr_reg[4][5]/D } ]6modedefault1[ get_modes { default } ]39reasonunclocked10
+TCK-001Warningcornerdefault1[ get_corners { default } ]40endpointxr_reg[4][5]/RSTB1[ get_pin { xr_reg[4][5]/RSTB } ]6modedefault1[ get_modes { default } ]39reasonunclocked10
+TCK-001Warningcornerdefault1[ get_corners { default } ]40endpointxr_reg[3][5]/D1[ get_pin { xr_reg[3][5]/D } ]6modedefault1[ get_modes { default } ]39reasonunclocked10
+TCK-001Warningcornerdefault1[ get_corners { default } ]40endpointxr_reg[3][5]/RSTB1[ get_pin { xr_reg[3][5]/RSTB } ]6modedefault1[ get_modes { default } ]39reasonunclocked10
+TCK-001Warningcornerdefault1[ get_corners { default } ]40endpointxr_reg[2][5]/D1[ get_pin { xr_reg[2][5]/D } ]6modedefault1[ get_modes { default } ]39reasonunclocked10
+TCK-001Warningcornerdefault1[ get_corners { default } ]40endpointxr_reg[2][5]/RSTB1[ get_pin { xr_reg[2][5]/RSTB } ]6modedefault1[ get_modes { default } ]39reasonunclocked10
+TCK-001Warningcornerdefault1[ get_corners { default } ]40endpointxr_reg[1][5]/D1[ get_pin { xr_reg[1][5]/D } ]6modedefault1[ get_modes { default } ]39reasonunclocked10
+TCK-001Warningcornerdefault1[ get_corners { default } ]40endpointxr_reg[1][5]/RSTB1[ get_pin { xr_reg[1][5]/RSTB } ]6modedefault1[ get_modes { default } ]39reasonunclocked10
+TCK-001Warningcornerdefault1[ get_corners { default } ]40endpointxr_reg[0][5]/D1[ get_pin { xr_reg[0][5]/D } ]6modedefault1[ get_modes { default } ]39reasonunclocked10
+TCK-001Warningcornerdefault1[ get_corners { default } ]40endpointxr_reg[0][5]/RSTB1[ get_pin { xr_reg[0][5]/RSTB } ]6modedefault1[ get_modes { default } ]39reasonunclocked10
+TCK-001Warningcornerdefault1[ get_corners { default } ]40endpointxr_reg[7][4]/D1[ get_pin { xr_reg[7][4]/D } ]6modedefault1[ get_modes { default } ]39reasonunclocked10
+TCK-001Warningcornerdefault1[ get_corners { default } ]40endpointxr_reg[7][4]/RSTB1[ get_pin { xr_reg[7][4]/RSTB } ]6modedefault1[ get_modes { default } ]39reasonunclocked10
+TCK-001Warningcornerdefault1[ get_corners { default } ]40endpointxr_reg[6][4]/D1[ get_pin { xr_reg[6][4]/D } ]6modedefault1[ get_modes { default } ]39reasonunclocked10
+TCK-001Warningcornerdefault1[ get_corners { default } ]40endpointxr_reg[6][4]/RSTB1[ get_pin { xr_reg[6][4]/RSTB } ]6modedefault1[ get_modes { default } ]39reasonunclocked10
+TCK-001Warningcornerdefault1[ get_corners { default } ]40endpointxr_reg[5][4]/D1[ get_pin { xr_reg[5][4]/D } ]6modedefault1[ get_modes { default } ]39reasonunclocked10
+TCK-001Warningcornerdefault1[ get_corners { default } ]40endpointxr_reg[5][4]/RSTB1[ get_pin { xr_reg[5][4]/RSTB } ]6modedefault1[ get_modes { default } ]39reasonunclocked10
+TCK-001Warningcornerdefault1[ get_corners { default } ]40endpointxr_reg[4][4]/D1[ get_pin { xr_reg[4][4]/D } ]6modedefault1[ get_modes { default } ]39reasonunclocked10
+TCK-001Warningcornerdefault1[ get_corners { default } ]40endpointxr_reg[4][4]/RSTB1[ get_pin { xr_reg[4][4]/RSTB } ]6modedefault1[ get_modes { default } ]39reasonunclocked10
+TCK-001Warningcornerdefault1[ get_corners { default } ]40endpointxr_reg[3][4]/D1[ get_pin { xr_reg[3][4]/D } ]6modedefault1[ get_modes { default } ]39reasonunclocked10
+TCK-001Warningcornerdefault1[ get_corners { default } ]40endpointxr_reg[3][4]/RSTB1[ get_pin { xr_reg[3][4]/RSTB } ]6modedefault1[ get_modes { default } ]39reasonunclocked10
+TCK-001Warningcornerdefault1[ get_corners { default } ]40endpointxr_reg[2][4]/D1[ get_pin { xr_reg[2][4]/D } ]6modedefault1[ get_modes { default } ]39reasonunclocked10
+TCK-001Warningcornerdefault1[ get_corners { default } ]40endpointxr_reg[2][4]/RSTB1[ get_pin { xr_reg[2][4]/RSTB } ]6modedefault1[ get_modes { default } ]39reasonunclocked10
+TCK-001Warningcornerdefault1[ get_corners { default } ]40endpointxr_reg[1][4]/D1[ get_pin { xr_reg[1][4]/D } ]6modedefault1[ get_modes { default } ]39reasonunclocked10
+TCK-001Warningcornerdefault1[ get_corners { default } ]40endpointxr_reg[1][4]/RSTB1[ get_pin { xr_reg[1][4]/RSTB } ]6modedefault1[ get_modes { default } ]39reasonunclocked10
+TCK-001Warningcornerdefault1[ get_corners { default } ]40endpointxr_reg[0][4]/D1[ get_pin { xr_reg[0][4]/D } ]6modedefault1[ get_modes { default } ]39reasonunclocked10
+TCK-001Warningcornerdefault1[ get_corners { default } ]40endpointxr_reg[0][4]/RSTB1[ get_pin { xr_reg[0][4]/RSTB } ]6modedefault1[ get_modes { default } ]39reasonunclocked10
+TCK-001Warningcornerdefault1[ get_corners { default } ]40endpointxr_reg[7][3]/D1[ get_pin { xr_reg[7][3]/D } ]6modedefault1[ get_modes { default } ]39reasonunclocked10
+TCK-001Warningcornerdefault1[ get_corners { default } ]40endpointxr_reg[7][3]/RSTB1[ get_pin { xr_reg[7][3]/RSTB } ]6modedefault1[ get_modes { default } ]39reasonunclocked10
+TCK-001Warningcornerdefault1[ get_corners { default } ]40endpointxr_reg[6][3]/D1[ get_pin { xr_reg[6][3]/D } ]6modedefault1[ get_modes { default } ]39reasonunclocked10
+TCK-001Warningcornerdefault1[ get_corners { default } ]40endpointxr_reg[6][3]/RSTB1[ get_pin { xr_reg[6][3]/RSTB } ]6modedefault1[ get_modes { default } ]39reasonunclocked10
+TCK-001Warningcornerdefault1[ get_corners { default } ]40endpointxr_reg[5][3]/D1[ get_pin { xr_reg[5][3]/D } ]6modedefault1[ get_modes { default } ]39reasonunclocked10
+TCK-001Warningcornerdefault1[ get_corners { default } ]40endpointxr_reg[5][3]/RSTB1[ get_pin { xr_reg[5][3]/RSTB } ]6modedefault1[ get_modes { default } ]39reasonunclocked10
+TCK-001Warningcornerdefault1[ get_corners { default } ]40endpointxr_reg[4][3]/D1[ get_pin { xr_reg[4][3]/D } ]6modedefault1[ get_modes { default } ]39reasonunclocked10
+TCK-001Warningcornerdefault1[ get_corners { default } ]40endpointxr_reg[4][3]/RSTB1[ get_pin { xr_reg[4][3]/RSTB } ]6modedefault1[ get_modes { default } ]39reasonunclocked10
+TCK-001Warningcornerdefault1[ get_corners { default } ]40endpointxr_reg[3][3]/D1[ get_pin { xr_reg[3][3]/D } ]6modedefault1[ get_modes { default } ]39reasonunclocked10
+TCK-001Warningcornerdefault1[ get_corners { default } ]40endpointxr_reg[3][3]/RSTB1[ get_pin { xr_reg[3][3]/RSTB } ]6modedefault1[ get_modes { default } ]39reasonunclocked10
+TCK-001Warningcornerdefault1[ get_corners { default } ]40endpointxr_reg[2][3]/D1[ get_pin { xr_reg[2][3]/D } ]6modedefault1[ get_modes { default } ]39reasonunclocked10
+TCK-001Warningcornerdefault1[ get_corners { default } ]40endpointxr_reg[2][3]/RSTB1[ get_pin { xr_reg[2][3]/RSTB } ]6modedefault1[ get_modes { default } ]39reasonunclocked10
+TCK-001Warningcornerdefault1[ get_corners { default } ]40endpointxr_reg[1][3]/D1[ get_pin { xr_reg[1][3]/D } ]6modedefault1[ get_modes { default } ]39reasonunclocked10
+TCK-001Warningcornerdefault1[ get_corners { default } ]40endpointxr_reg[1][3]/RSTB1[ get_pin { xr_reg[1][3]/RSTB } ]6modedefault1[ get_modes { default } ]39reasonunclocked10
+TCK-001Warningcornerdefault1[ get_corners { default } ]40endpointxr_reg[0][3]/D1[ get_pin { xr_reg[0][3]/D } ]6modedefault1[ get_modes { default } ]39reasonunclocked10
+TCK-001Warningcornerdefault1[ get_corners { default } ]40endpointxr_reg[0][3]/RSTB1[ get_pin { xr_reg[0][3]/RSTB } ]6modedefault1[ get_modes { default } ]39reasonunclocked10
+TCK-001Warningcornerdefault1[ get_corners { default } ]40endpointxr_reg[7][2]/D1[ get_pin { xr_reg[7][2]/D } ]6modedefault1[ get_modes { default } ]39reasonunclocked10
+TCK-001Warningcornerdefault1[ get_corners { default } ]40endpointxr_reg[7][2]/RSTB1[ get_pin { xr_reg[7][2]/RSTB } ]6modedefault1[ get_modes { default } ]39reasonunclocked10
+TCK-001Warningcornerdefault1[ get_corners { default } ]40endpointxr_reg[6][2]/D1[ get_pin { xr_reg[6][2]/D } ]6modedefault1[ get_modes { default } ]39reasonunclocked10
+TCK-001Warningcornerdefault1[ get_corners { default } ]40endpointxr_reg[6][2]/RSTB1[ get_pin { xr_reg[6][2]/RSTB } ]6modedefault1[ get_modes { default } ]39reasonunclocked10
+TCK-001Warningcornerdefault1[ get_corners { default } ]40endpointxr_reg[5][2]/D1[ get_pin { xr_reg[5][2]/D } ]6modedefault1[ get_modes { default } ]39reasonunclocked10
+TCK-001Warningcornerdefault1[ get_corners { default } ]40endpointxr_reg[5][2]/RSTB1[ get_pin { xr_reg[5][2]/RSTB } ]6modedefault1[ get_modes { default } ]39reasonunclocked10
+TCK-001Warningcornerdefault1[ get_corners { default } ]40endpointxr_reg[4][2]/D1[ get_pin { xr_reg[4][2]/D } ]6modedefault1[ get_modes { default } ]39reasonunclocked10
+TCK-001Warningcornerdefault1[ get_corners { default } ]40endpointxr_reg[4][2]/RSTB1[ get_pin { xr_reg[4][2]/RSTB } ]6modedefault1[ get_modes { default } ]39reasonunclocked10
+TCK-001Warningcornerdefault1[ get_corners { default } ]40endpointxr_reg[3][2]/D1[ get_pin { xr_reg[3][2]/D } ]6modedefault1[ get_modes { default } ]39reasonunclocked10
+TCK-001Warningcornerdefault1[ get_corners { default } ]40endpointxr_reg[3][2]/RSTB1[ get_pin { xr_reg[3][2]/RSTB } ]6modedefault1[ get_modes { default } ]39reasonunclocked10
+TCK-001Warningcornerdefault1[ get_corners { default } ]40endpointxr_reg[2][2]/D1[ get_pin { xr_reg[2][2]/D } ]6modedefault1[ get_modes { default } ]39reasonunclocked10
+TCK-001Warningcornerdefault1[ get_corners { default } ]40endpointxr_reg[2][2]/RSTB1[ get_pin { xr_reg[2][2]/RSTB } ]6modedefault1[ get_modes { default } ]39reasonunclocked10
+TCK-001Warningcornerdefault1[ get_corners { default } ]40endpointxr_reg[1][2]/D1[ get_pin { xr_reg[1][2]/D } ]6modedefault1[ get_modes { default } ]39reasonunclocked10
+TCK-001Warningcornerdefault1[ get_corners { default } ]40endpointxr_reg[1][2]/RSTB1[ get_pin { xr_reg[1][2]/RSTB } ]6modedefault1[ get_modes { default } ]39reasonunclocked10
+TCK-001Warningcornerdefault1[ get_corners { default } ]40endpointxr_reg[0][2]/D1[ get_pin { xr_reg[0][2]/D } ]6modedefault1[ get_modes { default } ]39reasonunclocked10
+TCK-001Warningcornerdefault1[ get_corners { default } ]40endpointxr_reg[0][2]/RSTB1[ get_pin { xr_reg[0][2]/RSTB } ]6modedefault1[ get_modes { default } ]39reasonunclocked10
+TCK-001Warningcornerdefault1[ get_corners { default } ]40endpointxr_reg[7][1]/D1[ get_pin { xr_reg[7][1]/D } ]6modedefault1[ get_modes { default } ]39reasonunclocked10
+TCK-001Warningcornerdefault1[ get_corners { default } ]40endpointxr_reg[7][1]/RSTB1[ get_pin { xr_reg[7][1]/RSTB } ]6modedefault1[ get_modes { default } ]39reasonunclocked10
+TCK-001Warningcornerdefault1[ get_corners { default } ]40endpointxr_reg[6][1]/D1[ get_pin { xr_reg[6][1]/D } ]6modedefault1[ get_modes { default } ]39reasonunclocked10
+TCK-001Warningcornerdefault1[ get_corners { default } ]40endpointxr_reg[6][1]/RSTB1[ get_pin { xr_reg[6][1]/RSTB } ]6modedefault1[ get_modes { default } ]39reasonunclocked10
+TCK-001Warningcornerdefault1[ get_corners { default } ]40endpointxr_reg[5][1]/D1[ get_pin { xr_reg[5][1]/D } ]6modedefault1[ get_modes { default } ]39reasonunclocked10
+TCK-001Warningcornerdefault1[ get_corners { default } ]40endpointxr_reg[5][1]/RSTB1[ get_pin { xr_reg[5][1]/RSTB } ]6modedefault1[ get_modes { default } ]39reasonunclocked10
+TCK-001Warningcornerdefault1[ get_corners { default } ]40endpointxr_reg[4][1]/D1[ get_pin { xr_reg[4][1]/D } ]6modedefault1[ get_modes { default } ]39reasonunclocked10
+TCK-001Warningcornerdefault1[ get_corners { default } ]40endpointxr_reg[4][1]/RSTB1[ get_pin { xr_reg[4][1]/RSTB } ]6modedefault1[ get_modes { default } ]39reasonunclocked10
+TCK-001Warningcornerdefault1[ get_corners { default } ]40endpointxr_reg[3][1]/D1[ get_pin { xr_reg[3][1]/D } ]6modedefault1[ get_modes { default } ]39reasonunclocked10
+TCK-001Warningcornerdefault1[ get_corners { default } ]40endpointxr_reg[3][1]/RSTB1[ get_pin { xr_reg[3][1]/RSTB } ]6modedefault1[ get_modes { default } ]39reasonunclocked10
+TCK-001Warningcornerdefault1[ get_corners { default } ]40endpointxr_reg[2][1]/D1[ get_pin { xr_reg[2][1]/D } ]6modedefault1[ get_modes { default } ]39reasonunclocked10
+TCK-001Warningcornerdefault1[ get_corners { default } ]40endpointxr_reg[2][1]/RSTB1[ get_pin { xr_reg[2][1]/RSTB } ]6modedefault1[ get_modes { default } ]39reasonunclocked10
+TCK-001Warningcornerdefault1[ get_corners { default } ]40endpointxr_reg[1][1]/D1[ get_pin { xr_reg[1][1]/D } ]6modedefault1[ get_modes { default } ]39reasonunclocked10
+TCK-001Warningcornerdefault1[ get_corners { default } ]40endpointxr_reg[1][1]/RSTB1[ get_pin { xr_reg[1][1]/RSTB } ]6modedefault1[ get_modes { default } ]39reasonunclocked10
+TCK-001Warningcornerdefault1[ get_corners { default } ]40endpointxr_reg[0][1]/D1[ get_pin { xr_reg[0][1]/D } ]6modedefault1[ get_modes { default } ]39reasonunclocked10
+TCK-001Warningcornerdefault1[ get_corners { default } ]40endpointxr_reg[0][1]/RSTB1[ get_pin { xr_reg[0][1]/RSTB } ]6modedefault1[ get_modes { default } ]39reasonunclocked10
+TCK-001Warningcornerdefault1[ get_corners { default } ]40endpointxr_reg[7][0]/D1[ get_pin { xr_reg[7][0]/D } ]6modedefault1[ get_modes { default } ]39reasonunclocked10
+TCK-001Warningcornerdefault1[ get_corners { default } ]40endpointxr_reg[7][0]/RSTB1[ get_pin { xr_reg[7][0]/RSTB } ]6modedefault1[ get_modes { default } ]39reasonunclocked10
+TCK-001Warningcornerdefault1[ get_corners { default } ]40endpointxr_reg[6][0]/D1[ get_pin { xr_reg[6][0]/D } ]6modedefault1[ get_modes { default } ]39reasonunclocked10
+TCK-001Warningcornerdefault1[ get_corners { default } ]40endpointxr_reg[6][0]/RSTB1[ get_pin { xr_reg[6][0]/RSTB } ]6modedefault1[ get_modes { default } ]39reasonunclocked10
+TCK-001Warningcornerdefault1[ get_corners { default } ]40endpointxr_reg[5][0]/D1[ get_pin { xr_reg[5][0]/D } ]6modedefault1[ get_modes { default } ]39reasonunclocked10
+TCK-001Warningcornerdefault1[ get_corners { default } ]40endpointxr_reg[5][0]/RSTB1[ get_pin { xr_reg[5][0]/RSTB } ]6modedefault1[ get_modes { default } ]39reasonunclocked10
+TCK-001Warningcornerdefault1[ get_corners { default } ]40endpointxr_reg[4][0]/D1[ get_pin { xr_reg[4][0]/D } ]6modedefault1[ get_modes { default } ]39reasonunclocked10
+TCK-001Warningcornerdefault1[ get_corners { default } ]40endpointxr_reg[4][0]/RSTB1[ get_pin { xr_reg[4][0]/RSTB } ]6modedefault1[ get_modes { default } ]39reasonunclocked10
+TCK-001Warningcornerdefault1[ get_corners { default } ]40endpointxr_reg[3][0]/D1[ get_pin { xr_reg[3][0]/D } ]6modedefault1[ get_modes { default } ]39reasonunclocked10
+TCK-001Warningcornerdefault1[ get_corners { default } ]40endpointxr_reg[3][0]/RSTB1[ get_pin { xr_reg[3][0]/RSTB } ]6modedefault1[ get_modes { default } ]39reasonunclocked10
+TCK-001Warningcornerdefault1[ get_corners { default } ]40endpointxr_reg[2][0]/D1[ get_pin { xr_reg[2][0]/D } ]6modedefault1[ get_modes { default } ]39reasonunclocked10
+TCK-001Warningcornerdefault1[ get_corners { default } ]40endpointxr_reg[2][0]/RSTB1[ get_pin { xr_reg[2][0]/RSTB } ]6modedefault1[ get_modes { default } ]39reasonunclocked10
+TCK-001Warningcornerdefault1[ get_corners { default } ]40endpointxr_reg[1][0]/D1[ get_pin { xr_reg[1][0]/D } ]6modedefault1[ get_modes { default } ]39reasonunclocked10
+TCK-001Warningcornerdefault1[ get_corners { default } ]40endpointxr_reg[1][0]/RSTB1[ get_pin { xr_reg[1][0]/RSTB } ]6modedefault1[ get_modes { default } ]39reasonunclocked10
+TCK-001Warningcornerdefault1[ get_corners { default } ]40endpointxr_reg[0][0]/D1[ get_pin { xr_reg[0][0]/D } ]6modedefault1[ get_modes { default } ]39reasonunclocked10
+TCK-001Warningcornerdefault1[ get_corners { default } ]40endpointxr_reg[0][0]/RSTB1[ get_pin { xr_reg[0][0]/RSTB } ]6modedefault1[ get_modes { default } ]39reasonunclocked10
+TCK-001Warningcornerdefault1[ get_corners { default } ]40endpointxi_reg[7][15]/D1[ get_pin { xi_reg[7][15]/D } ]6modedefault1[ get_modes { default } ]39reasonunclocked10
+TCK-001Warningcornerdefault1[ get_corners { default } ]40endpointxi_reg[7][15]/RSTB1[ get_pin { xi_reg[7][15]/RSTB } ]6modedefault1[ get_modes { default } ]39reasonunclocked10
+TCK-001Warningcornerdefault1[ get_corners { default } ]40endpointxi_reg[6][15]/D1[ get_pin { xi_reg[6][15]/D } ]6modedefault1[ get_modes { default } ]39reasonunclocked10
+TCK-001Warningcornerdefault1[ get_corners { default } ]40endpointxi_reg[6][15]/RSTB1[ get_pin { xi_reg[6][15]/RSTB } ]6modedefault1[ get_modes { default } ]39reasonunclocked10
+TCK-001Warningcornerdefault1[ get_corners { default } ]40endpointxi_reg[5][15]/D1[ get_pin { xi_reg[5][15]/D } ]6modedefault1[ get_modes { default } ]39reasonunclocked10
+TCK-001Warningcornerdefault1[ get_corners { default } ]40endpointxi_reg[5][15]/RSTB1[ get_pin { xi_reg[5][15]/RSTB } ]6modedefault1[ get_modes { default } ]39reasonunclocked10
+TCK-001Warningcornerdefault1[ get_corners { default } ]40endpointxi_reg[4][15]/D1[ get_pin { xi_reg[4][15]/D } ]6modedefault1[ get_modes { default } ]39reasonunclocked10
+TCK-001Warningcornerdefault1[ get_corners { default } ]40endpointxi_reg[4][15]/RSTB1[ get_pin { xi_reg[4][15]/RSTB } ]6modedefault1[ get_modes { default } ]39reasonunclocked10
+TCK-001Warningcornerdefault1[ get_corners { default } ]40endpointxi_reg[3][15]/D1[ get_pin { xi_reg[3][15]/D } ]6modedefault1[ get_modes { default } ]39reasonunclocked10
+TCK-001Warningcornerdefault1[ get_corners { default } ]40endpointxi_reg[3][15]/RSTB1[ get_pin { xi_reg[3][15]/RSTB } ]6modedefault1[ get_modes { default } ]39reasonunclocked10
+TCK-001Warningcornerdefault1[ get_corners { default } ]40endpointxi_reg[2][15]/D1[ get_pin { xi_reg[2][15]/D } ]6modedefault1[ get_modes { default } ]39reasonunclocked10
+TCK-001Warningcornerdefault1[ get_corners { default } ]40endpointxi_reg[2][15]/RSTB1[ get_pin { xi_reg[2][15]/RSTB } ]6modedefault1[ get_modes { default } ]39reasonunclocked10
+TCK-001Warningcornerdefault1[ get_corners { default } ]40endpointxi_reg[1][15]/D1[ get_pin { xi_reg[1][15]/D } ]6modedefault1[ get_modes { default } ]39reasonunclocked10
+TCK-001Warningcornerdefault1[ get_corners { default } ]40endpointxi_reg[1][15]/RSTB1[ get_pin { xi_reg[1][15]/RSTB } ]6modedefault1[ get_modes { default } ]39reasonunclocked10
+TCK-001Warningcornerdefault1[ get_corners { default } ]40endpointxi_reg[0][15]/D1[ get_pin { xi_reg[0][15]/D } ]6modedefault1[ get_modes { default } ]39reasonunclocked10
+TCK-001Warningcornerdefault1[ get_corners { default } ]40endpointxi_reg[0][15]/RSTB1[ get_pin { xi_reg[0][15]/RSTB } ]6modedefault1[ get_modes { default } ]39reasonunclocked10
+TCK-001Warningcornerdefault1[ get_corners { default } ]40endpointxi_reg[7][14]/D1[ get_pin { xi_reg[7][14]/D } ]6modedefault1[ get_modes { default } ]39reasonunclocked10
+TCK-001Warningcornerdefault1[ get_corners { default } ]40endpointxi_reg[7][14]/RSTB1[ get_pin { xi_reg[7][14]/RSTB } ]6modedefault1[ get_modes { default } ]39reasonunclocked10
+TCK-001Warningcornerdefault1[ get_corners { default } ]40endpointxi_reg[6][14]/D1[ get_pin { xi_reg[6][14]/D } ]6modedefault1[ get_modes { default } ]39reasonunclocked10
+TCK-001Warningcornerdefault1[ get_corners { default } ]40endpointxi_reg[6][14]/RSTB1[ get_pin { xi_reg[6][14]/RSTB } ]6modedefault1[ get_modes { default } ]39reasonunclocked10
+TCK-001Warningcornerdefault1[ get_corners { default } ]40endpointxi_reg[5][14]/D1[ get_pin { xi_reg[5][14]/D } ]6modedefault1[ get_modes { default } ]39reasonunclocked10
+TCK-001Warningcornerdefault1[ get_corners { default } ]40endpointxi_reg[5][14]/RSTB1[ get_pin { xi_reg[5][14]/RSTB } ]6modedefault1[ get_modes { default } ]39reasonunclocked10
+TCK-001Warningcornerdefault1[ get_corners { default } ]40endpointxi_reg[4][14]/D1[ get_pin { xi_reg[4][14]/D } ]6modedefault1[ get_modes { default } ]39reasonunclocked10
+TCK-001Warningcornerdefault1[ get_corners { default } ]40endpointxi_reg[4][14]/RSTB1[ get_pin { xi_reg[4][14]/RSTB } ]6modedefault1[ get_modes { default } ]39reasonunclocked10
+TCK-001Warningcornerdefault1[ get_corners { default } ]40endpointxi_reg[3][14]/D1[ get_pin { xi_reg[3][14]/D } ]6modedefault1[ get_modes { default } ]39reasonunclocked10
+TCK-001Warningcornerdefault1[ get_corners { default } ]40endpointxi_reg[3][14]/RSTB1[ get_pin { xi_reg[3][14]/RSTB } ]6modedefault1[ get_modes { default } ]39reasonunclocked10
+TCK-001Warningcornerdefault1[ get_corners { default } ]40endpointxi_reg[2][14]/D1[ get_pin { xi_reg[2][14]/D } ]6modedefault1[ get_modes { default } ]39reasonunclocked10
+TCK-001Warningcornerdefault1[ get_corners { default } ]40endpointxi_reg[2][14]/RSTB1[ get_pin { xi_reg[2][14]/RSTB } ]6modedefault1[ get_modes { default } ]39reasonunclocked10
+TCK-001Warningcornerdefault1[ get_corners { default } ]40endpointxi_reg[1][14]/D1[ get_pin { xi_reg[1][14]/D } ]6modedefault1[ get_modes { default } ]39reasonunclocked10
+TCK-001Warningcornerdefault1[ get_corners { default } ]40endpointxi_reg[1][14]/RSTB1[ get_pin { xi_reg[1][14]/RSTB } ]6modedefault1[ get_modes { default } ]39reasonunclocked10
+TCK-001Warningcornerdefault1[ get_corners { default } ]40endpointxi_reg[0][14]/D1[ get_pin { xi_reg[0][14]/D } ]6modedefault1[ get_modes { default } ]39reasonunclocked10
+TCK-001Warningcornerdefault1[ get_corners { default } ]40endpointxi_reg[0][14]/RSTB1[ get_pin { xi_reg[0][14]/RSTB } ]6modedefault1[ get_modes { default } ]39reasonunclocked10
+TCK-001Warningcornerdefault1[ get_corners { default } ]40endpointxi_reg[7][13]/D1[ get_pin { xi_reg[7][13]/D } ]6modedefault1[ get_modes { default } ]39reasonunclocked10
+TCK-001Warningcornerdefault1[ get_corners { default } ]40endpointxi_reg[7][13]/RSTB1[ get_pin { xi_reg[7][13]/RSTB } ]6modedefault1[ get_modes { default } ]39reasonunclocked10
+TCK-001Warningcornerdefault1[ get_corners { default } ]40endpointxi_reg[6][13]/D1[ get_pin { xi_reg[6][13]/D } ]6modedefault1[ get_modes { default } ]39reasonunclocked10
+TCK-001Warningcornerdefault1[ get_corners { default } ]40endpointxi_reg[6][13]/RSTB1[ get_pin { xi_reg[6][13]/RSTB } ]6modedefault1[ get_modes { default } ]39reasonunclocked10
+TCK-001Warningcornerdefault1[ get_corners { default } ]40endpointxi_reg[5][13]/D1[ get_pin { xi_reg[5][13]/D } ]6modedefault1[ get_modes { default } ]39reasonunclocked10
+TCK-001Warningcornerdefault1[ get_corners { default } ]40endpointxi_reg[5][13]/RSTB1[ get_pin { xi_reg[5][13]/RSTB } ]6modedefault1[ get_modes { default } ]39reasonunclocked10
+TCK-001Warningcornerdefault1[ get_corners { default } ]40endpointxi_reg[4][13]/D1[ get_pin { xi_reg[4][13]/D } ]6modedefault1[ get_modes { default } ]39reasonunclocked10
+TCK-001Warningcornerdefault1[ get_corners { default } ]40endpointxi_reg[4][13]/RSTB1[ get_pin { xi_reg[4][13]/RSTB } ]6modedefault1[ get_modes { default } ]39reasonunclocked10
+TCK-001Warningcornerdefault1[ get_corners { default } ]40endpointxi_reg[3][13]/D1[ get_pin { xi_reg[3][13]/D } ]6modedefault1[ get_modes { default } ]39reasonunclocked10
+TCK-001Warningcornerdefault1[ get_corners { default } ]40endpointxi_reg[3][13]/RSTB1[ get_pin { xi_reg[3][13]/RSTB } ]6modedefault1[ get_modes { default } ]39reasonunclocked10
+TCK-001Warningcornerdefault1[ get_corners { default } ]40endpointxi_reg[2][13]/D1[ get_pin { xi_reg[2][13]/D } ]6modedefault1[ get_modes { default } ]39reasonunclocked10
+TCK-001Warningcornerdefault1[ get_corners { default } ]40endpointxi_reg[2][13]/RSTB1[ get_pin { xi_reg[2][13]/RSTB } ]6modedefault1[ get_modes { default } ]39reasonunclocked10
+TCK-001Warningcornerdefault1[ get_corners { default } ]40endpointxi_reg[1][13]/D1[ get_pin { xi_reg[1][13]/D } ]6modedefault1[ get_modes { default } ]39reasonunclocked10
+TCK-001Warningcornerdefault1[ get_corners { default } ]40endpointxi_reg[1][13]/RSTB1[ get_pin { xi_reg[1][13]/RSTB } ]6modedefault1[ get_modes { default } ]39reasonunclocked10
+TCK-001Warningcornerdefault1[ get_corners { default } ]40endpointxi_reg[0][13]/D1[ get_pin { xi_reg[0][13]/D } ]6modedefault1[ get_modes { default } ]39reasonunclocked10
+TCK-001Warningcornerdefault1[ get_corners { default } ]40endpointxi_reg[0][13]/RSTB1[ get_pin { xi_reg[0][13]/RSTB } ]6modedefault1[ get_modes { default } ]39reasonunclocked10
+TCK-001Warningcornerdefault1[ get_corners { default } ]40endpointxi_reg[7][12]/D1[ get_pin { xi_reg[7][12]/D } ]6modedefault1[ get_modes { default } ]39reasonunclocked10
+TCK-001Warningcornerdefault1[ get_corners { default } ]40endpointxi_reg[7][12]/RSTB1[ get_pin { xi_reg[7][12]/RSTB } ]6modedefault1[ get_modes { default } ]39reasonunclocked10
+TCK-001Warningcornerdefault1[ get_corners { default } ]40endpointxi_reg[6][12]/D1[ get_pin { xi_reg[6][12]/D } ]6modedefault1[ get_modes { default } ]39reasonunclocked10
+TCK-001Warningcornerdefault1[ get_corners { default } ]40endpointxi_reg[6][12]/RSTB1[ get_pin { xi_reg[6][12]/RSTB } ]6modedefault1[ get_modes { default } ]39reasonunclocked10
+TCK-001Warningcornerdefault1[ get_corners { default } ]40endpointxi_reg[5][12]/D1[ get_pin { xi_reg[5][12]/D } ]6modedefault1[ get_modes { default } ]39reasonunclocked10
+TCK-001Warningcornerdefault1[ get_corners { default } ]40endpointxi_reg[5][12]/RSTB1[ get_pin { xi_reg[5][12]/RSTB } ]6modedefault1[ get_modes { default } ]39reasonunclocked10
+TCK-001Warningcornerdefault1[ get_corners { default } ]40endpointxi_reg[4][12]/D1[ get_pin { xi_reg[4][12]/D } ]6modedefault1[ get_modes { default } ]39reasonunclocked10
+TCK-001Warningcornerdefault1[ get_corners { default } ]40endpointxi_reg[4][12]/RSTB1[ get_pin { xi_reg[4][12]/RSTB } ]6modedefault1[ get_modes { default } ]39reasonunclocked10
+TCK-001Warningcornerdefault1[ get_corners { default } ]40endpointxi_reg[3][12]/D1[ get_pin { xi_reg[3][12]/D } ]6modedefault1[ get_modes { default } ]39reasonunclocked10
+TCK-001Warningcornerdefault1[ get_corners { default } ]40endpointxi_reg[3][12]/RSTB1[ get_pin { xi_reg[3][12]/RSTB } ]6modedefault1[ get_modes { default } ]39reasonunclocked10
+TCK-001Warningcornerdefault1[ get_corners { default } ]40endpointxi_reg[2][12]/D1[ get_pin { xi_reg[2][12]/D } ]6modedefault1[ get_modes { default } ]39reasonunclocked10
+TCK-001Warningcornerdefault1[ get_corners { default } ]40endpointxi_reg[2][12]/RSTB1[ get_pin { xi_reg[2][12]/RSTB } ]6modedefault1[ get_modes { default } ]39reasonunclocked10
+TCK-001Warningcornerdefault1[ get_corners { default } ]40endpointxi_reg[1][12]/D1[ get_pin { xi_reg[1][12]/D } ]6modedefault1[ get_modes { default } ]39reasonunclocked10
+TCK-001Warningcornerdefault1[ get_corners { default } ]40endpointxi_reg[1][12]/RSTB1[ get_pin { xi_reg[1][12]/RSTB } ]6modedefault1[ get_modes { default } ]39reasonunclocked10
+TCK-001Warningcornerdefault1[ get_corners { default } ]40endpointxi_reg[0][12]/D1[ get_pin { xi_reg[0][12]/D } ]6modedefault1[ get_modes { default } ]39reasonunclocked10
+TCK-001Warningcornerdefault1[ get_corners { default } ]40endpointxi_reg[0][12]/RSTB1[ get_pin { xi_reg[0][12]/RSTB } ]6modedefault1[ get_modes { default } ]39reasonunclocked10
+TCK-001Warningcornerdefault1[ get_corners { default } ]40endpointxi_reg[7][11]/D1[ get_pin { xi_reg[7][11]/D } ]6modedefault1[ get_modes { default } ]39reasonunclocked10
+TCK-001Warningcornerdefault1[ get_corners { default } ]40endpointxi_reg[7][11]/RSTB1[ get_pin { xi_reg[7][11]/RSTB } ]6modedefault1[ get_modes { default } ]39reasonunclocked10
+TCK-001Warningcornerdefault1[ get_corners { default } ]40endpointxi_reg[6][11]/D1[ get_pin { xi_reg[6][11]/D } ]6modedefault1[ get_modes { default } ]39reasonunclocked10
+TCK-001Warningcornerdefault1[ get_corners { default } ]40endpointxi_reg[6][11]/RSTB1[ get_pin { xi_reg[6][11]/RSTB } ]6modedefault1[ get_modes { default } ]39reasonunclocked10
+TCK-001Warningcornerdefault1[ get_corners { default } ]40endpointxi_reg[5][11]/D1[ get_pin { xi_reg[5][11]/D } ]6modedefault1[ get_modes { default } ]39reasonunclocked10
+TCK-001Warningcornerdefault1[ get_corners { default } ]40endpointxi_reg[5][11]/RSTB1[ get_pin { xi_reg[5][11]/RSTB } ]6modedefault1[ get_modes { default } ]39reasonunclocked10
+TCK-001Warningcornerdefault1[ get_corners { default } ]40endpointxi_reg[4][11]/D1[ get_pin { xi_reg[4][11]/D } ]6modedefault1[ get_modes { default } ]39reasonunclocked10
+TCK-001Warningcornerdefault1[ get_corners { default } ]40endpointxi_reg[4][11]/RSTB1[ get_pin { xi_reg[4][11]/RSTB } ]6modedefault1[ get_modes { default } ]39reasonunclocked10
+TCK-001Warningcornerdefault1[ get_corners { default } ]40endpointxi_reg[3][11]/D1[ get_pin { xi_reg[3][11]/D } ]6modedefault1[ get_modes { default } ]39reasonunclocked10
+TCK-001Warningcornerdefault1[ get_corners { default } ]40endpointxi_reg[3][11]/RSTB1[ get_pin { xi_reg[3][11]/RSTB } ]6modedefault1[ get_modes { default } ]39reasonunclocked10
+TCK-001Warningcornerdefault1[ get_corners { default } ]40endpointxi_reg[2][11]/D1[ get_pin { xi_reg[2][11]/D } ]6modedefault1[ get_modes { default } ]39reasonunclocked10
+TCK-001Warningcornerdefault1[ get_corners { default } ]40endpointxi_reg[2][11]/RSTB1[ get_pin { xi_reg[2][11]/RSTB } ]6modedefault1[ get_modes { default } ]39reasonunclocked10
+TCK-001Warningcornerdefault1[ get_corners { default } ]40endpointxi_reg[1][11]/D1[ get_pin { xi_reg[1][11]/D } ]6modedefault1[ get_modes { default } ]39reasonunclocked10
+TCK-001Warningcornerdefault1[ get_corners { default } ]40endpointxi_reg[1][11]/RSTB1[ get_pin { xi_reg[1][11]/RSTB } ]6modedefault1[ get_modes { default } ]39reasonunclocked10
+TCK-001Warningcornerdefault1[ get_corners { default } ]40endpointxi_reg[0][11]/D1[ get_pin { xi_reg[0][11]/D } ]6modedefault1[ get_modes { default } ]39reasonunclocked10
+TCK-001Warningcornerdefault1[ get_corners { default } ]40endpointxi_reg[0][11]/RSTB1[ get_pin { xi_reg[0][11]/RSTB } ]6modedefault1[ get_modes { default } ]39reasonunclocked10
+TCK-001Warningcornerdefault1[ get_corners { default } ]40endpointxi_reg[7][10]/D1[ get_pin { xi_reg[7][10]/D } ]6modedefault1[ get_modes { default } ]39reasonunclocked10
+TCK-001Warningcornerdefault1[ get_corners { default } ]40endpointxi_reg[7][10]/RSTB1[ get_pin { xi_reg[7][10]/RSTB } ]6modedefault1[ get_modes { default } ]39reasonunclocked10
+TCK-001Warningcornerdefault1[ get_corners { default } ]40endpointxi_reg[6][10]/D1[ get_pin { xi_reg[6][10]/D } ]6modedefault1[ get_modes { default } ]39reasonunclocked10
+TCK-001Warningcornerdefault1[ get_corners { default } ]40endpointxi_reg[6][10]/RSTB1[ get_pin { xi_reg[6][10]/RSTB } ]6modedefault1[ get_modes { default } ]39reasonunclocked10
+TCK-001Warningcornerdefault1[ get_corners { default } ]40endpointxi_reg[5][10]/D1[ get_pin { xi_reg[5][10]/D } ]6modedefault1[ get_modes { default } ]39reasonunclocked10
+TCK-001Warningcornerdefault1[ get_corners { default } ]40endpointxi_reg[5][10]/RSTB1[ get_pin { xi_reg[5][10]/RSTB } ]6modedefault1[ get_modes { default } ]39reasonunclocked10
+TCK-001Warningcornerdefault1[ get_corners { default } ]40endpointxi_reg[4][10]/D1[ get_pin { xi_reg[4][10]/D } ]6modedefault1[ get_modes { default } ]39reasonunclocked10
+TCK-001Warningcornerdefault1[ get_corners { default } ]40endpointxi_reg[4][10]/RSTB1[ get_pin { xi_reg[4][10]/RSTB } ]6modedefault1[ get_modes { default } ]39reasonunclocked10
+TCK-001Warningcornerdefault1[ get_corners { default } ]40endpointxi_reg[3][10]/D1[ get_pin { xi_reg[3][10]/D } ]6modedefault1[ get_modes { default } ]39reasonunclocked10
+TCK-001Warningcornerdefault1[ get_corners { default } ]40endpointxi_reg[3][10]/RSTB1[ get_pin { xi_reg[3][10]/RSTB } ]6modedefault1[ get_modes { default } ]39reasonunclocked10
+TCK-001Warningcornerdefault1[ get_corners { default } ]40endpointxi_reg[2][10]/D1[ get_pin { xi_reg[2][10]/D } ]6modedefault1[ get_modes { default } ]39reasonunclocked10
+TCK-001Warningcornerdefault1[ get_corners { default } ]40endpointxi_reg[2][10]/RSTB1[ get_pin { xi_reg[2][10]/RSTB } ]6modedefault1[ get_modes { default } ]39reasonunclocked10
+TCK-001Warningcornerdefault1[ get_corners { default } ]40endpointxi_reg[1][10]/D1[ get_pin { xi_reg[1][10]/D } ]6modedefault1[ get_modes { default } ]39reasonunclocked10
+TCK-001Warningcornerdefault1[ get_corners { default } ]40endpointxi_reg[1][10]/RSTB1[ get_pin { xi_reg[1][10]/RSTB } ]6modedefault1[ get_modes { default } ]39reasonunclocked10
+TCK-001Warningcornerdefault1[ get_corners { default } ]40endpointxi_reg[0][10]/D1[ get_pin { xi_reg[0][10]/D } ]6modedefault1[ get_modes { default } ]39reasonunclocked10
+TCK-001Warningcornerdefault1[ get_corners { default } ]40endpointxi_reg[0][10]/RSTB1[ get_pin { xi_reg[0][10]/RSTB } ]6modedefault1[ get_modes { default } ]39reasonunclocked10
+TCK-001Warningcornerdefault1[ get_corners { default } ]40endpointxi_reg[7][9]/D1[ get_pin { xi_reg[7][9]/D } ]6modedefault1[ get_modes { default } ]39reasonunclocked10
+TCK-001Warningcornerdefault1[ get_corners { default } ]40endpointxi_reg[7][9]/RSTB1[ get_pin { xi_reg[7][9]/RSTB } ]6modedefault1[ get_modes { default } ]39reasonunclocked10
+TCK-001Warningcornerdefault1[ get_corners { default } ]40endpointxi_reg[6][9]/D1[ get_pin { xi_reg[6][9]/D } ]6modedefault1[ get_modes { default } ]39reasonunclocked10
+TCK-001Warningcornerdefault1[ get_corners { default } ]40endpointxi_reg[6][9]/RSTB1[ get_pin { xi_reg[6][9]/RSTB } ]6modedefault1[ get_modes { default } ]39reasonunclocked10
+TCK-001Warningcornerdefault1[ get_corners { default } ]40endpointxi_reg[5][9]/D1[ get_pin { xi_reg[5][9]/D } ]6modedefault1[ get_modes { default } ]39reasonunclocked10
+TCK-001Warningcornerdefault1[ get_corners { default } ]40endpointxi_reg[5][9]/RSTB1[ get_pin { xi_reg[5][9]/RSTB } ]6modedefault1[ get_modes { default } ]39reasonunclocked10
+TCK-001Warningcornerdefault1[ get_corners { default } ]40endpointxi_reg[4][9]/D1[ get_pin { xi_reg[4][9]/D } ]6modedefault1[ get_modes { default } ]39reasonunclocked10
+TCK-001Warningcornerdefault1[ get_corners { default } ]40endpointxi_reg[4][9]/RSTB1[ get_pin { xi_reg[4][9]/RSTB } ]6modedefault1[ get_modes { default } ]39reasonunclocked10
+TCK-001Warningcornerdefault1[ get_corners { default } ]40endpointxi_reg[3][9]/D1[ get_pin { xi_reg[3][9]/D } ]6modedefault1[ get_modes { default } ]39reasonunclocked10
+TCK-001Warningcornerdefault1[ get_corners { default } ]40endpointxi_reg[3][9]/RSTB1[ get_pin { xi_reg[3][9]/RSTB } ]6modedefault1[ get_modes { default } ]39reasonunclocked10
+TCK-001Warningcornerdefault1[ get_corners { default } ]40endpointxi_reg[2][9]/D1[ get_pin { xi_reg[2][9]/D } ]6modedefault1[ get_modes { default } ]39reasonunclocked10
+TCK-001Warningcornerdefault1[ get_corners { default } ]40endpointxi_reg[2][9]/RSTB1[ get_pin { xi_reg[2][9]/RSTB } ]6modedefault1[ get_modes { default } ]39reasonunclocked10
+TCK-001Warningcornerdefault1[ get_corners { default } ]40endpointxi_reg[1][9]/D1[ get_pin { xi_reg[1][9]/D } ]6modedefault1[ get_modes { default } ]39reasonunclocked10
+TCK-001Warningcornerdefault1[ get_corners { default } ]40endpointxi_reg[1][9]/RSTB1[ get_pin { xi_reg[1][9]/RSTB } ]6modedefault1[ get_modes { default } ]39reasonunclocked10
+TCK-001Warningcornerdefault1[ get_corners { default } ]40endpointxi_reg[0][9]/D1[ get_pin { xi_reg[0][9]/D } ]6modedefault1[ get_modes { default } ]39reasonunclocked10
+TCK-001Warningcornerdefault1[ get_corners { default } ]40endpointxi_reg[0][9]/RSTB1[ get_pin { xi_reg[0][9]/RSTB } ]6modedefault1[ get_modes { default } ]39reasonunclocked10
+TCK-001Warningcornerdefault1[ get_corners { default } ]40endpointxi_reg[7][8]/D1[ get_pin { xi_reg[7][8]/D } ]6modedefault1[ get_modes { default } ]39reasonunclocked10
+TCK-001Warningcornerdefault1[ get_corners { default } ]40endpointxi_reg[7][8]/RSTB1[ get_pin { xi_reg[7][8]/RSTB } ]6modedefault1[ get_modes { default } ]39reasonunclocked10
+TCK-001Warningcornerdefault1[ get_corners { default } ]40endpointxi_reg[6][8]/D1[ get_pin { xi_reg[6][8]/D } ]6modedefault1[ get_modes { default } ]39reasonunclocked10
+TCK-001Warningcornerdefault1[ get_corners { default } ]40endpointxi_reg[6][8]/RSTB1[ get_pin { xi_reg[6][8]/RSTB } ]6modedefault1[ get_modes { default } ]39reasonunclocked10
+TCK-001Warningcornerdefault1[ get_corners { default } ]40endpointxi_reg[5][8]/D1[ get_pin { xi_reg[5][8]/D } ]6modedefault1[ get_modes { default } ]39reasonunclocked10
+TCK-001Warningcornerdefault1[ get_corners { default } ]40endpointxi_reg[5][8]/RSTB1[ get_pin { xi_reg[5][8]/RSTB } ]6modedefault1[ get_modes { default } ]39reasonunclocked10
+TCK-001Warningcornerdefault1[ get_corners { default } ]40endpointxi_reg[4][8]/D1[ get_pin { xi_reg[4][8]/D } ]6modedefault1[ get_modes { default } ]39reasonunclocked10
+TCK-001Warningcornerdefault1[ get_corners { default } ]40endpointxi_reg[4][8]/RSTB1[ get_pin { xi_reg[4][8]/RSTB } ]6modedefault1[ get_modes { default } ]39reasonunclocked10
+TCK-001Warningcornerdefault1[ get_corners { default } ]40endpointxi_reg[3][8]/D1[ get_pin { xi_reg[3][8]/D } ]6modedefault1[ get_modes { default } ]39reasonunclocked10
+TCK-001Warningcornerdefault1[ get_corners { default } ]40endpointxi_reg[3][8]/RSTB1[ get_pin { xi_reg[3][8]/RSTB } ]6modedefault1[ get_modes { default } ]39reasonunclocked10
+TCK-001Warningcornerdefault1[ get_corners { default } ]40endpointxi_reg[2][8]/D1[ get_pin { xi_reg[2][8]/D } ]6modedefault1[ get_modes { default } ]39reasonunclocked10
+TCK-001Warningcornerdefault1[ get_corners { default } ]40endpointxi_reg[2][8]/RSTB1[ get_pin { xi_reg[2][8]/RSTB } ]6modedefault1[ get_modes { default } ]39reasonunclocked10
+TCK-001Warningcornerdefault1[ get_corners { default } ]40endpointxi_reg[1][8]/D1[ get_pin { xi_reg[1][8]/D } ]6modedefault1[ get_modes { default } ]39reasonunclocked10
+TCK-001Warningcornerdefault1[ get_corners { default } ]40endpointxi_reg[1][8]/RSTB1[ get_pin { xi_reg[1][8]/RSTB } ]6modedefault1[ get_modes { default } ]39reasonunclocked10
+TCK-001Warningcornerdefault1[ get_corners { default } ]40endpointxi_reg[0][8]/D1[ get_pin { xi_reg[0][8]/D } ]6modedefault1[ get_modes { default } ]39reasonunclocked10
+TCK-001Warningcornerdefault1[ get_corners { default } ]40endpointxi_reg[0][8]/RSTB1[ get_pin { xi_reg[0][8]/RSTB } ]6modedefault1[ get_modes { default } ]39reasonunclocked10
+TCK-001Warningcornerdefault1[ get_corners { default } ]40endpointxi_reg[7][7]/D1[ get_pin { xi_reg[7][7]/D } ]6modedefault1[ get_modes { default } ]39reasonunclocked10
+TCK-001Warningcornerdefault1[ get_corners { default } ]40endpointxi_reg[7][7]/RSTB1[ get_pin { xi_reg[7][7]/RSTB } ]6modedefault1[ get_modes { default } ]39reasonunclocked10
+TCK-001Warningcornerdefault1[ get_corners { default } ]40endpointxi_reg[6][7]/D1[ get_pin { xi_reg[6][7]/D } ]6modedefault1[ get_modes { default } ]39reasonunclocked10
+TCK-001Warningcornerdefault1[ get_corners { default } ]40endpointxi_reg[6][7]/RSTB1[ get_pin { xi_reg[6][7]/RSTB } ]6modedefault1[ get_modes { default } ]39reasonunclocked10
+TCK-001Warningcornerdefault1[ get_corners { default } ]40endpointxi_reg[5][7]/D1[ get_pin { xi_reg[5][7]/D } ]6modedefault1[ get_modes { default } ]39reasonunclocked10
+TCK-001Warningcornerdefault1[ get_corners { default } ]40endpointxi_reg[5][7]/RSTB1[ get_pin { xi_reg[5][7]/RSTB } ]6modedefault1[ get_modes { default } ]39reasonunclocked10
+TCK-001Warningcornerdefault1[ get_corners { default } ]40endpointxi_reg[4][7]/D1[ get_pin { xi_reg[4][7]/D } ]6modedefault1[ get_modes { default } ]39reasonunclocked10
+TCK-001Warningcornerdefault1[ get_corners { default } ]40endpointxi_reg[4][7]/RSTB1[ get_pin { xi_reg[4][7]/RSTB } ]6modedefault1[ get_modes { default } ]39reasonunclocked10
+TCK-001Warningcornerdefault1[ get_corners { default } ]40endpointxi_reg[3][7]/D1[ get_pin { xi_reg[3][7]/D } ]6modedefault1[ get_modes { default } ]39reasonunclocked10
+TCK-001Warningcornerdefault1[ get_corners { default } ]40endpointxi_reg[3][7]/RSTB1[ get_pin { xi_reg[3][7]/RSTB } ]6modedefault1[ get_modes { default } ]39reasonunclocked10
+TCK-001Warningcornerdefault1[ get_corners { default } ]40endpointxi_reg[2][7]/D1[ get_pin { xi_reg[2][7]/D } ]6modedefault1[ get_modes { default } ]39reasonunclocked10
+TCK-001Warningcornerdefault1[ get_corners { default } ]40endpointxi_reg[2][7]/RSTB1[ get_pin { xi_reg[2][7]/RSTB } ]6modedefault1[ get_modes { default } ]39reasonunclocked10
+TCK-001Warningcornerdefault1[ get_corners { default } ]40endpointxi_reg[1][7]/D1[ get_pin { xi_reg[1][7]/D } ]6modedefault1[ get_modes { default } ]39reasonunclocked10
+TCK-001Warningcornerdefault1[ get_corners { default } ]40endpointxi_reg[1][7]/RSTB1[ get_pin { xi_reg[1][7]/RSTB } ]6modedefault1[ get_modes { default } ]39reasonunclocked10
+TCK-001Warningcornerdefault1[ get_corners { default } ]40endpointxi_reg[0][7]/D1[ get_pin { xi_reg[0][7]/D } ]6modedefault1[ get_modes { default } ]39reasonunclocked10
+TCK-001Warningcornerdefault1[ get_corners { default } ]40endpointxi_reg[0][7]/RSTB1[ get_pin { xi_reg[0][7]/RSTB } ]6modedefault1[ get_modes { default } ]39reasonunclocked10
+TCK-001Warningcornerdefault1[ get_corners { default } ]40endpointxi_reg[7][6]/D1[ get_pin { xi_reg[7][6]/D } ]6modedefault1[ get_modes { default } ]39reasonunclocked10
+TCK-001Warningcornerdefault1[ get_corners { default } ]40endpointxi_reg[7][6]/RSTB1[ get_pin { xi_reg[7][6]/RSTB } ]6modedefault1[ get_modes { default } ]39reasonunclocked10
+TCK-001Warningcornerdefault1[ get_corners { default } ]40endpointxi_reg[6][6]/D1[ get_pin { xi_reg[6][6]/D } ]6modedefault1[ get_modes { default } ]39reasonunclocked10
+TCK-001Warningcornerdefault1[ get_corners { default } ]40endpointxi_reg[6][6]/RSTB1[ get_pin { xi_reg[6][6]/RSTB } ]6modedefault1[ get_modes { default } ]39reasonunclocked10
+TCK-001Warningcornerdefault1[ get_corners { default } ]40endpointxi_reg[5][6]/D1[ get_pin { xi_reg[5][6]/D } ]6modedefault1[ get_modes { default } ]39reasonunclocked10
+TCK-001Warningcornerdefault1[ get_corners { default } ]40endpointxi_reg[5][6]/RSTB1[ get_pin { xi_reg[5][6]/RSTB } ]6modedefault1[ get_modes { default } ]39reasonunclocked10
+TCK-001Warningcornerdefault1[ get_corners { default } ]40endpointxi_reg[4][6]/D1[ get_pin { xi_reg[4][6]/D } ]6modedefault1[ get_modes { default } ]39reasonunclocked10
+TCK-001Warningcornerdefault1[ get_corners { default } ]40endpointxi_reg[4][6]/RSTB1[ get_pin { xi_reg[4][6]/RSTB } ]6modedefault1[ get_modes { default } ]39reasonunclocked10
+TCK-001Warningcornerdefault1[ get_corners { default } ]40endpointxi_reg[3][6]/D1[ get_pin { xi_reg[3][6]/D } ]6modedefault1[ get_modes { default } ]39reasonunclocked10
+TCK-001Warningcornerdefault1[ get_corners { default } ]40endpointxi_reg[3][6]/RSTB1[ get_pin { xi_reg[3][6]/RSTB } ]6modedefault1[ get_modes { default } ]39reasonunclocked10
+TCK-001Warningcornerdefault1[ get_corners { default } ]40endpointxi_reg[2][6]/D1[ get_pin { xi_reg[2][6]/D } ]6modedefault1[ get_modes { default } ]39reasonunclocked10
+TCK-001Warningcornerdefault1[ get_corners { default } ]40endpointxi_reg[2][6]/RSTB1[ get_pin { xi_reg[2][6]/RSTB } ]6modedefault1[ get_modes { default } ]39reasonunclocked10
+TCK-001Warningcornerdefault1[ get_corners { default } ]40endpointxi_reg[1][6]/D1[ get_pin { xi_reg[1][6]/D } ]6modedefault1[ get_modes { default } ]39reasonunclocked10
+TCK-001Warningcornerdefault1[ get_corners { default } ]40endpointxi_reg[1][6]/RSTB1[ get_pin { xi_reg[1][6]/RSTB } ]6modedefault1[ get_modes { default } ]39reasonunclocked10
+TCK-001Warningcornerdefault1[ get_corners { default } ]40endpointxi_reg[0][6]/D1[ get_pin { xi_reg[0][6]/D } ]6modedefault1[ get_modes { default } ]39reasonunclocked10
+TCK-001Warningcornerdefault1[ get_corners { default } ]40endpointxi_reg[0][6]/RSTB1[ get_pin { xi_reg[0][6]/RSTB } ]6modedefault1[ get_modes { default } ]39reasonunclocked10
+TCK-001Warningcornerdefault1[ get_corners { default } ]40endpointxi_reg[7][5]/D1[ get_pin { xi_reg[7][5]/D } ]6modedefault1[ get_modes { default } ]39reasonunclocked10
+TCK-001Warningcornerdefault1[ get_corners { default } ]40endpointxi_reg[7][5]/RSTB1[ get_pin { xi_reg[7][5]/RSTB } ]6modedefault1[ get_modes { default } ]39reasonunclocked10
+TCK-001Warningcornerdefault1[ get_corners { default } ]40endpointxi_reg[6][5]/D1[ get_pin { xi_reg[6][5]/D } ]6modedefault1[ get_modes { default } ]39reasonunclocked10
+TCK-001Warningcornerdefault1[ get_corners { default } ]40endpointxi_reg[6][5]/RSTB1[ get_pin { xi_reg[6][5]/RSTB } ]6modedefault1[ get_modes { default } ]39reasonunclocked10
+TCK-001Warningcornerdefault1[ get_corners { default } ]40endpointxi_reg[5][5]/D1[ get_pin { xi_reg[5][5]/D } ]6modedefault1[ get_modes { default } ]39reasonunclocked10
+TCK-001Warningcornerdefault1[ get_corners { default } ]40endpointxi_reg[5][5]/RSTB1[ get_pin { xi_reg[5][5]/RSTB } ]6modedefault1[ get_modes { default } ]39reasonunclocked10
+TCK-001Warningcornerdefault1[ get_corners { default } ]40endpointxi_reg[4][5]/D1[ get_pin { xi_reg[4][5]/D } ]6modedefault1[ get_modes { default } ]39reasonunclocked10
+TCK-001Warningcornerdefault1[ get_corners { default } ]40endpointxi_reg[4][5]/RSTB1[ get_pin { xi_reg[4][5]/RSTB } ]6modedefault1[ get_modes { default } ]39reasonunclocked10
+TCK-001Warningcornerdefault1[ get_corners { default } ]40endpointxi_reg[3][5]/D1[ get_pin { xi_reg[3][5]/D } ]6modedefault1[ get_modes { default } ]39reasonunclocked10
+TCK-001Warningcornerdefault1[ get_corners { default } ]40endpointxi_reg[3][5]/RSTB1[ get_pin { xi_reg[3][5]/RSTB } ]6modedefault1[ get_modes { default } ]39reasonunclocked10
+TCK-001Warningcornerdefault1[ get_corners { default } ]40endpointxi_reg[2][5]/D1[ get_pin { xi_reg[2][5]/D } ]6modedefault1[ get_modes { default } ]39reasonunclocked10
+TCK-001Warningcornerdefault1[ get_corners { default } ]40endpointxi_reg[2][5]/RSTB1[ get_pin { xi_reg[2][5]/RSTB } ]6modedefault1[ get_modes { default } ]39reasonunclocked10
+TCK-001Warningcornerdefault1[ get_corners { default } ]40endpointxi_reg[1][5]/D1[ get_pin { xi_reg[1][5]/D } ]6modedefault1[ get_modes { default } ]39reasonunclocked10
+TCK-001Warningcornerdefault1[ get_corners { default } ]40endpointxi_reg[1][5]/RSTB1[ get_pin { xi_reg[1][5]/RSTB } ]6modedefault1[ get_modes { default } ]39reasonunclocked10
+TCK-001Warningcornerdefault1[ get_corners { default } ]40endpointxi_reg[0][5]/D1[ get_pin { xi_reg[0][5]/D } ]6modedefault1[ get_modes { default } ]39reasonunclocked10
+TCK-001Warningcornerdefault1[ get_corners { default } ]40endpointxi_reg[0][5]/RSTB1[ get_pin { xi_reg[0][5]/RSTB } ]6modedefault1[ get_modes { default } ]39reasonunclocked10
+TCK-001Warningcornerdefault1[ get_corners { default } ]40endpointxi_reg[7][4]/D1[ get_pin { xi_reg[7][4]/D } ]6modedefault1[ get_modes { default } ]39reasonunclocked10
+TCK-001Warningcornerdefault1[ get_corners { default } ]40endpointxi_reg[7][4]/RSTB1[ get_pin { xi_reg[7][4]/RSTB } ]6modedefault1[ get_modes { default } ]39reasonunclocked10
+TCK-001Warningcornerdefault1[ get_corners { default } ]40endpointxi_reg[6][4]/D1[ get_pin { xi_reg[6][4]/D } ]6modedefault1[ get_modes { default } ]39reasonunclocked10
+TCK-001Warningcornerdefault1[ get_corners { default } ]40endpointxi_reg[6][4]/RSTB1[ get_pin { xi_reg[6][4]/RSTB } ]6modedefault1[ get_modes { default } ]39reasonunclocked10
+TCK-001Warningcornerdefault1[ get_corners { default } ]40endpointxi_reg[5][4]/D1[ get_pin { xi_reg[5][4]/D } ]6modedefault1[ get_modes { default } ]39reasonunclocked10
+TCK-001Warningcornerdefault1[ get_corners { default } ]40endpointxi_reg[5][4]/RSTB1[ get_pin { xi_reg[5][4]/RSTB } ]6modedefault1[ get_modes { default } ]39reasonunclocked10
+TCK-001Warningcornerdefault1[ get_corners { default } ]40endpointxi_reg[4][4]/D1[ get_pin { xi_reg[4][4]/D } ]6modedefault1[ get_modes { default } ]39reasonunclocked10
+TCK-001Warningcornerdefault1[ get_corners { default } ]40endpointxi_reg[4][4]/RSTB1[ get_pin { xi_reg[4][4]/RSTB } ]6modedefault1[ get_modes { default } ]39reasonunclocked10
+TCK-001Warningcornerdefault1[ get_corners { default } ]40endpointxi_reg[3][4]/D1[ get_pin { xi_reg[3][4]/D } ]6modedefault1[ get_modes { default } ]39reasonunclocked10
+TCK-001Warningcornerdefault1[ get_corners { default } ]40endpointxi_reg[3][4]/RSTB1[ get_pin { xi_reg[3][4]/RSTB } ]6modedefault1[ get_modes { default } ]39reasonunclocked10
+TCK-001Warningcornerdefault1[ get_corners { default } ]40endpointxi_reg[2][4]/D1[ get_pin { xi_reg[2][4]/D } ]6modedefault1[ get_modes { default } ]39reasonunclocked10
+TCK-001Warningcornerdefault1[ get_corners { default } ]40endpointxi_reg[2][4]/RSTB1[ get_pin { xi_reg[2][4]/RSTB } ]6modedefault1[ get_modes { default } ]39reasonunclocked10
+TCK-001Warningcornerdefault1[ get_corners { default } ]40endpointxi_reg[1][4]/D1[ get_pin { xi_reg[1][4]/D } ]6modedefault1[ get_modes { default } ]39reasonunclocked10
+TCK-001Warningcornerdefault1[ get_corners { default } ]40endpointxi_reg[1][4]/RSTB1[ get_pin { xi_reg[1][4]/RSTB } ]6modedefault1[ get_modes { default } ]39reasonunclocked10
+TCK-001Warningcornerdefault1[ get_corners { default } ]40endpointxi_reg[0][4]/D1[ get_pin { xi_reg[0][4]/D } ]6modedefault1[ get_modes { default } ]39reasonunclocked10
+TCK-001Warningcornerdefault1[ get_corners { default } ]40endpointxi_reg[0][4]/RSTB1[ get_pin { xi_reg[0][4]/RSTB } ]6modedefault1[ get_modes { default } ]39reasonunclocked10
+TCK-001Warningcornerdefault1[ get_corners { default } ]40endpointxi_reg[7][3]/D1[ get_pin { xi_reg[7][3]/D } ]6modedefault1[ get_modes { default } ]39reasonunclocked10
+TCK-001Warningcornerdefault1[ get_corners { default } ]40endpointxi_reg[7][3]/RSTB1[ get_pin { xi_reg[7][3]/RSTB } ]6modedefault1[ get_modes { default } ]39reasonunclocked10
+TCK-001Warningcornerdefault1[ get_corners { default } ]40endpointxi_reg[6][3]/D1[ get_pin { xi_reg[6][3]/D } ]6modedefault1[ get_modes { default } ]39reasonunclocked10
+TCK-001Warningcornerdefault1[ get_corners { default } ]40endpointxi_reg[6][3]/RSTB1[ get_pin { xi_reg[6][3]/RSTB } ]6modedefault1[ get_modes { default } ]39reasonunclocked10
+TCK-001Warningcornerdefault1[ get_corners { default } ]40endpointxi_reg[5][3]/D1[ get_pin { xi_reg[5][3]/D } ]6modedefault1[ get_modes { default } ]39reasonunclocked10
+TCK-001Warningcornerdefault1[ get_corners { default } ]40endpointxi_reg[5][3]/RSTB1[ get_pin { xi_reg[5][3]/RSTB } ]6modedefault1[ get_modes { default } ]39reasonunclocked10
+TCK-001Warningcornerdefault1[ get_corners { default } ]40endpointxi_reg[4][3]/D1[ get_pin { xi_reg[4][3]/D } ]6modedefault1[ get_modes { default } ]39reasonunclocked10
+TCK-001Warningcornerdefault1[ get_corners { default } ]40endpointxi_reg[4][3]/RSTB1[ get_pin { xi_reg[4][3]/RSTB } ]6modedefault1[ get_modes { default } ]39reasonunclocked10
+TCK-001Warningcornerdefault1[ get_corners { default } ]40endpointxi_reg[3][3]/D1[ get_pin { xi_reg[3][3]/D } ]6modedefault1[ get_modes { default } ]39reasonunclocked10
+TCK-001Warningcornerdefault1[ get_corners { default } ]40endpointxi_reg[3][3]/RSTB1[ get_pin { xi_reg[3][3]/RSTB } ]6modedefault1[ get_modes { default } ]39reasonunclocked10
+TCK-001Warningcornerdefault1[ get_corners { default } ]40endpointxi_reg[2][3]/D1[ get_pin { xi_reg[2][3]/D } ]6modedefault1[ get_modes { default } ]39reasonunclocked10
+TCK-001Warningcornerdefault1[ get_corners { default } ]40endpointxi_reg[2][3]/RSTB1[ get_pin { xi_reg[2][3]/RSTB } ]6modedefault1[ get_modes { default } ]39reasonunclocked10
+TCK-001Warningcornerdefault1[ get_corners { default } ]40endpointxi_reg[1][3]/D1[ get_pin { xi_reg[1][3]/D } ]6modedefault1[ get_modes { default } ]39reasonunclocked10
+TCK-001Warningcornerdefault1[ get_corners { default } ]40endpointxi_reg[1][3]/RSTB1[ get_pin { xi_reg[1][3]/RSTB } ]6modedefault1[ get_modes { default } ]39reasonunclocked10
+TCK-001Warningcornerdefault1[ get_corners { default } ]40endpointxi_reg[0][3]/D1[ get_pin { xi_reg[0][3]/D } ]6modedefault1[ get_modes { default } ]39reasonunclocked10
+TCK-001Warningcornerdefault1[ get_corners { default } ]40endpointxi_reg[0][3]/RSTB1[ get_pin { xi_reg[0][3]/RSTB } ]6modedefault1[ get_modes { default } ]39reasonunclocked10
+TCK-001Warningcornerdefault1[ get_corners { default } ]40endpointxi_reg[7][2]/D1[ get_pin { xi_reg[7][2]/D } ]6modedefault1[ get_modes { default } ]39reasonunclocked10
+TCK-001Warningcornerdefault1[ get_corners { default } ]40endpointxi_reg[7][2]/RSTB1[ get_pin { xi_reg[7][2]/RSTB } ]6modedefault1[ get_modes { default } ]39reasonunclocked10
+TCK-001Warningcornerdefault1[ get_corners { default } ]40endpointxi_reg[6][2]/D1[ get_pin { xi_reg[6][2]/D } ]6modedefault1[ get_modes { default } ]39reasonunclocked10
+TCK-001Warningcornerdefault1[ get_corners { default } ]40endpointxi_reg[6][2]/RSTB1[ get_pin { xi_reg[6][2]/RSTB } ]6modedefault1[ get_modes { default } ]39reasonunclocked10
+TCK-001Warningcornerdefault1[ get_corners { default } ]40endpointxi_reg[5][2]/D1[ get_pin { xi_reg[5][2]/D } ]6modedefault1[ get_modes { default } ]39reasonunclocked10
+TCK-001Warningcornerdefault1[ get_corners { default } ]40endpointxi_reg[5][2]/RSTB1[ get_pin { xi_reg[5][2]/RSTB } ]6modedefault1[ get_modes { default } ]39reasonunclocked10
+TCK-001Warningcornerdefault1[ get_corners { default } ]40endpointxi_reg[4][2]/D1[ get_pin { xi_reg[4][2]/D } ]6modedefault1[ get_modes { default } ]39reasonunclocked10
+TCK-001Warningcornerdefault1[ get_corners { default } ]40endpointxi_reg[4][2]/RSTB1[ get_pin { xi_reg[4][2]/RSTB } ]6modedefault1[ get_modes { default } ]39reasonunclocked10
+TCK-001Warningcornerdefault1[ get_corners { default } ]40endpointxi_reg[3][2]/D1[ get_pin { xi_reg[3][2]/D } ]6modedefault1[ get_modes { default } ]39reasonunclocked10
+TCK-001Warningcornerdefault1[ get_corners { default } ]40endpointxi_reg[3][2]/RSTB1[ get_pin { xi_reg[3][2]/RSTB } ]6modedefault1[ get_modes { default } ]39reasonunclocked10
+TCK-001Warningcornerdefault1[ get_corners { default } ]40endpointxi_reg[2][2]/D1[ get_pin { xi_reg[2][2]/D } ]6modedefault1[ get_modes { default } ]39reasonunclocked10
+TCK-001Warningcornerdefault1[ get_corners { default } ]40endpointxi_reg[2][2]/RSTB1[ get_pin { xi_reg[2][2]/RSTB } ]6modedefault1[ get_modes { default } ]39reasonunclocked10
+TCK-001Warningcornerdefault1[ get_corners { default } ]40endpointxi_reg[1][2]/D1[ get_pin { xi_reg[1][2]/D } ]6modedefault1[ get_modes { default } ]39reasonunclocked10
+TCK-001Warningcornerdefault1[ get_corners { default } ]40endpointxi_reg[1][2]/RSTB1[ get_pin { xi_reg[1][2]/RSTB } ]6modedefault1[ get_modes { default } ]39reasonunclocked10
+TCK-001Warningcornerdefault1[ get_corners { default } ]40endpointxi_reg[0][2]/D1[ get_pin { xi_reg[0][2]/D } ]6modedefault1[ get_modes { default } ]39reasonunclocked10
+TCK-001Warningcornerdefault1[ get_corners { default } ]40endpointxi_reg[0][2]/RSTB1[ get_pin { xi_reg[0][2]/RSTB } ]6modedefault1[ get_modes { default } ]39reasonunclocked10
+TCK-001Warningcornerdefault1[ get_corners { default } ]40endpointxi_reg[7][1]/D1[ get_pin { xi_reg[7][1]/D } ]6modedefault1[ get_modes { default } ]39reasonunclocked10
+TCK-001Warningcornerdefault1[ get_corners { default } ]40endpointxi_reg[7][1]/RSTB1[ get_pin { xi_reg[7][1]/RSTB } ]6modedefault1[ get_modes { default } ]39reasonunclocked10
+TCK-001Warningcornerdefault1[ get_corners { default } ]40endpointxi_reg[6][1]/D1[ get_pin { xi_reg[6][1]/D } ]6modedefault1[ get_modes { default } ]39reasonunclocked10
+TCK-001Warningcornerdefault1[ get_corners { default } ]40endpointxi_reg[6][1]/RSTB1[ get_pin { xi_reg[6][1]/RSTB } ]6modedefault1[ get_modes { default } ]39reasonunclocked10
+TCK-001Warningcornerdefault1[ get_corners { default } ]40endpointxi_reg[5][1]/D1[ get_pin { xi_reg[5][1]/D } ]6modedefault1[ get_modes { default } ]39reasonunclocked10
+TCK-001Warningcornerdefault1[ get_corners { default } ]40endpointxi_reg[5][1]/RSTB1[ get_pin { xi_reg[5][1]/RSTB } ]6modedefault1[ get_modes { default } ]39reasonunclocked10
+TCK-001Warningcornerdefault1[ get_corners { default } ]40endpointxi_reg[4][1]/D1[ get_pin { xi_reg[4][1]/D } ]6modedefault1[ get_modes { default } ]39reasonunclocked10
+TCK-001Warningcornerdefault1[ get_corners { default } ]40endpointxi_reg[4][1]/RSTB1[ get_pin { xi_reg[4][1]/RSTB } ]6modedefault1[ get_modes { default } ]39reasonunclocked10
+TCK-001Warningcornerdefault1[ get_corners { default } ]40endpointxi_reg[3][1]/D1[ get_pin { xi_reg[3][1]/D } ]6modedefault1[ get_modes { default } ]39reasonunclocked10
+TCK-001Warningcornerdefault1[ get_corners { default } ]40endpointxi_reg[3][1]/RSTB1[ get_pin { xi_reg[3][1]/RSTB } ]6modedefault1[ get_modes { default } ]39reasonunclocked10
+TCK-001Warningcornerdefault1[ get_corners { default } ]40endpointxi_reg[2][1]/D1[ get_pin { xi_reg[2][1]/D } ]6modedefault1[ get_modes { default } ]39reasonunclocked10
+TCK-001Warningcornerdefault1[ get_corners { default } ]40endpointxi_reg[2][1]/RSTB1[ get_pin { xi_reg[2][1]/RSTB } ]6modedefault1[ get_modes { default } ]39reasonunclocked10
+TCK-001Warningcornerdefault1[ get_corners { default } ]40endpointxi_reg[1][1]/D1[ get_pin { xi_reg[1][1]/D } ]6modedefault1[ get_modes { default } ]39reasonunclocked10
+TCK-001Warningcornerdefault1[ get_corners { default } ]40endpointxi_reg[1][1]/RSTB1[ get_pin { xi_reg[1][1]/RSTB } ]6modedefault1[ get_modes { default } ]39reasonunclocked10
+TCK-001Warningcornerdefault1[ get_corners { default } ]40endpointxi_reg[0][1]/D1[ get_pin { xi_reg[0][1]/D } ]6modedefault1[ get_modes { default } ]39reasonunclocked10
+TCK-001Warningcornerdefault1[ get_corners { default } ]40endpointxi_reg[0][1]/RSTB1[ get_pin { xi_reg[0][1]/RSTB } ]6modedefault1[ get_modes { default } ]39reasonunclocked10
+TCK-001Warningcornerdefault1[ get_corners { default } ]40endpointtx_shift_reg[0]/D1[ get_pin { tx_shift_reg[0]/D } ]6modedefault1[ get_modes { default } ]39reasonunclocked10
+TCK-001Warningcornerdefault1[ get_corners { default } ]40endpointtx_shift_reg[0]/RSTB1[ get_pin { tx_shift_reg[0]/RSTB } ]6modedefault1[ get_modes { default } ]39reasonunclocked10
+TCK-001Warningcornerdefault1[ get_corners { default } ]40endpointtx_shift_reg[1]/D1[ get_pin { tx_shift_reg[1]/D } ]6modedefault1[ get_modes { default } ]39reasonunclocked10
+TCK-001Warningcornerdefault1[ get_corners { default } ]40endpointtx_shift_reg[1]/RSTB1[ get_pin { tx_shift_reg[1]/RSTB } ]6modedefault1[ get_modes { default } ]39reasonunclocked10
+TCK-001Warningcornerdefault1[ get_corners { default } ]40endpointtx_shift_reg[2]/D1[ get_pin { tx_shift_reg[2]/D } ]6modedefault1[ get_modes { default } ]39reasonunclocked10
+TCK-001Warningcornerdefault1[ get_corners { default } ]40endpointtx_shift_reg[2]/RSTB1[ get_pin { tx_shift_reg[2]/RSTB } ]6modedefault1[ get_modes { default } ]39reasonunclocked10
+TCK-001Warningcornerdefault1[ get_corners { default } ]40endpointtx_shift_reg[3]/D1[ get_pin { tx_shift_reg[3]/D } ]6modedefault1[ get_modes { default } ]39reasonunclocked10
+TCK-001Warningcornerdefault1[ get_corners { default } ]40endpointtx_shift_reg[3]/RSTB1[ get_pin { tx_shift_reg[3]/RSTB } ]6modedefault1[ get_modes { default } ]39reasonunclocked10
+TCK-001Warningcornerdefault1[ get_corners { default } ]40endpointtx_shift_reg[4]/D1[ get_pin { tx_shift_reg[4]/D } ]6modedefault1[ get_modes { default } ]39reasonunclocked10
+TCK-001Warningcornerdefault1[ get_corners { default } ]40endpointtx_shift_reg[4]/RSTB1[ get_pin { tx_shift_reg[4]/RSTB } ]6modedefault1[ get_modes { default } ]39reasonunclocked10
+TCK-001Warningcornerdefault1[ get_corners { default } ]40endpointtx_shift_reg[5]/D1[ get_pin { tx_shift_reg[5]/D } ]6modedefault1[ get_modes { default } ]39reasonunclocked10
+TCK-001Warningcornerdefault1[ get_corners { default } ]40endpointtx_shift_reg[5]/RSTB1[ get_pin { tx_shift_reg[5]/RSTB } ]6modedefault1[ get_modes { default } ]39reasonunclocked10
+TCK-001Warningcornerdefault1[ get_corners { default } ]40endpointtx_shift_reg[6]/D1[ get_pin { tx_shift_reg[6]/D } ]6modedefault1[ get_modes { default } ]39reasonunclocked10
+TCK-001Warningcornerdefault1[ get_corners { default } ]40endpointtx_shift_reg[6]/RSTB1[ get_pin { tx_shift_reg[6]/RSTB } ]6modedefault1[ get_modes { default } ]39reasonunclocked10
+TCK-001Warningcornerdefault1[ get_corners { default } ]40endpointtx_shift_reg[7]/D1[ get_pin { tx_shift_reg[7]/D } ]6modedefault1[ get_modes { default } ]39reasonunclocked10
+TCK-001Warningcornerdefault1[ get_corners { default } ]40endpointtx_shift_reg[7]/RSTB1[ get_pin { tx_shift_reg[7]/RSTB } ]6modedefault1[ get_modes { default } ]39reasonunclocked10
+TCK-001Warningcornerdefault1[ get_corners { default } ]40endpointtx_shift_reg[8]/D1[ get_pin { tx_shift_reg[8]/D } ]6modedefault1[ get_modes { default } ]39reasonunclocked10
+TCK-001Warningcornerdefault1[ get_corners { default } ]40endpointtx_shift_reg[8]/RSTB1[ get_pin { tx_shift_reg[8]/RSTB } ]6modedefault1[ get_modes { default } ]39reasonunclocked10
+TCK-001Warningcornerdefault1[ get_corners { default } ]40endpointtx_shift_reg[9]/D1[ get_pin { tx_shift_reg[9]/D } ]6modedefault1[ get_modes { default } ]39reasonunclocked10
+TCK-001Warningcornerdefault1[ get_corners { default } ]40endpointtx_shift_reg[9]/RSTB1[ get_pin { tx_shift_reg[9]/RSTB } ]6modedefault1[ get_modes { default } ]39reasonunclocked10
+TCK-001Warningcornerdefault1[ get_corners { default } ]40endpointtx_shift_reg[10]/D1[ get_pin { tx_shift_reg[10]/D } ]6modedefault1[ get_modes { default } ]39reasonunclocked10
+TCK-001Warningcornerdefault1[ get_corners { default } ]40endpointtx_shift_reg[10]/RSTB1[ get_pin { tx_shift_reg[10]/RSTB } ]6modedefault1[ get_modes { default } ]39reasonunclocked10
+TCK-001Warningcornerdefault1[ get_corners { default } ]40endpointtx_shift_reg[11]/D1[ get_pin { tx_shift_reg[11]/D } ]6modedefault1[ get_modes { default } ]39reasonunclocked10
+TCK-001Warningcornerdefault1[ get_corners { default } ]40endpointtx_shift_reg[11]/RSTB1[ get_pin { tx_shift_reg[11]/RSTB } ]6modedefault1[ get_modes { default } ]39reasonunclocked10
+TCK-001Warningcornerdefault1[ get_corners { default } ]40endpointtx_shift_reg[12]/D1[ get_pin { tx_shift_reg[12]/D } ]6modedefault1[ get_modes { default } ]39reasonunclocked10
+TCK-001Warningcornerdefault1[ get_corners { default } ]40endpointtx_shift_reg[12]/RSTB1[ get_pin { tx_shift_reg[12]/RSTB } ]6modedefault1[ get_modes { default } ]39reasonunclocked10
+TCK-001Warningcornerdefault1[ get_corners { default } ]40endpointtx_shift_reg[13]/D1[ get_pin { tx_shift_reg[13]/D } ]6modedefault1[ get_modes { default } ]39reasonunclocked10
+TCK-001Warningcornerdefault1[ get_corners { default } ]40endpointtx_shift_reg[13]/RSTB1[ get_pin { tx_shift_reg[13]/RSTB } ]6modedefault1[ get_modes { default } ]39reasonunclocked10
+TCK-001Warningcornerdefault1[ get_corners { default } ]40endpointtx_shift_reg[14]/D1[ get_pin { tx_shift_reg[14]/D } ]6modedefault1[ get_modes { default } ]39reasonunclocked10
+TCK-001Warningcornerdefault1[ get_corners { default } ]40endpointtx_shift_reg[14]/RSTB1[ get_pin { tx_shift_reg[14]/RSTB } ]6modedefault1[ get_modes { default } ]39reasonunclocked10
+TCK-001Warningcornerdefault1[ get_corners { default } ]40endpointtx_shift_reg[15]/D1[ get_pin { tx_shift_reg[15]/D } ]6modedefault1[ get_modes { default } ]39reasonunclocked10
+TCK-001Warningcornerdefault1[ get_corners { default } ]40endpointtx_shift_reg[15]/RSTB1[ get_pin { tx_shift_reg[15]/RSTB } ]6modedefault1[ get_modes { default } ]39reasonunclocked10
+TCK-001Warningcornerdefault1[ get_corners { default } ]40endpointtx_shift_reg[16]/D1[ get_pin { tx_shift_reg[16]/D } ]6modedefault1[ get_modes { default } ]39reasonunclocked10
+TCK-001Warningcornerdefault1[ get_corners { default } ]40endpointtx_shift_reg[16]/RSTB1[ get_pin { tx_shift_reg[16]/RSTB } ]6modedefault1[ get_modes { default } ]39reasonunclocked10
+TCK-001Warningcornerdefault1[ get_corners { default } ]40endpointtx_shift_reg[17]/D1[ get_pin { tx_shift_reg[17]/D } ]6modedefault1[ get_modes { default } ]39reasonunclocked10
+TCK-001Warningcornerdefault1[ get_corners { default } ]40endpointtx_shift_reg[17]/RSTB1[ get_pin { tx_shift_reg[17]/RSTB } ]6modedefault1[ get_modes { default } ]39reasonunclocked10
+TCK-001Warningcornerdefault1[ get_corners { default } ]40endpointtx_shift_reg[18]/D1[ get_pin { tx_shift_reg[18]/D } ]6modedefault1[ get_modes { default } ]39reasonunclocked10
+TCK-001Warningcornerdefault1[ get_corners { default } ]40endpointtx_shift_reg[18]/RSTB1[ get_pin { tx_shift_reg[18]/RSTB } ]6modedefault1[ get_modes { default } ]39reasonunclocked10
+TCK-001Warningcornerdefault1[ get_corners { default } ]40endpointtx_shift_reg[19]/D1[ get_pin { tx_shift_reg[19]/D } ]6modedefault1[ get_modes { default } ]39reasonunclocked10
+TCK-001Warningcornerdefault1[ get_corners { default } ]40endpointtx_shift_reg[19]/RSTB1[ get_pin { tx_shift_reg[19]/RSTB } ]6modedefault1[ get_modes { default } ]39reasonunclocked10
+TCK-001Warningcornerdefault1[ get_corners { default } ]40endpointtx_shift_reg[20]/D1[ get_pin { tx_shift_reg[20]/D } ]6modedefault1[ get_modes { default } ]39reasonunclocked10
+TCK-001Warningcornerdefault1[ get_corners { default } ]40endpointtx_shift_reg[20]/RSTB1[ get_pin { tx_shift_reg[20]/RSTB } ]6modedefault1[ get_modes { default } ]39reasonunclocked10
+TCK-001Warningcornerdefault1[ get_corners { default } ]40endpointtx_shift_reg[21]/D1[ get_pin { tx_shift_reg[21]/D } ]6modedefault1[ get_modes { default } ]39reasonunclocked10
+TCK-001Warningcornerdefault1[ get_corners { default } ]40endpointtx_shift_reg[21]/RSTB1[ get_pin { tx_shift_reg[21]/RSTB } ]6modedefault1[ get_modes { default } ]39reasonunclocked10
+TCK-001Warningcornerdefault1[ get_corners { default } ]40endpointtx_shift_reg[22]/D1[ get_pin { tx_shift_reg[22]/D } ]6modedefault1[ get_modes { default } ]39reasonunclocked10
+TCK-001Warningcornerdefault1[ get_corners { default } ]40endpointtx_shift_reg[22]/RSTB1[ get_pin { tx_shift_reg[22]/RSTB } ]6modedefault1[ get_modes { default } ]39reasonunclocked10
+TCK-001Warningcornerdefault1[ get_corners { default } ]40endpointtx_shift_reg[23]/D1[ get_pin { tx_shift_reg[23]/D } ]6modedefault1[ get_modes { default } ]39reasonunclocked10
+TCK-001Warningcornerdefault1[ get_corners { default } ]40endpointtx_shift_reg[23]/RSTB1[ get_pin { tx_shift_reg[23]/RSTB } ]6modedefault1[ get_modes { default } ]39reasonunclocked10
+TCK-001Warningcornerdefault1[ get_corners { default } ]40endpointtx_shift_reg[24]/D1[ get_pin { tx_shift_reg[24]/D } ]6modedefault1[ get_modes { default } ]39reasonunclocked10
+TCK-001Warningcornerdefault1[ get_corners { default } ]40endpointtx_shift_reg[24]/RSTB1[ get_pin { tx_shift_reg[24]/RSTB } ]6modedefault1[ get_modes { default } ]39reasonunclocked10
+TCK-001Warningcornerdefault1[ get_corners { default } ]40endpointtx_shift_reg[25]/D1[ get_pin { tx_shift_reg[25]/D } ]6modedefault1[ get_modes { default } ]39reasonunclocked10
+TCK-001Warningcornerdefault1[ get_corners { default } ]40endpointtx_shift_reg[25]/RSTB1[ get_pin { tx_shift_reg[25]/RSTB } ]6modedefault1[ get_modes { default } ]39reasonunclocked10
+TCK-001Warningcornerdefault1[ get_corners { default } ]40endpointtx_shift_reg[26]/D1[ get_pin { tx_shift_reg[26]/D } ]6modedefault1[ get_modes { default } ]39reasonunclocked10
+TCK-001Warningcornerdefault1[ get_corners { default } ]40endpointtx_shift_reg[26]/RSTB1[ get_pin { tx_shift_reg[26]/RSTB } ]6modedefault1[ get_modes { default } ]39reasonunclocked10
+TCK-001Warningcornerdefault1[ get_corners { default } ]40endpointtx_shift_reg[27]/D1[ get_pin { tx_shift_reg[27]/D } ]6modedefault1[ get_modes { default } ]39reasonunclocked10
+TCK-001Warningcornerdefault1[ get_corners { default } ]40endpointtx_shift_reg[27]/RSTB1[ get_pin { tx_shift_reg[27]/RSTB } ]6modedefault1[ get_modes { default } ]39reasonunclocked10
+TCK-001Warningcornerdefault1[ get_corners { default } ]40endpointtx_shift_reg[28]/D1[ get_pin { tx_shift_reg[28]/D } ]6modedefault1[ get_modes { default } ]39reasonunclocked10
+TCK-001Warningcornerdefault1[ get_corners { default } ]40endpointtx_shift_reg[28]/RSTB1[ get_pin { tx_shift_reg[28]/RSTB } ]6modedefault1[ get_modes { default } ]39reasonunclocked10
+TCK-001Warningcornerdefault1[ get_corners { default } ]40endpointtx_shift_reg[29]/D1[ get_pin { tx_shift_reg[29]/D } ]6modedefault1[ get_modes { default } ]39reasonunclocked10
+TCK-001Warningcornerdefault1[ get_corners { default } ]40endpointtx_shift_reg[29]/RSTB1[ get_pin { tx_shift_reg[29]/RSTB } ]6modedefault1[ get_modes { default } ]39reasonunclocked10
+TCK-001Warningcornerdefault1[ get_corners { default } ]40endpointtx_shift_reg[30]/D1[ get_pin { tx_shift_reg[30]/D } ]6modedefault1[ get_modes { default } ]39reasonunclocked10
+TCK-001Warningcornerdefault1[ get_corners { default } ]40endpointtx_shift_reg[30]/RSTB1[ get_pin { tx_shift_reg[30]/RSTB } ]6modedefault1[ get_modes { default } ]39reasonunclocked10
+TCK-001Warningcornerdefault1[ get_corners { default } ]40endpointtx_shift_reg[31]/D1[ get_pin { tx_shift_reg[31]/D } ]6modedefault1[ get_modes { default } ]39reasonunclocked10
+TCK-001Warningcornerdefault1[ get_corners { default } ]40endpointtx_shift_reg[31]/RSTB1[ get_pin { tx_shift_reg[31]/RSTB } ]6modedefault1[ get_modes { default } ]39reasonunclocked10
+</Messages>
